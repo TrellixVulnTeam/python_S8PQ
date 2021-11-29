@@ -1,2 +1,0 @@
-Fri, 24 Sep 2021 11:12:04-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
-

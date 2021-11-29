@@ -1,4 +1,0 @@
-Mon, 15 Nov 2021 17:54:59-run_all_case.py-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
-
-Mon, 15 Nov 2021 17:54:59-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
-Mon, 15 Nov 2021 17:54:59-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  

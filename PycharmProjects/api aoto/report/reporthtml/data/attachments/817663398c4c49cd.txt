@@ -1,1 +1,0 @@
-INFO     run_all_case.py:Register_case.py:135 开始执行脚本test_Registered_Num：

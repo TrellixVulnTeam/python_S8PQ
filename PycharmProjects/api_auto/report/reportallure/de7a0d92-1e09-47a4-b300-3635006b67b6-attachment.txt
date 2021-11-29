@@ -1,4 +1,0 @@
-Tue, 17 Aug 2021 15:33:30-run_all_case.py-Login_case.py-[line:92]-INFO-[日志信息]: 开始执行脚本test_no_num：
-
-Tue, 17 Aug 2021 15:33:30-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
-Tue, 17 Aug 2021 15:33:30-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 

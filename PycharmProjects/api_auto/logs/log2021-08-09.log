@@ -1,8 +1,0 @@
-Mon, 09 Aug 2021 16:37:25-_jb_pytest_runner.py-Register_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_Register:
-Mon, 09 Aug 2021 16:37:26-test_Register-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
-Mon, 09 Aug 2021 16:37:26-test_Register-Assert.py-[line:71]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 手机号格式错误 
-Mon, 09 Aug 2021 16:37:32-_jb_pytest_runner.py-Register_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_Register:
-Mon, 09 Aug 2021 16:37:32-test_Register-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
-Mon, 09 Aug 2021 16:37:32-test_Register-Assert.py-[line:71]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 手机号格式错误 
-Mon, 09 Aug 2021 16:37:56-_jb_pytest_runner.py-Register_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_Register:
-Mon, 09 Aug 2021 16:40:39-_jb_pytest_runner.py-Register_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_Register:
