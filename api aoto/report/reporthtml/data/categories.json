@@ -7,7 +7,7 @@
       "name" : "AssertionError",
       "children" : [ {
         "name" : "test_Registered_Num",
-        "uid" : "157abae94175a687",
+        "uid" : "9063a190baaa82ed",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
@@ -19,7 +19,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_Num_Illegal_Character",
-        "uid" : "5550ba8cfb2d2bc",
+        "uid" : "d5da530b099ca4a0",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
@@ -31,7 +31,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_wrong_num",
-        "uid" : "1efc00df5398e9f6",
+        "uid" : "12faa7f0888cb25e",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {

@@ -1,0 +1,93 @@
+{
+  "uid" : "b8d3c5f1b60168e",
+  "name" : "test_no_num_pwd",
+  "fullName" : "test_case.Login_case.TestLogin#test_no_num_pwd",
+  "historyId" : "8527be46648f0adae1a921b7f6e49134",
+  "time" : {
+    "start" : 1636970097612,
+    "stop" : 1636970097793,
+    "duration" : 181
+  },
+  "description" : "不填账号和密码进行登录",
+  "descriptionHtml" : "<p>不填账号和密码进行登录</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "不填账号和密码进行登录",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df3cfab31c4f16f4",
+      "name" : "log",
+      "source" : "df3cfab31c4f16f4.txt",
+      "type" : "text/plain",
+      "size" : 318
+    }, {
+      "uid" : "227bf383af46fd95",
+      "name" : "stdout",
+      "source" : "227bf383af46fd95.txt",
+      "type" : "text/plain",
+      "size" : 99
+    }, {
+      "uid" : "95a36a80511afc73",
+      "name" : "stderr",
+      "source" : "95a36a80511afc73.txt",
+      "type" : "text/plain",
+      "size" : 456
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数填写不正确，登录失败"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "20580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8d3c5f1b60168e.json",
+  "parameterValues" : [ ]
+}

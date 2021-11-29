@@ -7,7 +7,7 @@
       "name" : "参数填写正确，注册成功",
       "children" : [ {
         "name" : "test_Register",
-        "uid" : "cf3767cb613701a5",
+        "uid" : "93cdf0f334eb967c",
         "parentUid" : "f1be2f8cccb02f140c2b8964f0433b57",
         "status" : "passed",
         "time" : {
@@ -23,7 +23,7 @@
       "name" : "参数填写不正确，注册失败",
       "children" : [ {
         "name" : "test_No_Num",
-        "uid" : "e78074de35de6844",
+        "uid" : "2bea40d6d47c4b0",
         "parentUid" : "556bf356faf45a3de0818765eef884e9",
         "status" : "passed",
         "time" : {
@@ -35,7 +35,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_Wrong_Num",
-        "uid" : "87dba189d676ba33",
+        "uid" : "7e660e7cfee22565",
         "parentUid" : "556bf356faf45a3de0818765eef884e9",
         "status" : "passed",
         "time" : {
@@ -47,7 +47,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_Illegal_Character",
-        "uid" : "1264a9fd236c6ea1",
+        "uid" : "84a46ce17d13506c",
         "parentUid" : "556bf356faf45a3de0818765eef884e9",
         "status" : "passed",
         "time" : {
@@ -59,7 +59,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_Registered_Num",
-        "uid" : "157abae94175a687",
+        "uid" : "9063a190baaa82ed",
         "parentUid" : "556bf356faf45a3de0818765eef884e9",
         "status" : "failed",
         "time" : {
@@ -71,7 +71,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_Pwd_Error",
-        "uid" : "316ff3c51e1e97a2",
+        "uid" : "74e64883968eb1d3",
         "parentUid" : "556bf356faf45a3de0818765eef884e9",
         "status" : "passed",
         "time" : {
@@ -83,7 +83,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_Pwd_No_Capitalization",
-        "uid" : "a3188d98dca3c059",
+        "uid" : "e3c72689a7d2c29f",
         "parentUid" : "556bf356faf45a3de0818765eef884e9",
         "status" : "passed",
         "time" : {
@@ -95,7 +95,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_No_Pwd",
-        "uid" : "978f81af0ca0c330",
+        "uid" : "d81b00ec8c7542e3",
         "parentUid" : "556bf356faf45a3de0818765eef884e9",
         "status" : "passed",
         "time" : {
@@ -107,7 +107,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_CodeError",
-        "uid" : "a57dd0f6ef9ca605",
+        "uid" : "e8ecdce7f6a3fb75",
         "parentUid" : "556bf356faf45a3de0818765eef884e9",
         "status" : "passed",
         "time" : {
@@ -119,7 +119,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_No_Code",
-        "uid" : "bbc5a7b30b13029c",
+        "uid" : "45825119db3719a1",
         "parentUid" : "556bf356faf45a3de0818765eef884e9",
         "status" : "passed",
         "time" : {
@@ -139,7 +139,7 @@
       "name" : "账号密码填写正确，登陆成功",
       "children" : [ {
         "name" : "test_login",
-        "uid" : "671f34f19b613f46",
+        "uid" : "6e295b24254f5411",
         "parentUid" : "f775fbc15a05098ea3e03d1620b41397",
         "status" : "passed",
         "time" : {
@@ -155,7 +155,7 @@
       "name" : "参数填写不正确，登录失败",
       "children" : [ {
         "name" : "test_no_num",
-        "uid" : "c2574b26ec154df4",
+        "uid" : "affabd898c3ca449",
         "parentUid" : "6ea16451e2cb136ff8b21f84dc36fc7b",
         "status" : "passed",
         "time" : {
@@ -167,7 +167,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_nonexistent_num",
-        "uid" : "700bd6268f238706",
+        "uid" : "75138bbc4cab0edd",
         "parentUid" : "6ea16451e2cb136ff8b21f84dc36fc7b",
         "status" : "passed",
         "time" : {
@@ -179,7 +179,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_Num_Illegal_Character",
-        "uid" : "5550ba8cfb2d2bc",
+        "uid" : "d5da530b099ca4a0",
         "parentUid" : "6ea16451e2cb136ff8b21f84dc36fc7b",
         "status" : "failed",
         "time" : {
@@ -191,7 +191,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_wrong_num",
-        "uid" : "1efc00df5398e9f6",
+        "uid" : "12faa7f0888cb25e",
         "parentUid" : "6ea16451e2cb136ff8b21f84dc36fc7b",
         "status" : "failed",
         "time" : {
@@ -203,7 +203,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_no_pwd",
-        "uid" : "b33dec1136bdcd5d",
+        "uid" : "b552d8c266991483",
         "parentUid" : "6ea16451e2cb136ff8b21f84dc36fc7b",
         "status" : "passed",
         "time" : {
@@ -215,7 +215,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_no_num_pwd",
-        "uid" : "c5a942b3a9f683aa",
+        "uid" : "e3025308aac86a48",
         "parentUid" : "6ea16451e2cb136ff8b21f84dc36fc7b",
         "status" : "passed",
         "time" : {
@@ -227,7 +227,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_wrong_pwd",
-        "uid" : "4289cd147cb00d17",
+        "uid" : "c3f805fd2463227b",
         "parentUid" : "6ea16451e2cb136ff8b21f84dc36fc7b",
         "status" : "passed",
         "time" : {
@@ -243,7 +243,7 @@
       "name" : "短信登录",
       "children" : [ {
         "name" : "test_code_login",
-        "uid" : "ae5995665d23ed83",
+        "uid" : "ab99bd77ca05d657",
         "parentUid" : "779e98b587b1ba9bf313a74557f685bb",
         "status" : "passed",
         "time" : {
@@ -259,51 +259,51 @@
     "uid" : "6958045a481574bf02bb11ef07a7047b"
   }, {
     "name" : "test_login[inBody0-expData0]",
-    "uid" : "6d21deb3b8bda39c",
+    "uid" : "77cc8bd7a2ad6492",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1636970273657,
-      "stop" : 1636970273733,
-      "duration" : 76
+      "start" : 1637229144262,
+      "stop" : 1637229144333,
+      "duration" : 71
     },
     "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': ''}", "{'phone': '18801053303', 'password': '123456Aa', 'captcha_id': '800a0a91-c8af-472d-a8b6-1134874608aa', 'captcha_value': 'jFvQ'}" ]
+    "parameters" : [ "{'code': 200, 'msg': ''}", "{'phone': '18801053303', 'password': '123456Aa', 'captcha_id': '04a57f2d-7c3d-4842-8c47-5920f698178d', 'captcha_value': 'xkGk'}" ]
   }, {
     "name" : "test_login[inBody1-expData1]",
-    "uid" : "4bf92e6fb32a9336",
+    "uid" : "9f8a6b0fc7b4358e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1636970273737,
-      "stop" : 1636970273805,
-      "duration" : 68
+      "start" : 1637229144336,
+      "stop" : 1637229144405,
+      "duration" : 69
     },
     "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': '123', 'captcha_id': 'e0b1f478-5bf1-43c1-895b-4e21b20ceb30', 'captcha_value': 'mhgB'}" ]
+    "parameters" : [ "{'code': 200, 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': '123', 'captcha_id': 'bdc7bdaa-dfc0-4d96-b3b2-5c4e301eac76', 'captcha_value': 'Hvxa'}" ]
   }, {
     "name" : "test_login[inBody2-expData2]",
-    "uid" : "c6e0c62a05072340",
+    "uid" : "fec262a7b2f06e4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1636970273816,
-      "stop" : 1636970273872,
-      "duration" : 56
+      "start" : 1637229144409,
+      "stop" : 1637229144460,
+      "duration" : 51
     },
     "flaky" : true,
-    "parameters" : [ "{'code': 200, 'msg': '帐号未注册'}", "{'phone': '188010533', 'password': '123456Aa', 'captcha_id': '79682045-bee7-447b-ad92-0574dd033629', 'captcha_value': 'Kzfk'}" ]
+    "parameters" : [ "{'code': 200, 'msg': '帐号未注册'}", "{'phone': '188010533', 'password': '123456Aa', 'captcha_id': '25d339f9-7852-4f01-912e-f720c2dac7f8', 'captcha_value': 'ZGQn'}" ]
   }, {
     "name" : "test_login[inBody3-expData3]",
-    "uid" : "b0b4c0b896644ca6",
+    "uid" : "f8393290b08fbb68",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1636970273875,
-      "stop" : 1636970273934,
-      "duration" : 59
+      "start" : 1637229144463,
+      "stop" : 1637229144517,
+      "duration" : 54
     },
     "flaky" : true,
-    "parameters" : [ "{'code': 200, 'msg': '帐号未注册'}", "{'phone': '18801053124', 'password': '123456A13a', 'captcha_id': '9fe1ca7c-011b-428d-a464-358bb16f31ff', 'captcha_value': 'vTUD'}" ]
+    "parameters" : [ "{'code': 200, 'msg': '帐号未注册'}", "{'phone': '18801053124', 'password': '123456A13a', 'captcha_id': '6da5d14d-58ab-42ed-862f-ac5b45c661b2', 'captcha_value': 'KHab'}" ]
   } ]
 }

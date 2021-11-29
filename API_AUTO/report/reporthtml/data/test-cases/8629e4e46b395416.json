@@ -1,0 +1,87 @@
+{
+  "uid" : "8629e4e46b395416",
+  "name" : "test_login",
+  "fullName" : "test_case.Login_case.TestLogin#test_login",
+  "historyId" : "a6b07802886f7d06d4cbbe3680463ac5",
+  "time" : {
+    "start" : 1632474694468,
+    "stop" : 1632474694670,
+    "duration" : 202
+  },
+  "description" : "正常登录账号",
+  "descriptionHtml" : "<p>正常登录账号</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "正常登录账号",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1fe0689c32bc7fe6",
+      "name" : "log",
+      "source" : "1fe0689c32bc7fe6.txt",
+      "type" : "text/plain",
+      "size" : 265
+    }, {
+      "uid" : "def973e804c11a14",
+      "name" : "stderr",
+      "source" : "def973e804c11a14.txt",
+      "type" : "text/plain",
+      "size" : 404
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "账号密码填写正确，登陆成功"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "25668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8629e4e46b395416.json",
+  "parameterValues" : [ ]
+}

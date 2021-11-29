@@ -1,0 +1,335 @@
+{
+  "uid" : "7af93f1de4c84ce6",
+  "name" : "test_wrong_num",
+  "fullName" : "test_case.Login_case.TestLogin#test_wrong_num",
+  "historyId" : "e27ac62871ee8a5835b815a46696149b",
+  "time" : {
+    "start" : 1638179171800,
+    "stop" : 1638179171993,
+    "duration" : 193
+  },
+  "description" : "输入10位手机号",
+  "descriptionHtml" : "<p>输入10位手机号</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_case.Login_case.TestLogin object at 0x0000022DC2CB44C0>\n\n    @allure.story(\"参数填写不正确，登录失败\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @allure.description(\"输入10位手机号\")\n    def test_wrong_num(self):\n        def_name = sys._getframe().f_code.co_name\n        test_assert = Assert.Assertions(def_name)\n        logger.info(\"开始执行脚本%s：\\n\", def_name)\n        cap_id, cap_val = get_captcha()\n        base_url = config.adss.server_ip()\n        url = base_url + 'login'\n        headers = {\n            \"Content-Type\": \"application/json;charset=UTF-8\"\n        }\n        r = requests.post(url=url, json={\"captcha_id\": cap_id, \"captcha_value\": cap_val, \"password\": \"123456Aa\",\n                                         \"phone\": \"1880105363\"}, headers=headers)\n        print(r.json())\n        code1 = r.status_code\n        # 获取接口返回信息\n        str_response = r.content.decode()\n        # 读取json\n        json_response = dict_style(str_response)\n        # 校验状态码是否是200\n        test_assert.assert_code(code1, 200)\n        # 校验返回信息是否与预期信息一致\n>       test_assert.assert_body(json_response, 'msg', '手机号或密码错误，请重试')\n\n..\\test_case\\Login_case.py:219: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.Assert.Assertions object at 0x0000022DC3556CA0>\nbody = {'code': 'RequestParameterIsWrong', 'data': None, 'debug_error': '', 'msg': '连续超过 6 次错误，请于 5 分钟后重新登录'}\nbody_msg = 'msg', expected_msg = '手机号或密码错误，请重试'\n\n    def assert_body(self, body, body_msg, expected_msg):\n        \"\"\"\n        验证response body任意属性的值\n        :param body:\n        :param body_msg:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            msg = body[body_msg]\n>           assert msg == expected_msg\nE           AssertionError\n\n..\\common\\Assert.py:46: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "输入10位手机号",
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_case.Login_case.TestLogin object at 0x0000022DC2CB44C0>\n\n    @allure.story(\"参数填写不正确，登录失败\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @allure.description(\"输入10位手机号\")\n    def test_wrong_num(self):\n        def_name = sys._getframe().f_code.co_name\n        test_assert = Assert.Assertions(def_name)\n        logger.info(\"开始执行脚本%s：\\n\", def_name)\n        cap_id, cap_val = get_captcha()\n        base_url = config.adss.server_ip()\n        url = base_url + 'login'\n        headers = {\n            \"Content-Type\": \"application/json;charset=UTF-8\"\n        }\n        r = requests.post(url=url, json={\"captcha_id\": cap_id, \"captcha_value\": cap_val, \"password\": \"123456Aa\",\n                                         \"phone\": \"1880105363\"}, headers=headers)\n        print(r.json())\n        code1 = r.status_code\n        # 获取接口返回信息\n        str_response = r.content.decode()\n        # 读取json\n        json_response = dict_style(str_response)\n        # 校验状态码是否是200\n        test_assert.assert_code(code1, 200)\n        # 校验返回信息是否与预期信息一致\n>       test_assert.assert_body(json_response, 'msg', '手机号或密码错误，请重试')\n\n..\\test_case\\Login_case.py:219: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.Assert.Assertions object at 0x0000022DC3556CA0>\nbody = {'code': 'RequestParameterIsWrong', 'data': None, 'debug_error': '', 'msg': '连续超过 6 次错误，请于 5 分钟后重新登录'}\nbody_msg = 'msg', expected_msg = '手机号或密码错误，请重试'\n\n    def assert_body(self, body, body_msg, expected_msg):\n        \"\"\"\n        验证response body任意属性的值\n        :param body:\n        :param body_msg:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            msg = body[body_msg]\n>           assert msg == expected_msg\nE           AssertionError\n\n..\\common\\Assert.py:46: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5497e3198902c562",
+      "name" : "log",
+      "source" : "5497e3198902c562.txt",
+      "type" : "text/plain",
+      "size" : 369
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数填写不正确，登录失败"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "34760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "d16e19bda44cab72",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1638179080555,
+        "stop" : 1638179080732,
+        "duration" : 177
+      }
+    }, {
+      "uid" : "3a20d50a9231bf01",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1638178614398,
+        "stop" : 1638178614586,
+        "duration" : 188
+      }
+    }, {
+      "uid" : "774732554341e941",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1636970097157,
+        "stop" : 1636970097409,
+        "duration" : 252
+      }
+    }, {
+      "uid" : "a9303f1f98a990b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632474695241,
+        "stop" : 1632474695438,
+        "duration" : 197
+      }
+    }, {
+      "uid" : "1d746d263dfbf8be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632473705406,
+        "stop" : 1632473705619,
+        "duration" : 213
+      }
+    }, {
+      "uid" : "aec902ed31c123de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632473544001,
+        "stop" : 1632473544210,
+        "duration" : 209
+      }
+    }, {
+      "uid" : "96e2787ccb8b4a7b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1632469964077,
+        "stop" : 1632469964272,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "9e8a509336b423db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469738994,
+        "stop" : 1632469739209,
+        "duration" : 215
+      }
+    }, {
+      "uid" : "fc98cbc3271024d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469658665,
+        "stop" : 1632469658856,
+        "duration" : 191
+      }
+    }, {
+      "uid" : "9aaf4ff64f1f97ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469574039,
+        "stop" : 1632469574227,
+        "duration" : 188
+      }
+    }, {
+      "uid" : "72d12bde8108a947",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469454776,
+        "stop" : 1632469455022,
+        "duration" : 246
+      }
+    }, {
+      "uid" : "7c18ebff46ac08a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469377284,
+        "stop" : 1632469377490,
+        "duration" : 206
+      }
+    }, {
+      "uid" : "c0b279d640bedc51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632468359944,
+        "stop" : 1632468360169,
+        "duration" : 225
+      }
+    }, {
+      "uid" : "b784a23b2046314c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632455637898,
+        "stop" : 1632455638117,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "fc69b253b295dc1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632454819445,
+        "stop" : 1632454819679,
+        "duration" : 234
+      }
+    }, {
+      "uid" : "27207be1ecc3f625",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632453997741,
+        "stop" : 1632453997956,
+        "duration" : 215
+      }
+    }, {
+      "uid" : "69910e9db7f51ea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632453126675,
+        "stop" : 1632453126871,
+        "duration" : 196
+      }
+    }, {
+      "uid" : "7adaf0f92790122e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632453016386,
+        "stop" : 1632453016577,
+        "duration" : 191
+      }
+    }, {
+      "uid" : "cb82b14155532582",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632387035145,
+        "stop" : 1632387035329,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "17a0c352d49b645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631518363974,
+        "stop" : 1631518364166,
+        "duration" : 192
+      }
+    }, {
+      "uid" : "9669a1ff09ddcda0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631518042188,
+        "stop" : 1631518042341,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "56df285920d0f084",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631503269128,
+        "stop" : 1631503269258,
+        "duration" : 130
+      }
+    }, {
+      "uid" : "9ed884dbf5b360d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631502914883,
+        "stop" : 1631502914998,
+        "duration" : 115
+      }
+    }, {
+      "uid" : "7a775e48e551a737",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631502409650,
+        "stop" : 1631502409762,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "25effa59ce4481c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631069452346,
+        "stop" : 1631069453496,
+        "duration" : 1150
+      }
+    }, {
+      "uid" : "ca1468fc6e7397ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631069406820,
+        "stop" : 1631069406912,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "47e821a8c53589bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629283726326,
+        "stop" : 1629283726435,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "850762a4eb6e4784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629186775350,
+        "stop" : 1629186775462,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "728cf1e39b358ced",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629186621805,
+        "stop" : 1629186621932,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "bf8cc15bfbe9bdbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629185611250,
+        "stop" : 1629185611397,
+        "duration" : 147
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7af93f1de4c84ce6.json",
+  "parameterValues" : [ ]
+}

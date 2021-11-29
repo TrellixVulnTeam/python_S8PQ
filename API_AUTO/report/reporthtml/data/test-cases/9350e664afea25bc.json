@@ -1,0 +1,59 @@
+{
+  "uid" : "9350e664afea25bc",
+  "name" : "test_login[inBody3-expData3]",
+  "fullName" : "test_case.test_login.TestLogin#test_login",
+  "historyId" : "fc02590ce2cd0e984d412cc4126890c5",
+  "time" : {
+    "start" : 1636712545596,
+    "stop" : 1636712545653,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "22824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 200, 'msg': '帐号未注册'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'phone': '18801053124', 'password': '123456A13a', 'captcha_id': 'b92f4794-cd08-477a-b8a4-e4d7bbc96f27', 'captcha_value': 'nKgf'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9350e664afea25bc.json",
+  "parameterValues" : [ "{'code': 200, 'msg': '帐号未注册'}", "{'phone': '18801053124', 'password': '123456A13a', 'captcha_id': 'b92f4794-cd08-477a-b8a4-e4d7bbc96f27', 'captcha_value': 'nKgf'}" ]
+}

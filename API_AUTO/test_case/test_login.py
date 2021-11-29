@@ -6,7 +6,7 @@ from Auth.AutoDL_auth import get_captcha
 from common.Read_Yaml import get_yaml_data
 from common.login import Login
 from common.Logs import Log
-
+from path import get_yaml_path
 # file = os.path.basename(sys.argv[0])
 # log = Log(file)
 # logger = log.Logger
@@ -32,7 +32,7 @@ from common.Logs import Log
 
 class TestLogin:
     # 调用业务代码
-    @pytest.mark.parametrize('inBody,expData', get_yaml_data('C:\\Users\\张铁瀛\PycharmProjects\\api aoto\\test_data\\test.yaml'))  # 数据驱动方法
+    @pytest.mark.parametrize('inBody,expData', get_yaml_data(get_yaml_path()))  # 数据驱动方法
     def test_login(self, inBody, expData):
         resData = Login().login(inData=inBody, mode=False)
         assert resData['msg'] == expData['msg']

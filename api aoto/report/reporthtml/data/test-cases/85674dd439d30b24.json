@@ -1,0 +1,93 @@
+{
+  "uid" : "85674dd439d30b24",
+  "name" : "test_nonexistent_num",
+  "fullName" : "test_case.Login_case.TestLogin#test_nonexistent_num",
+  "historyId" : "6daa9c69cf928223a1f8b803b967af94",
+  "time" : {
+    "start" : 1629283726087,
+    "stop" : 1629283726198,
+    "duration" : 111
+  },
+  "description" : "输入不存在的账号",
+  "descriptionHtml" : "<p>输入不存在的账号</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "输入不存在的账号",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b392827a6477c781",
+      "name" : "log",
+      "source" : "b392827a6477c781.txt",
+      "type" : "text/plain",
+      "size" : 333
+    }, {
+      "uid" : "79428a0a347f5436",
+      "name" : "stdout",
+      "source" : "79428a0a347f5436.txt",
+      "type" : "text/plain",
+      "size" : 99
+    }, {
+      "uid" : "f66766e5012775d6",
+      "name" : "stderr",
+      "source" : "f66766e5012775d6.txt",
+      "type" : "text/plain",
+      "size" : 471
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "参数填写不正确，登录失败"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "8848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85674dd439d30b24.json",
+  "parameterValues" : [ ]
+}

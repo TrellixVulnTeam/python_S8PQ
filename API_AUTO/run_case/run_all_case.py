@@ -24,7 +24,7 @@ if __name__ == "__main__":
         #     ['../test_case/Register_case.py', '../test_case/Login_case.py', "--alluredir", "../report/reportallure/",
         #      '-W', 'ignore:Module already imported:pytest.PytestWarning'])
         pytest.main(
-            ['../test_case/test_login.py', "--alluredir", "../report/reportallure/",
+            ['../test_case/Login_case.py', "--alluredir", "../report/reportallure/",
              '-W', 'ignore:Module already imported:pytest.PytestWarning'])
 
         print("脚本执行完成")

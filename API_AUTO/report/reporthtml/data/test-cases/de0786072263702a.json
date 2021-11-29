@@ -1,0 +1,93 @@
+{
+  "uid" : "de0786072263702a",
+  "name" : "test_No_Pwd",
+  "fullName" : "test_case.Register_case.TestRegister#test_No_Pwd",
+  "historyId" : "c4b6e469cf27f2d6bf81247b83bf50e4",
+  "time" : {
+    "start" : 1632473542072,
+    "stop" : 1632473542425,
+    "duration" : 353
+  },
+  "description" : "不输入密码",
+  "descriptionHtml" : "<p>不输入密码</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "不输入密码",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a48d5db6a83164a",
+      "name" : "log",
+      "source" : "9a48d5db6a83164a.txt",
+      "type" : "text/plain",
+      "size" : 309
+    }, {
+      "uid" : "f02ceba90926710c",
+      "name" : "stdout",
+      "source" : "f02ceba90926710c.txt",
+      "type" : "text/plain",
+      "size" : 739
+    }, {
+      "uid" : "8ef8ba6bd1703282",
+      "name" : "stderr",
+      "source" : "8ef8ba6bd1703282.txt",
+      "type" : "text/plain",
+      "size" : 447
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "story",
+    "value" : "参数填写不正确，注册失败"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Register_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "20292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Register_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de0786072263702a.json",
+  "parameterValues" : [ ]
+}

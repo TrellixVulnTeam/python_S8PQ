@@ -1,0 +1,311 @@
+{
+  "uid" : "6e295b24254f5411",
+  "name" : "test_login",
+  "fullName" : "test_case.Login_case.TestLogin#test_login",
+  "historyId" : "a6b07802886f7d06d4cbbe3680463ac5",
+  "time" : {
+    "start" : 1636970096355,
+    "stop" : 1636970096545,
+    "duration" : 190
+  },
+  "description" : "正常登录账号",
+  "descriptionHtml" : "<p>正常登录账号</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "正常登录账号",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4e9ac4ae1b065801",
+      "name" : "log",
+      "source" : "4e9ac4ae1b065801.txt",
+      "type" : "text/plain",
+      "size" : 265
+    }, {
+      "uid" : "d4340793c841c77e",
+      "name" : "stderr",
+      "source" : "d4340793c841c77e.txt",
+      "type" : "text/plain",
+      "size" : 404
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "账号密码填写正确，登陆成功"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "20580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "6e23a619f993cbd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632474694468,
+        "stop" : 1632474694670,
+        "duration" : 202
+      }
+    }, {
+      "uid" : "daa335e39b08a7dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632473704666,
+        "stop" : 1632473704855,
+        "duration" : 189
+      }
+    }, {
+      "uid" : "b903d96e8bad8f5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632473543154,
+        "stop" : 1632473543378,
+        "duration" : 224
+      }
+    }, {
+      "uid" : "ea13c61f6012415d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469963070,
+        "stop" : 1632469963302,
+        "duration" : 232
+      }
+    }, {
+      "uid" : "e2fdbaaa22b8ef3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469738227,
+        "stop" : 1632469738446,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "7d85b7fe03524702",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469657867,
+        "stop" : 1632469658078,
+        "duration" : 211
+      }
+    }, {
+      "uid" : "642171652087b5d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469573241,
+        "stop" : 1632469573479,
+        "duration" : 238
+      }
+    }, {
+      "uid" : "d4789feb76b99346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469453938,
+        "stop" : 1632469454190,
+        "duration" : 252
+      }
+    }, {
+      "uid" : "8ae56966b83924d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469376358,
+        "stop" : 1632469376570,
+        "duration" : 212
+      }
+    }, {
+      "uid" : "abf62379def974a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632468359180,
+        "stop" : 1632468359388,
+        "duration" : 208
+      }
+    }, {
+      "uid" : "5cdf075ffb5caf9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632455637032,
+        "stop" : 1632455637255,
+        "duration" : 223
+      }
+    }, {
+      "uid" : "8e460d9231a96815",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632454818597,
+        "stop" : 1632454818830,
+        "duration" : 233
+      }
+    }, {
+      "uid" : "56fe9ad91791c525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632453996963,
+        "stop" : 1632453997193,
+        "duration" : 230
+      }
+    }, {
+      "uid" : "a70898ec52a8e072",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1632453125762,
+        "stop" : 1632453126000,
+        "duration" : 238
+      }
+    }, {
+      "uid" : "cf917520fff21463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632453015410,
+        "stop" : 1632453015678,
+        "duration" : 268
+      }
+    }, {
+      "uid" : "69ec96fe3e7610c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632387034330,
+        "stop" : 1632387034556,
+        "duration" : 226
+      }
+    }, {
+      "uid" : "6c307a8933cf4946",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631518363191,
+        "stop" : 1631518363392,
+        "duration" : 201
+      }
+    }, {
+      "uid" : "681a52890d4fe692",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631518041665,
+        "stop" : 1631518041796,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "4a1a28d500de5c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631503268495,
+        "stop" : 1631503268675,
+        "duration" : 180
+      }
+    }, {
+      "uid" : "9cf71c9d024cf08a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1631502914139,
+        "stop" : 1631502914283,
+        "duration" : 144
+      }
+    }, {
+      "uid" : "1574ce4edfcf55b9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1631502409121,
+        "stop" : 1631502409252,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "7b6d1fcacc4ea3ed",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1631069451835,
+        "stop" : 1631069451954,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "4d95b3ee088b2174",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1631069406344,
+        "stop" : 1631069406463,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "65dd28b7934895c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1629283725836,
+        "stop" : 1629283725958,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "eee0942eaec9a6cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629186774868,
+        "stop" : 1629186775012,
+        "duration" : 144
+      }
+    }, {
+      "uid" : "d9b848adc025f282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629186621366,
+        "stop" : 1629186621499,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "50b398660fdb8ed5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629185610622,
+        "stop" : 1629185610800,
+        "duration" : 178
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e295b24254f5411.json",
+  "parameterValues" : [ ]
+}

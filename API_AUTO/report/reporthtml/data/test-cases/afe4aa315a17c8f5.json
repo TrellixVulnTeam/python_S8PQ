@@ -1,0 +1,87 @@
+{
+  "uid" : "afe4aa315a17c8f5",
+  "name" : "test_no_num",
+  "fullName" : "test_case.Login_case.TestLogin#test_no_num",
+  "historyId" : "38f6c5975e2c66a2978d2ed67a3702da",
+  "time" : {
+    "start" : 1636970096549,
+    "stop" : 1636970096730,
+    "duration" : 181
+  },
+  "description" : "不输入账号进行登录",
+  "descriptionHtml" : "<p>不输入账号进行登录</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "不输入账号进行登录",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "89712ece1c17ca2b",
+      "name" : "log",
+      "source" : "89712ece1c17ca2b.txt",
+      "type" : "text/plain",
+      "size" : 305
+    }, {
+      "uid" : "c7e13c7255b92bcf",
+      "name" : "stderr",
+      "source" : "c7e13c7255b92bcf.txt",
+      "type" : "text/plain",
+      "size" : 443
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数填写不正确，登录失败"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "20580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afe4aa315a17c8f5.json",
+  "parameterValues" : [ ]
+}

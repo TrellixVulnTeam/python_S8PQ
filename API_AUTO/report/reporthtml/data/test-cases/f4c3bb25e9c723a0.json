@@ -1,0 +1,332 @@
+{
+  "uid" : "f4c3bb25e9c723a0",
+  "name" : "test_code_login",
+  "fullName" : "test_case.Login_case.TestLogin#test_code_login",
+  "historyId" : "fcece65b7d268ee02723b0a6dff2528a",
+  "time" : {
+    "start" : 1638179174297,
+    "stop" : 1638179174357,
+    "duration" : 60
+  },
+  "description" : "手机号和短信验证码填写正确，正常登录",
+  "descriptionHtml" : "<p>手机号和短信验证码填写正确，正常登录</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "手机号和短信验证码填写正确，正常登录",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5c7aeb51d6135f76",
+      "name" : "log",
+      "source" : "5c7aeb51d6135f76.txt",
+      "type" : "text/plain",
+      "size" : 278
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "短信登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "34760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "c0bf01077e3004ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638179083032,
+        "stop" : 1638179083089,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "4c7bf8409756cc55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638178616820,
+        "stop" : 1638178616875,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "b163675af60984a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636970099891,
+        "stop" : 1636970099952,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "ba13fadc1f1dd428",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632474698093,
+        "stop" : 1632474698149,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "a8f2e59d3b0d62c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632473713279,
+        "stop" : 1632473713365,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "b28a13d6f86b55c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632473551985,
+        "stop" : 1632473552051,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "29e11023924d0117",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469972076,
+        "stop" : 1632469972139,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "f185f810ccaa3483",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469746765,
+        "stop" : 1632469746834,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "d33da46ede46c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469666708,
+        "stop" : 1632469666775,
+        "duration" : 67
+      }
+    }, {
+      "uid" : "deee9d940b9ac8e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469581769,
+        "stop" : 1632469581842,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "95bdba6409ec0f88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469463322,
+        "stop" : 1632469463391,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "6c56d24690357d2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469412539,
+        "stop" : 1632469412624,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "caa86cf3b683ea8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632468361876,
+        "stop" : 1632468361933,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "3f19a19fa12d81cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632455639055,
+        "stop" : 1632455639124,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "fdd16fd58cad4701",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632454821623,
+        "stop" : 1632454821693,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "e6317342b3c5fdbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632454000507,
+        "stop" : 1632454000570,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "5496c82f7064ee80",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1632453129324,
+        "stop" : 1632453129388,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "a49b21f7f79f9551",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1632453019154,
+        "stop" : 1632453019204,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "c3583bab97db62ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632387037797,
+        "stop" : 1632387037866,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "995671498f192b3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631518366580,
+        "stop" : 1631518366644,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "3b6bf4e3c91aa614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631518043894,
+        "stop" : 1631518043921,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "cfc7b3dd01e04af6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631503270996,
+        "stop" : 1631503271040,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "65308334ceeffaf9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1631502916548,
+        "stop" : 1631502916577,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "faa4f5ed7d3c245c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1631502411357,
+        "stop" : 1631502411381,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "d5b0893b504b78e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1631069454853,
+        "stop" : 1631069454878,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "190ff4f68bcb0646",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1631069408329,
+        "stop" : 1631069408359,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "aa0b6e7cb2e906cb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1629283727995,
+        "stop" : 1629283728022,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "e59de0d2145fbd6a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1629186775936,
+        "stop" : 1629186775957,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "6aea65412f6a7ad6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1629186622987,
+        "stop" : 1629186623004,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "f617bec0a0d00842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629185612759,
+        "stop" : 1629185612791,
+        "duration" : 32
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4c3bb25e9c723a0.json",
+  "parameterValues" : [ ]
+}

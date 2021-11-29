@@ -1,0 +1,91 @@
+{
+  "uid" : "bc535a8810261276",
+  "name" : "test_No_Code",
+  "fullName" : "test_case.Register_case.TestRegister#test_No_Code",
+  "historyId" : "978a74a0f33961b36429b5afe7057e6b",
+  "time" : {
+    "start" : 1629186774730,
+    "stop" : 1629186774855,
+    "duration" : 125
+  },
+  "description" : "不输入验证码",
+  "descriptionHtml" : "<p>不输入验证码</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <test_case.Register_case.TestRegister object at 0x000002C00B52C6D0>\n\n    @allure.story(\"参数填写不正确，注册失败\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @allure.description(\"不输入验证码\")\n    def test_No_Code(self):\n        def_name = sys._getframe().f_code.co_name\n        test_assert = Assert.Assertions(def_name)\n        logger.info(\"开始执行脚本%s：\\n\", def_name)\n        base_url = config.adss.server_ip()\n        num = Random_number.main()\n        url = base_url + 'register'\n        data = {\n            \"password\": \"123456Aa\",\n            \"phone\": num,\n        }\n>       token = AutoDL_auth.change_ticket()\n\n..\\test_case\\Register_case.py:273: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Auth\\AutoDL_auth.py:36: in change_ticket\n    ticket = login()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n    def login():\n        cap_id, cap_val = get_captcha()\n        base_url = config.adss.server_ip()\n        url = base_url + 'login'\n        headers = {\n            \"Content-Type\": \"application/json;charset=UTF-8\"\n        }\n        r = requests.post(url=url, json={\n            \"captcha_id\": cap_id,\n            \"captcha_value\": cap_val,\n            \"phone\": \"18801053303\",\n            \"password\": \"a753c776ff3ed4fefa2af948af87448910153281\"\n        }, headers=headers)\n>       ticket = r.json()[\"data\"][\"ticket\"]\nE       TypeError: 'NoneType' object is not subscriptable\n\n..\\Auth\\AutoDL_auth.py:30: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "不输入验证码",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+    "statusTrace" : "self = <test_case.Register_case.TestRegister object at 0x000002C00B52C6D0>\n\n    @allure.story(\"参数填写不正确，注册失败\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @allure.description(\"不输入验证码\")\n    def test_No_Code(self):\n        def_name = sys._getframe().f_code.co_name\n        test_assert = Assert.Assertions(def_name)\n        logger.info(\"开始执行脚本%s：\\n\", def_name)\n        base_url = config.adss.server_ip()\n        num = Random_number.main()\n        url = base_url + 'register'\n        data = {\n            \"password\": \"123456Aa\",\n            \"phone\": num,\n        }\n>       token = AutoDL_auth.change_ticket()\n\n..\\test_case\\Register_case.py:273: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Auth\\AutoDL_auth.py:36: in change_ticket\n    ticket = login()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n    def login():\n        cap_id, cap_val = get_captcha()\n        base_url = config.adss.server_ip()\n        url = base_url + 'login'\n        headers = {\n            \"Content-Type\": \"application/json;charset=UTF-8\"\n        }\n        r = requests.post(url=url, json={\n            \"captcha_id\": cap_id,\n            \"captcha_value\": cap_val,\n            \"phone\": \"18801053303\",\n            \"password\": \"a753c776ff3ed4fefa2af948af87448910153281\"\n        }, headers=headers)\n>       ticket = r.json()[\"data\"][\"ticket\"]\nE       TypeError: 'NoneType' object is not subscriptable\n\n..\\Auth\\AutoDL_auth.py:30: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb13442fe1cd72c7",
+      "name" : "log",
+      "source" : "fb13442fe1cd72c7.txt",
+      "type" : "text/plain",
+      "size" : 79
+    }, {
+      "uid" : "544ab4636046700e",
+      "name" : "stderr",
+      "source" : "544ab4636046700e.txt",
+      "type" : "text/plain",
+      "size" : 128
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "story",
+    "value" : "参数填写不正确，注册失败"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Register_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "6480-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Register_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc535a8810261276.json",
+  "parameterValues" : [ ]
+}

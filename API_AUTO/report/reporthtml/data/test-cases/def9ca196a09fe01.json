@@ -1,0 +1,93 @@
+{
+  "uid" : "def9ca196a09fe01",
+  "name" : "test_Register",
+  "fullName" : "test_case.Register_case.TestRegister#test_Register",
+  "historyId" : "ebb8bade0c723b2651539b27b8fcf850",
+  "time" : {
+    "start" : 1632387030484,
+    "stop" : 1632387031019,
+    "duration" : 535
+  },
+  "description" : "正常注册账号",
+  "descriptionHtml" : "<p>正常注册账号</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "正常注册账号",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "46c48546c0b3216a",
+      "name" : "log",
+      "source" : "46c48546c0b3216a.txt",
+      "type" : "text/plain",
+      "size" : 277
+    }, {
+      "uid" : "522d5d3490c198de",
+      "name" : "stdout",
+      "source" : "522d5d3490c198de.txt",
+      "type" : "text/plain",
+      "size" : 739
+    }, {
+      "uid" : "2b356fca64bae1d2",
+      "name" : "stderr",
+      "source" : "2b356fca64bae1d2.txt",
+      "type" : "text/plain",
+      "size" : 416
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "参数填写正确，注册成功"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Register_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "24520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Register_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "def9ca196a09fe01.json",
+  "parameterValues" : [ ]
+}
