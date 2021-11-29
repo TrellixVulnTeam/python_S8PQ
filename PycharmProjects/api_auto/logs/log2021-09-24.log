@@ -1,0 +1,1192 @@
+Fri, 24 Sep 2021 11:10:11-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 11:10:11===================================
+Fri, 24 Sep 2021 11:10:11-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 11:10:12-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:12-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:10:12-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 11:10:12-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:12-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:10:12-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 11:10:12-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:12-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 11:10:12-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 11:10:13-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:13-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 11:10:13-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 11:10:13-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:13-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 11:10:13-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 11:10:13-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:13-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:10:13-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 11:10:14-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:14-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:10:14-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 11:10:14-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:14-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:10:14-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 11:10:15-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:15-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 11:10:15-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 11:10:15-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:15-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:10:15-run_all_case.py-Login_case.py-[line:65]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 11:10:15-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:15-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:10:15-run_all_case.py-Login_case.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 11:10:15-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:15-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:10:15-run_all_case.py-Login_case.py-[line:117]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 11:10:16-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:16-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:10:16-run_all_case.py-Login_case.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 11:10:16-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:16-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:10:16-run_all_case.py-Login_case.py-[line:198]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 11:10:16-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:16-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:10:16-run_all_case.py-Login_case.py-[line:225]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 11:10:16-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:16-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:10:16-run_all_case.py-Login_case.py-[line:279]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 11:10:17-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:17-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:10:17-run_all_case.py-Login_case.py-[line:305]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 11:10:19-run_all_case.py-Login_case.py-[line:316]-ERROR-[日志信息]: Error! 没有触发等待 5 分钟
+Fri, 24 Sep 2021 11:10:19-run_all_case.py-Login_case.py-[line:331]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 11:10:19-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:10:19-test_code_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 连续超过 6 次错误，请于 5 分钟后重新登录 
+Fri, 24 Sep 2021 11:12:03-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 11:12:03===================================
+Fri, 24 Sep 2021 11:12:03-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 11:12:03-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 11:12:04-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 11:12:04-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 11:12:04-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 11:12:04-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 11:12:04-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 11:12:05-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 11:12:05-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 11:12:05-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 11:12:05-run_all_case.py-Login_case.py-[line:65]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 11:12:05-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:12:05-test_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 连续超过 6 次错误，请于 5 分钟后重新登录 
+Fri, 24 Sep 2021 11:12:06-run_all_case.py-Login_case.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 11:12:06-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:12:06-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:12:06-run_all_case.py-Login_case.py-[line:117]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 11:12:06-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:12:06-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:12:06-run_all_case.py-Login_case.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 11:12:06-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:12:06-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:12:06-run_all_case.py-Login_case.py-[line:198]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 11:12:06-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:12:06-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:12:06-run_all_case.py-Login_case.py-[line:225]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 11:12:07-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:12:07-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:12:07-run_all_case.py-Login_case.py-[line:279]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 11:12:07-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:12:07-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:12:07-run_all_case.py-Login_case.py-[line:305]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 11:12:09-run_all_case.py-Login_case.py-[line:316]-ERROR-[日志信息]: Error! 没有触发等待 5 分钟
+Fri, 24 Sep 2021 11:12:09-run_all_case.py-Login_case.py-[line:331]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 11:12:09-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:12:09-test_code_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 连续超过 6 次错误，请于 5 分钟后重新登录 
+Fri, 24 Sep 2021 11:26:33-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 11:26:33===================================
+Fri, 24 Sep 2021 11:26:33-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 11:26:33-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:33-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:26:33-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 11:26:34-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:34-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:26:34-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 11:26:34-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:34-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 11:26:34-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 11:26:34-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:34-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 11:26:34-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 11:26:35-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:35-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 11:26:35-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 11:26:35-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:35-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:26:35-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 11:26:35-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:35-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:26:35-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 11:26:36-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:36-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:26:36-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 11:26:36-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:36-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 11:26:36-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 11:26:36-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:36-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:26:36-run_all_case.py-Login_case.py-[line:65]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 11:26:37-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:37-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:26:37-run_all_case.py-Login_case.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 11:26:37-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:37-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:26:37-run_all_case.py-Login_case.py-[line:117]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 11:26:37-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:37-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:26:37-run_all_case.py-Login_case.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 11:26:37-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:37-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:26:37-run_all_case.py-Login_case.py-[line:198]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 11:26:37-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:37-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:26:37-run_all_case.py-Login_case.py-[line:225]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 11:26:38-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:38-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:26:38-run_all_case.py-Login_case.py-[line:279]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 11:26:38-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:38-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:26:38-run_all_case.py-Login_case.py-[line:305]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 11:26:40-run_all_case.py-Login_case.py-[line:316]-ERROR-[日志信息]: Error! 没有触发等待 5 分钟
+Fri, 24 Sep 2021 11:26:40-run_all_case.py-Login_case.py-[line:331]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 11:26:40-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:26:40-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:40:14-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 11:40:14===================================
+Fri, 24 Sep 2021 11:40:14-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 11:40:14-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:14-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:40:14-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 11:40:15-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:15-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:40:15-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 11:40:15-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:15-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 11:40:15-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 11:40:16-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:16-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 11:40:16-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 11:40:16-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:16-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 11:40:16-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 11:40:16-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:16-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:40:17-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 11:40:17-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:17-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:40:17-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 11:40:17-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:17-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:40:17-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 11:40:18-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:18-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 11:40:18-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 11:40:18-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:18-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:40:18-run_all_case.py-Login_case.py-[line:65]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 11:40:18-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:18-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:40:18-run_all_case.py-Login_case.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 11:40:19-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:19-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:40:19-run_all_case.py-Login_case.py-[line:117]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 11:40:19-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:19-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:40:19-run_all_case.py-Login_case.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 11:40:19-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:19-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:40:19-run_all_case.py-Login_case.py-[line:198]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 11:40:19-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:19-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:40:19-run_all_case.py-Login_case.py-[line:225]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 11:40:19-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:19-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:40:19-run_all_case.py-Login_case.py-[line:279]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 11:40:20-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:20-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:40:20-run_all_case.py-Login_case.py-[line:305]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 11:40:21-run_all_case.py-Login_case.py-[line:331]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 11:40:21-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:40:21-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:53:52-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 11:53:52===================================
+Fri, 24 Sep 2021 11:53:52-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 11:53:53-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:53-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:53:53-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 11:53:53-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:53-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:53:53-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 11:53:54-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:54-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 11:53:54-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 11:53:54-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:54-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 11:53:54-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 11:53:55-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:55-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 11:53:55-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 11:53:55-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:55-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:53:55-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 11:53:55-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:55-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:53:55-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 11:53:56-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:56-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:53:56-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 11:53:56-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:56-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 11:53:56-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 11:53:57-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:57-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:53:57-run_all_case.py-Login_case.py-[line:66]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 11:53:57-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:57-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 11:53:57-run_all_case.py-Login_case.py-[line:92]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 11:53:57-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:57-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:53:57-run_all_case.py-Login_case.py-[line:118]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 11:53:57-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:57-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:53:57-run_all_case.py-Login_case.py-[line:145]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 11:53:57-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:57-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:53:57-run_all_case.py-Login_case.py-[line:199]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 11:53:58-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:58-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:53:58-run_all_case.py-Login_case.py-[line:226]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 11:53:58-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:58-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:53:58-run_all_case.py-Login_case.py-[line:280]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 11:53:58-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:58-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 11:53:58-run_all_case.py-Login_case.py-[line:307]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 11:53:58-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:58-sendWrongLoginRequest-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 连续超过 6 次错误，请于 5 分钟后重新登录,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 11:53:59-run_all_case.py-Login_case.py-[line:333]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 11:53:59-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 11:53:59-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:25:55-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 15:25:55===================================
+Fri, 24 Sep 2021 15:25:55-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 15:25:56-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:56-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:25:56-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 15:25:56-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:56-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:25:56-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 15:25:56-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:56-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:25:56-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 15:25:57-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:57-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:25:57-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 15:25:57-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:57-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 15:25:57-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 15:25:57-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:57-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:25:57-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 15:25:58-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:58-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:25:58-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 15:25:58-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:58-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:25:58-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 15:25:58-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:58-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 15:25:58-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 15:25:59-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:59-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:25:59-run_all_case.py-Login_case.py-[line:65]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 15:25:59-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:59-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:25:59-run_all_case.py-Login_case.py-[line:91]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 15:25:59-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:59-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:25:59-run_all_case.py-Login_case.py-[line:117]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 15:25:59-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:59-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:25:59-run_all_case.py-Login_case.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 15:25:59-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:25:59-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:25:59-run_all_case.py-Login_case.py-[line:198]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 15:26:00-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:26:00-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:26:00-run_all_case.py-Login_case.py-[line:225]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 15:26:00-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:26:00-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:26:00-run_all_case.py-Login_case.py-[line:279]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 15:26:00-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:26:00-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:26:00-run_all_case.py-Login_case.py-[line:306]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 15:26:01-run_all_case.py-Login_case.py-[line:332]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 15:26:01-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:26:01-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:35:25-_jb_pytest_runner.py-Login_case.py-[line:306]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 15:42:52-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 15:42:52===================================
+Fri, 24 Sep 2021 15:42:52-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 15:42:53-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:53-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:42:53-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 15:42:53-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:53-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:42:53-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 15:42:53-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:53-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:42:53-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 15:42:54-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:54-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:42:54-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 15:42:54-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:54-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 15:42:54-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 15:42:55-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:55-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:42:55-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 15:42:55-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:55-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:42:55-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 15:42:55-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:55-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:42:55-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 15:42:56-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:56-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 15:42:56-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 15:42:56-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:56-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:42:56-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 15:42:56-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:56-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:42:56-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 15:42:56-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:56-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:42:56-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 15:42:57-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:57-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:42:57-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 15:42:57-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:57-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:42:57-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 15:42:57-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:57-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:42:57-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 15:42:57-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:57-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:42:57-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 15:42:57-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:42:57-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:42:57-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 15:43:32-run_all_case.py-Login_case.py-[line:336]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 15:43:32-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:43:32-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:44:09-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 15:44:09===================================
+Fri, 24 Sep 2021 15:44:10-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 15:44:10-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:10-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:44:10-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 15:44:10-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:10-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:44:10-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 15:44:11-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:11-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:44:11-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 15:44:11-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:11-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:44:11-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 15:44:11-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:11-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 15:44:11-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 15:44:12-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:12-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:44:12-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 15:44:12-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:12-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:44:12-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 15:44:13-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:13-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:44:13-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 15:44:13-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:13-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 15:44:13-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 15:44:13-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:13-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:44:13-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 15:44:14-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:14-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:44:14-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 15:44:14-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:14-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:44:14-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 15:44:14-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:14-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:44:14-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 15:44:14-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:14-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:44:14-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 15:44:15-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:15-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:44:15-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 15:44:15-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:15-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:44:15-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 15:44:15-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:15-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:44:15-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 15:44:23-run_all_case.py-Login_case.py-[line:336]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 15:44:23-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:44:23-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:46:09-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 15:46:09===================================
+Fri, 24 Sep 2021 15:46:09-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 15:46:10-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:10-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:46:10-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 15:46:10-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:10-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:46:10-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 15:46:10-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:10-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:46:10-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 15:46:11-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:11-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:46:11-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 15:46:11-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:11-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 15:46:11-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 15:46:11-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:11-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:46:11-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 15:46:12-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:12-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:46:12-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 15:46:12-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:12-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:46:12-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 15:46:12-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:12-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 15:46:12-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 15:46:13-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:13-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:46:13-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 15:46:13-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:13-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:46:13-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 15:46:13-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:13-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:46:13-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 15:46:13-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:13-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:46:13-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 15:46:14-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:14-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:46:14-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 15:46:14-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:14-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:46:14-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 15:46:14-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:14-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:46:14-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 15:46:14-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:14-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:46:14-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 15:46:21-run_all_case.py-Login_case.py-[line:336]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 15:46:21-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:46:21-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:47:33-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 15:47:33===================================
+Fri, 24 Sep 2021 15:47:34-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 15:47:34-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:34-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:47:34-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 15:47:35-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:35-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:47:35-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 15:47:35-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:35-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:47:35-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 15:47:35-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:35-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:47:35-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 15:47:36-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:36-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 15:47:36-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 15:47:36-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:36-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:47:36-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 15:47:36-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:36-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:47:36-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 15:47:37-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:37-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:47:37-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 15:47:37-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:37-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 15:47:37-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 15:47:37-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:37-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:47:37-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 15:47:38-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:38-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:47:38-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 15:47:38-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:38-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:47:38-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 15:47:38-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:38-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:47:38-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 15:47:38-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:38-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:47:38-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 15:47:38-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:38-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:47:38-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 15:47:39-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:39-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:47:39-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 15:47:39-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:39-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:47:39-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 15:47:46-run_all_case.py-Login_case.py-[line:337]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 15:47:46-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:47:46-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:48:54-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 15:48:54===================================
+Fri, 24 Sep 2021 15:48:54-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 15:48:54-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:54-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:48:54-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 15:48:55-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:55-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:48:55-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 15:48:55-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:55-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:48:55-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 15:48:56-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:56-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:48:56-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 15:48:56-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:56-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 15:48:56-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 15:48:56-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:56-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:48:56-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 15:48:57-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:57-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:48:57-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 15:48:57-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:57-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:48:57-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 15:48:57-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:57-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 15:48:57-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 15:48:58-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:58-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:48:58-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 15:48:58-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:58-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:48:58-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 15:48:58-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:58-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:48:58-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 15:48:58-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:58-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:48:58-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 15:48:58-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:58-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:48:58-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 15:48:59-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:59-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 15:48:59-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 15:48:59-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:59-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:48:59-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 15:48:59-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:48:59-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:48:59-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 15:49:06-run_all_case.py-Login_case.py-[line:337]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 15:49:06-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:49:06-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:52:39-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 15:52:39===================================
+Fri, 24 Sep 2021 15:52:39-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 15:52:40-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:40-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:52:40-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 15:52:40-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:40-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:52:40-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 15:52:40-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:40-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:52:40-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 15:52:41-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:41-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 15:52:41-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 15:52:41-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:41-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 15:52:41-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 15:52:41-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:41-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:52:41-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 15:52:42-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:42-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:52:42-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 15:52:42-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:42-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:52:42-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 15:52:42-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:42-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 15:52:42-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 15:52:43-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:43-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:52:43-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 15:52:43-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:43-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 15:52:43-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 15:52:43-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:43-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:52:43-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 15:52:43-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:43-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:52:43-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 15:52:43-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:43-test_Num_Illegal_Character-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 连续超过 6 次错误，请于 5 分钟后重新登录 
+Fri, 24 Sep 2021 15:52:44-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 15:52:44-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:44-test_wrong_num-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 连续超过 6 次错误，请于 5 分钟后重新登录 
+Fri, 24 Sep 2021 15:52:44-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 15:52:44-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:44-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:52:44-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 15:52:44-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:44-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 15:52:44-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 15:52:44-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 15:52:45-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 15:52:46-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 15:52:47-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 15:52:47-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 15:52:48-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 15:52:49-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 15:52:49-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 15:52:50-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 15:52:51-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 15:52:52-run_all_case.py-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 15:52:52-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:52-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:52:18-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 16:52:18===================================
+Fri, 24 Sep 2021 16:52:19-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 16:52:19-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:19-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:52:19-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 16:52:20-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:20-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:52:20-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 16:52:20-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:20-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 16:52:20-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 16:52:20-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:20-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 16:52:20-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 16:52:21-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:21-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 16:52:21-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 16:52:21-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:21-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:52:21-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 16:52:22-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:22-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:52:22-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 16:52:22-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:22-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:52:22-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 16:52:22-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:22-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 16:52:22-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 16:52:23-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:23-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:52:23-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 16:52:23-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:23-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:52:23-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 16:52:23-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:23-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:52:23-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 16:52:23-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:23-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:52:23-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 16:52:23-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:23-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 16:52:24-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 16:52:24-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:24-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 16:52:24-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 16:52:24-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:24-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:52:24-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 16:52:24-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:24-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:52:24-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 16:52:24-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 16:52:25-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 16:52:26-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 16:52:27-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 16:52:27-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 16:52:28-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:52:29-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:52:29-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:52:30-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:52:31-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:52:31-run_all_case.py-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 16:52:32-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:52:32-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:55:00-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 16:55:00===================================
+Fri, 24 Sep 2021 16:55:01-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 16:55:01-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:01-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:55:01-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 16:55:01-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:01-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:55:01-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 16:55:02-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:02-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 16:55:02-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 16:55:02-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:02-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 16:55:02-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 16:55:02-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:02-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 16:55:02-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 16:55:03-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:03-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:55:03-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 16:55:03-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:03-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:55:03-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 16:55:04-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:04-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:55:04-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 16:55:04-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:04-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 16:55:04-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 16:55:04-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:04-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:55:04-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 16:55:04-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:04-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 16:55:04-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 16:55:05-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:05-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:55:05-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 16:55:05-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:05-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:55:05-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 16:55:05-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:05-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 16:55:05-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 16:55:05-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:05-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 16:55:05-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 16:55:05-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:05-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:55:05-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 16:55:05-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:05-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 16:55:05-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 16:55:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:07-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:08-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:08-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:09-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:10-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:12-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:13-run_all_case.py-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 16:55:13-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 16:55:13-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 17:11:30-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-09-24 17:11:30===================================
+Fri, 24 Sep 2021 17:11:30-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Fri, 24 Sep 2021 17:11:31-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:31-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 17:11:31-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Fri, 24 Sep 2021 17:11:31-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:31-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 17:11:31-run_all_case.py-Register_case.py-[line:85]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Fri, 24 Sep 2021 17:11:32-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:32-test_Wrong_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 17:11:32-run_all_case.py-Register_case.py-[line:110]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Fri, 24 Sep 2021 17:11:32-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:32-test_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误 
+Fri, 24 Sep 2021 17:11:32-run_all_case.py-Register_case.py-[line:135]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Fri, 24 Sep 2021 17:11:32-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:32-test_Registered_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录 
+Fri, 24 Sep 2021 17:11:32-run_all_case.py-Register_case.py-[line:160]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Fri, 24 Sep 2021 17:11:33-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:33-test_Pwd_Error-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 17:11:33-run_all_case.py-Register_case.py-[line:186]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Fri, 24 Sep 2021 17:11:33-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:33-test_Pwd_No_Capitalization-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 17:11:33-run_all_case.py-Register_case.py-[line:212]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Fri, 24 Sep 2021 17:11:33-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:33-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 17:11:33-run_all_case.py-Register_case.py-[line:237]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Fri, 24 Sep 2021 17:11:34-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:34-test_CodeError-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 验证码无效，请重新获取,body_msg is 验证码无效，请重新获取 
+Fri, 24 Sep 2021 17:11:34-run_all_case.py-Register_case.py-[line:265]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Fri, 24 Sep 2021 17:11:34-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:34-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 17:11:34-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Fri, 24 Sep 2021 17:11:34-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:34-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 24 Sep 2021 17:11:34-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Fri, 24 Sep 2021 17:11:34-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:34-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 17:11:34-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Fri, 24 Sep 2021 17:11:35-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:35-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 17:11:35-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Fri, 24 Sep 2021 17:11:35-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:35-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 17:11:35-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Fri, 24 Sep 2021 17:11:35-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:35-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Fri, 24 Sep 2021 17:11:35-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 17:11:35-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:35-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 17:11:35-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Fri, 24 Sep 2021 17:11:35-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:35-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Fri, 24 Sep 2021 17:11:35-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 17:11:36-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 17:11:36-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 17:11:36-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 17:11:36-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 17:11:36-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=手机号或密码错误，请重试.
+
+Fri, 24 Sep 2021 17:11:36-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 17:11:37-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 17:11:37-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 17:11:37-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 17:11:37-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 17:11:38-run_all_case.py-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Fri, 24 Sep 2021 17:11:38-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 17:11:38-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  

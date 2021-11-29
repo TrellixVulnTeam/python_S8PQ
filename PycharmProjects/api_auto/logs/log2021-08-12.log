@@ -1,0 +1,412 @@
+Thu, 12 Aug 2021 11:51:00-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 11:51:00-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:00-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Thu, 12 Aug 2021 11:51:00-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 11:51:00-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:00-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 11:51:00-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 11:51:00-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:00-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 11:51:00-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 11:51:00-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:00-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 11:51:00-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 11:51:01-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 11:51:01-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 11:51:01-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 11:51:01-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 11:51:01-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 11:51:01-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-_jb_pytest_runner.py-Login_case.py-[line:317]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 11:51:01-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 11:51:01-test_code_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 14:20:46-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 14:20:48-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 14:20:51-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 14:20:53-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 14:20:55-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 14:20:57-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 14:20:59-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 14:21:04-_jb_pytest_runner.py-Login_case.py-[line:317]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 14:21:58-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 14:21:59-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:21:59-test_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 14:21:59-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 14:21:59-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:21:59-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 14:21:59-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 14:21:59-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:21:59-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 14:21:59-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 14:21:59-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:21:59-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 14:21:59-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 14:21:59-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:21:59-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 14:21:59-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 14:22:00-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:22:00-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 14:22:00-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 14:22:00-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:22:00-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 14:22:00-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:22:00-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:22:00-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:22:00-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:22:00-sendWrongLoginRequest-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:22:00-_jb_pytest_runner.py-Login_case.py-[line:317]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 14:22:00-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 14:22:00-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 连续超过 5 次错误，请于 15 分钟后重新登录,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 14:25:26-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 14:25:29-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 14:25:31-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 14:25:33-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 14:25:35-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 14:25:38-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 14:25:40-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 14:25:44-_jb_pytest_runner.py-Login_case.py-[line:317]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 14:36:40-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 14:36:42-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 14:36:45-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 14:36:47-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 14:36:49-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 14:36:51-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 14:36:53-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 14:36:58-_jb_pytest_runner.py-Login_case.py-[line:317]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 14:48:37-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 14:48:39-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 14:48:41-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 14:48:44-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 14:48:46-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 14:48:48-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 14:48:50-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 14:48:55-_jb_pytest_runner.py-Login_case.py-[line:317]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 19:49:12-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 19:49:12-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 19:49:12-test_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 19:49:13-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 19:49:13-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 19:49:13-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 19:49:13-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 19:49:13-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 19:49:13-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 19:49:13-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 19:49:13-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 19:49:13-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 19:49:13-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 19:49:13-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 19:49:13-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 19:49:13-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 19:49:13-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 19:49:13-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 19:49:13-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 19:49:13-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 19:49:13-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 19:49:14-_jb_pytest_runner.py-Login_case.py-[line:317]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 19:49:14-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 19:49:14-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 连续超过 5 次错误，请于 15 分钟后重新登录,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 20:07:27-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 20:07:27-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:27-test_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:07:27-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 20:07:27-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:27-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:07:27-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 20:07:28-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:28-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:07:28-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 20:07:28-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:28-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:07:28-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 20:07:28-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:28-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:07:28-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 20:07:28-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:28-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:07:28-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 20:07:28-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:28-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:07:29-_jb_pytest_runner.py-Login_case.py-[line:321]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 20:07:29-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:29-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 连续超过 5 次错误，请于 15 分钟后重新登录,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 20:07:42-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 20:07:42-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:42-test_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 20:07:42-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 20:07:42-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:42-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:07:42-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 20:07:42-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:42-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:07:42-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 20:07:43-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:43-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:07:43-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 20:07:43-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:43-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:07:43-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 20:07:43-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:43-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:07:43-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 20:07:43-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:43-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:07:43-_jb_pytest_runner.py-Login_case.py-[line:321]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 20:07:43-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:07:43-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 连续超过 5 次错误，请于 15 分钟后重新登录,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 20:11:20-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 20:11:20-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:11:20-test_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 20:11:20-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 20:11:21-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:11:21-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:11:21-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 20:11:21-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:11:21-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:11:21-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 20:11:21-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:11:21-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:11:21-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 20:11:21-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:11:21-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:11:21-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 20:11:21-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:11:21-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:11:21-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 20:11:21-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:11:21-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:11:21-_jb_pytest_runner.py-Login_case.py-[line:321]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 20:11:21-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:11:21-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 连续超过 5 次错误，请于 15 分钟后重新登录,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 20:13:04-_jb_pytest_runner.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 20:13:04-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:13:04-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Thu, 12 Aug 2021 20:13:04-_jb_pytest_runner.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 20:13:04-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:13:04-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:13:04-_jb_pytest_runner.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 20:13:04-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:13:04-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:13:04-_jb_pytest_runner.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 20:13:04-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:13:04-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:13:04-_jb_pytest_runner.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 20:13:04-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:13:04-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:13:04-_jb_pytest_runner.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 20:13:04-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:13:04-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:13:04-_jb_pytest_runner.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 20:13:04-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:13:04-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:13:05-_jb_pytest_runner.py-Login_case.py-[line:321]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 20:13:05-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:13:05-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 连续超过 5 次错误，请于 15 分钟后重新登录,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 20:16:20-run_all_case.py-run_all_case.py-[line:21]-INFO-[日志信息]: ==================================2021-08-12 20:16:20===================================
+Thu, 12 Aug 2021 20:16:20-run_all_case.py-Register_case.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Thu, 12 Aug 2021 20:16:21-run_all_case.py-Register_case.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Thu, 12 Aug 2021 20:16:21-run_all_case.py-Register_case.py-[line:77]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Thu, 12 Aug 2021 20:16:21-run_all_case.py-Register_case.py-[line:101]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Thu, 12 Aug 2021 20:16:21-run_all_case.py-Register_case.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Thu, 12 Aug 2021 20:16:21-run_all_case.py-Register_case.py-[line:149]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Thu, 12 Aug 2021 20:16:21-run_all_case.py-Register_case.py-[line:174]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Thu, 12 Aug 2021 20:16:21-run_all_case.py-Register_case.py-[line:199]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Thu, 12 Aug 2021 20:16:22-run_all_case.py-Register_case.py-[line:223]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Thu, 12 Aug 2021 20:16:22-run_all_case.py-Register_case.py-[line:250]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Thu, 12 Aug 2021 20:16:22-run_all_case.py-Login_case.py-[line:22]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 12 Aug 2021 20:16:22-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:16:22-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Thu, 12 Aug 2021 20:16:22-run_all_case.py-Login_case.py-[line:47]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 12 Aug 2021 20:16:22-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:16:22-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:16:22-run_all_case.py-Login_case.py-[line:72]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 12 Aug 2021 20:16:22-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:16:22-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:16:22-run_all_case.py-Login_case.py-[line:98]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 12 Aug 2021 20:16:22-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:16:22-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:16:22-run_all_case.py-Login_case.py-[line:150]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 12 Aug 2021 20:16:22-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:16:22-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 
+Thu, 12 Aug 2021 20:16:22-run_all_case.py-Login_case.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 12 Aug 2021 20:16:23-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:16:23-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:16:23-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 12 Aug 2021 20:16:23-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:16:23-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:16:23-run_all_case.py-Login_case.py-[line:321]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 12 Aug 2021 20:16:23-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:16:23-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 连续超过 5 次错误，请于 15 分钟后重新登录,body_msg is 连续超过 5 次错误，请于 15 分钟后重新登录 
+Thu, 12 Aug 2021 20:17:37-_jb_pytest_runner.py-Register_case.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Thu, 12 Aug 2021 20:17:38-_jb_pytest_runner.py-Register_case.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Thu, 12 Aug 2021 20:17:38-_jb_pytest_runner.py-Register_case.py-[line:77]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Thu, 12 Aug 2021 20:17:38-_jb_pytest_runner.py-Register_case.py-[line:101]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Thu, 12 Aug 2021 20:17:38-_jb_pytest_runner.py-Register_case.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Thu, 12 Aug 2021 20:17:38-_jb_pytest_runner.py-Register_case.py-[line:149]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Thu, 12 Aug 2021 20:17:38-_jb_pytest_runner.py-Register_case.py-[line:174]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Thu, 12 Aug 2021 20:17:38-_jb_pytest_runner.py-Register_case.py-[line:199]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Thu, 12 Aug 2021 20:17:39-_jb_pytest_runner.py-Register_case.py-[line:223]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Thu, 12 Aug 2021 20:17:39-_jb_pytest_runner.py-Register_case.py-[line:250]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Thu, 12 Aug 2021 20:26:19-_jb_pytest_runner.py-Register_case.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Thu, 12 Aug 2021 20:26:20-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:20-test_Register-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:26:20-_jb_pytest_runner.py-Register_case.py-[line:53]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+
+Thu, 12 Aug 2021 20:26:20-test_No_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:20-test_No_Num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:26:20-_jb_pytest_runner.py-Register_case.py-[line:77]-INFO-[日志信息]: 开始执行脚本test_Wrong_Num：
+
+Thu, 12 Aug 2021 20:26:20-test_Wrong_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:20-test_Wrong_Num-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号格式错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:26:20-_jb_pytest_runner.py-Register_case.py-[line:101]-INFO-[日志信息]: 开始执行脚本test_Illegal_Character：
+
+Thu, 12 Aug 2021 20:26:20-test_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:20-test_Illegal_Character-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号格式错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:26:20-_jb_pytest_runner.py-Register_case.py-[line:125]-INFO-[日志信息]: 开始执行脚本test_Registered_Num：
+
+Thu, 12 Aug 2021 20:26:21-test_Registered_Num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:21-test_Registered_Num-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:26:21-_jb_pytest_runner.py-Register_case.py-[line:149]-INFO-[日志信息]: 开始执行脚本test_Pwd_Error：
+
+Thu, 12 Aug 2021 20:26:21-test_Pwd_Error-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:21-test_Pwd_Error-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:26:21-_jb_pytest_runner.py-Register_case.py-[line:174]-INFO-[日志信息]: 开始执行脚本test_Pwd_No_Capitalization：
+
+Thu, 12 Aug 2021 20:26:21-test_Pwd_No_Capitalization-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:21-test_Pwd_No_Capitalization-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:26:21-_jb_pytest_runner.py-Register_case.py-[line:199]-INFO-[日志信息]: 开始执行脚本test_No_Pwd：
+
+Thu, 12 Aug 2021 20:26:21-test_No_Pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:21-test_No_Pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:26:21-_jb_pytest_runner.py-Register_case.py-[line:223]-INFO-[日志信息]: 开始执行脚本test_CodeError：
+
+Thu, 12 Aug 2021 20:26:21-test_CodeError-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:21-test_CodeError-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 请重新获取短信验证码,body_msg is 请求参数错误 
+Thu, 12 Aug 2021 20:26:21-_jb_pytest_runner.py-Register_case.py-[line:250]-INFO-[日志信息]: 开始执行脚本test_No_Code：
+
+Thu, 12 Aug 2021 20:26:22-test_No_Code-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Thu, 12 Aug 2021 20:26:22-test_No_Code-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 

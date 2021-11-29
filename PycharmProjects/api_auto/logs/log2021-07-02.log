@@ -1,0 +1,298 @@
+Fri, 02 Jul 2021 11:40:29-run_all_case.py-run_all_case.py-[line:23]-INFO-[日志信息]: ==================================2021-07-02 11:40:29===================================
+Fri, 02 Jul 2021 11:40:30-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:40:30-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:30-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:30-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:40:30-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:30-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:30-run_all_case.py-Image_warehouse.py-[line:114]-INFO-[日志信息]: 开始执行脚本test_PublicRemoveCache:
+Fri, 02 Jul 2021 11:40:30-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:40:30-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:30-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:30-test_PublicRemoveCache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:30-test_PublicRemoveCache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:30-run_all_case.py-Image_warehouse.py-[line:164]-INFO-[日志信息]: 开始执行脚本test_PublicCreate_Cache:
+Fri, 02 Jul 2021 11:40:31-test_PublicCreate_Cache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicCreate_Cache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:195]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_False:
+Fri, 02 Jul 2021 11:40:31-test_PublicCheckName_False-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicCheckName_False-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:224]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_True:
+Fri, 02 Jul 2021 11:40:31-test_PublicCheckName_True-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicCheckName_True-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:253]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate:
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:40:31-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:40:31-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-test_PublicUpdate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicUpdate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:284]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_NotImageName:
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:40:31-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:40:31-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-test_PublicUpdate_NotImageName-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicUpdate_NotImageName-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:315]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheYes:
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:40:31-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:31-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:31-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:40:32-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:32-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:32-test_PublicUpdate_CacheYes-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:32-test_PublicUpdate_CacheYes-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:32-run_all_case.py-Image_warehouse.py-[line:346]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheNo:
+Fri, 02 Jul 2021 11:40:32-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:40:32-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:32-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:32-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:40:32-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:32-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:32-test_PublicUpdate_CacheNo-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:32-test_PublicUpdate_CacheNo-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:32-run_all_case.py-Image_warehouse.py-[line:376]-INFO-[日志信息]: 开始执行脚本test_PublicStartCache:
+Fri, 02 Jul 2021 11:40:32-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:40:32-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:32-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:32-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:40:32-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:32-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:32-test_PublicStartCache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:32-test_PublicStartCache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:32-run_all_case.py-Image_warehouse.py-[line:406]-INFO-[日志信息]: 开始执行脚本test_PrivateList:
+Fri, 02 Jul 2021 11:40:32-test_PrivateList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:32-test_PrivateList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:32-run_all_case.py-Image_warehouse.py-[line:435]-INFO-[日志信息]: 开始执行脚本test_PrivateUpdate:
+Fri, 02 Jul 2021 11:40:33-test_PrivateUpdate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:40:33-test_PrivateUpdate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:40:51-run_all_case.py-Mail_two.py-[line:74]-INFO-[日志信息]: 邮件发送成功，详见邮件内容结果！
+Fri, 02 Jul 2021 11:42:40-run_all_case.py-run_all_case.py-[line:21]-INFO-[日志信息]: ==================================2021-07-02 11:42:40===================================
+Fri, 02 Jul 2021 11:42:41-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:42:41-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:41-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:41-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:42:41-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:41-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:41-run_all_case.py-Image_warehouse.py-[line:114]-INFO-[日志信息]: 开始执行脚本test_PublicRemoveCache:
+Fri, 02 Jul 2021 11:42:41-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:42:41-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:41-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:41-test_PublicRemoveCache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:41-test_PublicRemoveCache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:41-run_all_case.py-Image_warehouse.py-[line:164]-INFO-[日志信息]: 开始执行脚本test_PublicCreate_Cache:
+Fri, 02 Jul 2021 11:42:41-test_PublicCreate_Cache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:41-test_PublicCreate_Cache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:41-run_all_case.py-Image_warehouse.py-[line:195]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_False:
+Fri, 02 Jul 2021 11:42:42-test_PublicCheckName_False-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicCheckName_False-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:224]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_True:
+Fri, 02 Jul 2021 11:42:42-test_PublicCheckName_True-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicCheckName_True-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:253]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate:
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:42:42-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:42:42-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:42-test_PublicUpdate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicUpdate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:284]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_NotImageName:
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:42:42-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:42:42-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:42-test_PublicUpdate_NotImageName-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicUpdate_NotImageName-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:315]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheYes:
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:42:42-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:42-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:42:42-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:42-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:43-test_PublicUpdate_CacheYes-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:43-test_PublicUpdate_CacheYes-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:43-run_all_case.py-Image_warehouse.py-[line:346]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheNo:
+Fri, 02 Jul 2021 11:42:43-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:42:43-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:43-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:43-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:42:43-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:43-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:43-test_PublicUpdate_CacheNo-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:43-test_PublicUpdate_CacheNo-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:43-run_all_case.py-Image_warehouse.py-[line:376]-INFO-[日志信息]: 开始执行脚本test_PublicStartCache:
+Fri, 02 Jul 2021 11:42:43-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:42:43-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:43-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:43-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:42:43-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:43-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:43-test_PublicStartCache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:43-test_PublicStartCache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:43-run_all_case.py-Image_warehouse.py-[line:406]-INFO-[日志信息]: 开始执行脚本test_PrivateList:
+Fri, 02 Jul 2021 11:42:43-test_PrivateList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:43-test_PrivateList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:42:43-run_all_case.py-Image_warehouse.py-[line:435]-INFO-[日志信息]: 开始执行脚本test_PrivateUpdate:
+Fri, 02 Jul 2021 11:42:43-test_PrivateUpdate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:42:43-test_PrivateUpdate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:43:00-run_all_case.py-Mail_two.py-[line:74]-INFO-[日志信息]: 邮件发送成功，详见邮件内容结果！
+Fri, 02 Jul 2021 11:47:53-run_all_case.py-run_all_case.py-[line:21]-INFO-[日志信息]: ==================================2021-07-02 11:47:53===================================
+Fri, 02 Jul 2021 11:47:54-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:47:54-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:54-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:54-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:47:54-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:54-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:54-run_all_case.py-Image_warehouse.py-[line:114]-INFO-[日志信息]: 开始执行脚本test_PublicRemoveCache:
+Fri, 02 Jul 2021 11:47:54-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:47:54-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:54-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:54-test_PublicRemoveCache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:54-test_PublicRemoveCache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:54-run_all_case.py-Image_warehouse.py-[line:164]-INFO-[日志信息]: 开始执行脚本test_PublicCreate_Cache:
+Fri, 02 Jul 2021 11:47:54-test_PublicCreate_Cache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:54-test_PublicCreate_Cache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:54-run_all_case.py-Image_warehouse.py-[line:195]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_False:
+Fri, 02 Jul 2021 11:47:54-test_PublicCheckName_False-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:54-test_PublicCheckName_False-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:54-run_all_case.py-Image_warehouse.py-[line:224]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_True:
+Fri, 02 Jul 2021 11:47:55-test_PublicCheckName_True-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:55-test_PublicCheckName_True-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:55-run_all_case.py-Image_warehouse.py-[line:253]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate:
+Fri, 02 Jul 2021 11:47:55-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:47:55-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:55-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:55-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:47:55-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:55-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:55-test_PublicUpdate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:55-test_PublicUpdate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:55-run_all_case.py-Image_warehouse.py-[line:284]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_NotImageName:
+Fri, 02 Jul 2021 11:47:55-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:47:55-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:55-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:55-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:47:55-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:55-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:55-test_PublicUpdate_NotImageName-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:55-test_PublicUpdate_NotImageName-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:55-run_all_case.py-Image_warehouse.py-[line:315]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheYes:
+Fri, 02 Jul 2021 11:47:55-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:47:55-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:55-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:55-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:47:55-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:55-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:56-test_PublicUpdate_CacheYes-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:56-test_PublicUpdate_CacheYes-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:56-run_all_case.py-Image_warehouse.py-[line:346]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheNo:
+Fri, 02 Jul 2021 11:47:56-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:47:56-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:56-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:56-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:47:56-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:56-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:56-test_PublicUpdate_CacheNo-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:56-test_PublicUpdate_CacheNo-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:56-run_all_case.py-Image_warehouse.py-[line:376]-INFO-[日志信息]: 开始执行脚本test_PublicStartCache:
+Fri, 02 Jul 2021 11:47:56-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 11:47:56-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:56-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:56-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 11:47:56-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:56-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:56-test_PublicStartCache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:56-test_PublicStartCache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:56-run_all_case.py-Image_warehouse.py-[line:406]-INFO-[日志信息]: 开始执行脚本test_PrivateList:
+Fri, 02 Jul 2021 11:47:56-test_PrivateList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:56-test_PrivateList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:47:56-run_all_case.py-Image_warehouse.py-[line:435]-INFO-[日志信息]: 开始执行脚本test_PrivateUpdate:
+Fri, 02 Jul 2021 11:47:56-test_PrivateUpdate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 11:47:56-test_PrivateUpdate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 11:48:13-run_all_case.py-Mail_two.py-[line:73]-INFO-[日志信息]: 邮件发送成功，详见邮件内容结果！
+Fri, 02 Jul 2021 14:48:43-run_all_case.py-run_all_case.py-[line:21]-INFO-[日志信息]: ==================================2021-07-02 14:48:43===================================
+Fri, 02 Jul 2021 14:50:08-run_all_case.py-run_all_case.py-[line:21]-INFO-[日志信息]: ==================================2021-07-02 14:50:08===================================
+Fri, 02 Jul 2021 14:50:08-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 14:50:08-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:08-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:08-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 14:50:08-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:08-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:08-run_all_case.py-Image_warehouse.py-[line:114]-INFO-[日志信息]: 开始执行脚本test_PublicRemoveCache:
+Fri, 02 Jul 2021 14:50:08-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 14:50:08-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:08-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:09-test_PublicRemoveCache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:09-test_PublicRemoveCache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:09-run_all_case.py-Image_warehouse.py-[line:164]-INFO-[日志信息]: 开始执行脚本test_PublicCreate_Cache:
+Fri, 02 Jul 2021 14:50:09-test_PublicCreate_Cache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:09-test_PublicCreate_Cache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:09-run_all_case.py-Image_warehouse.py-[line:195]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_False:
+Fri, 02 Jul 2021 14:50:09-test_PublicCheckName_False-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:09-test_PublicCheckName_False-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:09-run_all_case.py-Image_warehouse.py-[line:224]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_True:
+Fri, 02 Jul 2021 14:50:09-test_PublicCheckName_True-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:09-test_PublicCheckName_True-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:09-run_all_case.py-Image_warehouse.py-[line:253]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate:
+Fri, 02 Jul 2021 14:50:09-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 14:50:09-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:09-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:09-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 14:50:09-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:09-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:09-test_PublicUpdate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:09-test_PublicUpdate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:09-run_all_case.py-Image_warehouse.py-[line:284]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_NotImageName:
+Fri, 02 Jul 2021 14:50:09-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 14:50:09-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:09-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:09-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 14:50:09-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:09-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-test_PublicUpdate_NotImageName-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicUpdate_NotImageName-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:315]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheYes:
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 14:50:10-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 14:50:10-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-test_PublicUpdate_CacheYes-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicUpdate_CacheYes-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:346]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheNo:
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 14:50:10-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 14:50:10-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-test_PublicUpdate_CacheNo-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicUpdate_CacheNo-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:376]-INFO-[日志信息]: 开始执行脚本test_PublicStartCache:
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:28]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Fri, 02 Jul 2021 14:50:10-test_PublicCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicCreate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:64]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Fri, 02 Jul 2021 14:50:10-test_PublicList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-test_PublicStartCache-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:10-test_PublicStartCache-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:10-run_all_case.py-Image_warehouse.py-[line:406]-INFO-[日志信息]: 开始执行脚本test_PrivateList:
+Fri, 02 Jul 2021 14:50:11-test_PrivateList-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:11-test_PrivateList-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:11-run_all_case.py-Image_warehouse.py-[line:435]-INFO-[日志信息]: 开始执行脚本test_PrivateUpdate:
+Fri, 02 Jul 2021 14:50:11-test_PrivateUpdate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 02 Jul 2021 14:50:11-test_PrivateUpdate-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Fri, 02 Jul 2021 14:50:28-run_all_case.py-Mail_two.py-[line:73]-INFO-[日志信息]: 邮件发送成功，详见邮件内容结果！
+Fri, 02 Jul 2021 14:52:37-run_all_case.py-run_all_case.py-[line:21]-INFO-[日志信息]: ==================================2021-07-02 14:52:37===================================

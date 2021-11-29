@@ -1,0 +1,87 @@
+{
+  "uid" : "4062c69fd4328f0b",
+  "name" : "test_Num_Illegal_Character",
+  "fullName" : "test_case.Login_case.TestLogin#test_Num_Illegal_Character",
+  "historyId" : "bc2db944251b700a8ef2a7f0d021e8fc",
+  "time" : {
+    "start" : 1629185611101,
+    "stop" : 1629185611246,
+    "duration" : 145
+  },
+  "description" : "账号有特殊字符",
+  "descriptionHtml" : "<p>账号有特殊字符</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "账号有特殊字符",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "48d8c13072e93563",
+      "name" : "log",
+      "source" : "48d8c13072e93563.txt",
+      "type" : "text/plain",
+      "size" : 384
+    }, {
+      "uid" : "862644c747d1c949",
+      "name" : "stdout",
+      "source" : "862644c747d1c949.txt",
+      "type" : "text/plain",
+      "size" : 116
+    }, {
+      "uid" : "a1fbf51fd2b0e094",
+      "name" : "stderr",
+      "source" : "a1fbf51fd2b0e094.txt",
+      "type" : "text/plain",
+      "size" : 521
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "21788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4062c69fd4328f0b.json",
+  "parameterValues" : [ ]
+}

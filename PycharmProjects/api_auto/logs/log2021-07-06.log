@@ -1,0 +1,26 @@
+Tue, 06 Jul 2021 11:38:56-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 11:39:18-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 11:39:50-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 11:44:33-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 11:45:25-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 14:17:58-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 14:18:36-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 14:25:30-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 14:25:30-test_UserCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Tue, 06 Jul 2021 14:25:30-test_UserCreate-Assert.py-[line:71]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 用户早已存在 
+Tue, 06 Jul 2021 14:26:05-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 14:26:05-test_UserCreate-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Tue, 06 Jul 2021 14:26:05-test_UserCreate-Assert.py-[line:71]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 用户早已存在 
+Tue, 06 Jul 2021 14:28:51-GPU.py-GPU.py-[line:23]-INFO-[日志信息]: 开始执行脚本test_UserCreate:
+Tue, 06 Jul 2021 14:42:44-GPU.py-GPU.py-[line:52]-INFO-[日志信息]: 开始执行脚本test_recharge:
+Tue, 06 Jul 2021 14:48:07-GPU.py-GPU.py-[line:52]-INFO-[日志信息]: 开始执行脚本test_recharge:
+Tue, 06 Jul 2021 15:01:43-GPU.py-GPU.py-[line:52]-INFO-[日志信息]: 开始执行脚本test_recharge:
+Tue, 06 Jul 2021 15:02:11-GPU.py-GPU.py-[line:52]-INFO-[日志信息]: 开始执行脚本test_recharge:
+Tue, 06 Jul 2021 15:02:35-GPU.py-GPU.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_recharge:
+Tue, 06 Jul 2021 15:02:49-GPU.py-GPU.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_recharge:
+Tue, 06 Jul 2021 15:02:49-test_recharge-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Tue, 06 Jul 2021 15:02:49-test_recharge-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Tue, 06 Jul 2021 15:07:55-GPU.py-GPU.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_recharge:
+Tue, 06 Jul 2021 15:09:48-GPU.py-GPU.py-[line:51]-INFO-[日志信息]: 开始执行脚本test_recharge:
+Tue, 06 Jul 2021 15:09:48-test_recharge-Assert.py-[line:51]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Tue, 06 Jul 2021 15:09:48-test_recharge-Assert.py-[line:68]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  

@@ -1,0 +1,22 @@
+Fri, 24 Sep 2021 16:55:05-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Fri, 24 Sep 2021 16:55:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:07-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:08-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:08-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:09-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:10-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Fri, 24 Sep 2021 16:55:12-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+

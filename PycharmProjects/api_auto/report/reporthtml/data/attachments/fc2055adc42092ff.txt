@@ -1,0 +1,4 @@
+Wed, 08 Sep 2021 10:50:04-run_all_case.py-Register_case.py-[line:30]-INFO-[日志信息]: 开始执行脚本test_Register：
+
+Wed, 08 Sep 2021 10:50:04-test_Register-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 08 Sep 2021 10:50:04-test_Register-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  

@@ -1,0 +1,93 @@
+{
+  "uid" : "d14ec79cd180e2c8",
+  "name" : "test_Illegal_Character",
+  "fullName" : "test_case.Register_case.TestRegister#test_Illegal_Character",
+  "historyId" : "6395634db1eec2b8095d002b31325708",
+  "time" : {
+    "start" : 1632469373952,
+    "stop" : 1632469374292,
+    "duration" : 340
+  },
+  "description" : "手机号有非法字符",
+  "descriptionHtml" : "<p>手机号有非法字符</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "手机号有非法字符",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7bdf420f7e7ed460",
+      "name" : "log",
+      "source" : "7bdf420f7e7ed460.txt",
+      "type" : "text/plain",
+      "size" : 345
+    }, {
+      "uid" : "ca5be5cbbb6eb1a3",
+      "name" : "stdout",
+      "source" : "ca5be5cbbb6eb1a3.txt",
+      "type" : "text/plain",
+      "size" : 738
+    }, {
+      "uid" : "4baceb141606a2b1",
+      "name" : "stderr",
+      "source" : "4baceb141606a2b1.txt",
+      "type" : "text/plain",
+      "size" : 482
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "参数填写不正确，注册失败"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Register_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "22636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Register_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d14ec79cd180e2c8.json",
+  "parameterValues" : [ ]
+}
