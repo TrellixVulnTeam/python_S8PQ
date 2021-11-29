@@ -1,0 +1,4 @@
+INFO     run_all_case.py:Register_case.py:110 开始执行脚本test_Illegal_Character：
+
+INFO     test_Illegal_Character:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
+INFO     test_Illegal_Character:Assert.py:47 Response body msg == expected_msg, expected_msg is 手机号格式错误,body_msg is 手机号格式错误

@@ -1,0 +1,93 @@
+{
+  "uid" : "3eaecb3bf287c8db",
+  "name" : "test_no_pwd",
+  "fullName" : "test_case.Login_case.TestLogin#test_no_pwd",
+  "historyId" : "e215a3ce03bd316b3f15af64e39a9e39",
+  "time" : {
+    "start" : 1632454819684,
+    "stop" : 1632454819924,
+    "duration" : 240
+  },
+  "description" : "不填写密码进行登录",
+  "descriptionHtml" : "<p>不填写密码进行登录</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "不填写密码进行登录",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "790df740337c600c",
+      "name" : "log",
+      "source" : "790df740337c600c.txt",
+      "type" : "text/plain",
+      "size" : 303
+    }, {
+      "uid" : "4cf8363663e9f283",
+      "name" : "stdout",
+      "source" : "4cf8363663e9f283.txt",
+      "type" : "text/plain",
+      "size" : 98
+    }, {
+      "uid" : "6a89d0b1ace3e196",
+      "name" : "stderr",
+      "source" : "6a89d0b1ace3e196.txt",
+      "type" : "text/plain",
+      "size" : 440
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数填写不正确，登录失败"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "18736-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3eaecb3bf287c8db.json",
+  "parameterValues" : [ ]
+}

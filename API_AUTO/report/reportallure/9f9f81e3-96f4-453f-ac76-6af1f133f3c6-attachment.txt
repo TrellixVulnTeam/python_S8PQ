@@ -1,0 +1,1 @@
+INFO     run_all_case.py:Login_case.py:305 开始执行脚本test_wrong_pwd：

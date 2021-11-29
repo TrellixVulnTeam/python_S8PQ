@@ -1,0 +1,4 @@
+INFO     run_all_case.py:Register_case.py:135 开始执行脚本test_Registered_Num：
+
+INFO     test_Registered_Num:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
+INFO     test_Registered_Num:Assert.py:47 Response body msg == expected_msg, expected_msg is 手机号已注册，请登录,body_msg is 手机号已注册，请登录

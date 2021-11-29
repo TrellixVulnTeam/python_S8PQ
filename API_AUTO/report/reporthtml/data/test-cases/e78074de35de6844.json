@@ -1,0 +1,314 @@
+{
+  "uid" : "e78074de35de6844",
+  "name" : "test_No_Num",
+  "fullName" : "test_case.Register_case.TestRegister#test_No_Num",
+  "historyId" : "1d9f3e1f0c74e4158f8740d8b17c702f",
+  "time" : {
+    "start" : 1636970094363,
+    "stop" : 1636970094538,
+    "duration" : 175
+  },
+  "description" : "不填写手机号",
+  "descriptionHtml" : "<p>不填写手机号</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "不填写手机号",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "599b79908eb7a902",
+      "name" : "log",
+      "source" : "599b79908eb7a902.txt",
+      "type" : "text/plain",
+      "size" : 305
+    }, {
+      "uid" : "5a5dd59ebc470569",
+      "name" : "stdout",
+      "source" : "5a5dd59ebc470569.txt",
+      "type" : "text/plain",
+      "size" : 273
+    }, {
+      "uid" : "f0ebf737ef2c9dab",
+      "name" : "stderr",
+      "source" : "f0ebf737ef2c9dab.txt",
+      "type" : "text/plain",
+      "size" : 442
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "参数填写不正确，注册失败"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Register_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "20580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Register_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "5a28f34c04baa0b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632474691332,
+        "stop" : 1632474691631,
+        "duration" : 299
+      }
+    }, {
+      "uid" : "4016c8d19f50da09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632473701582,
+        "stop" : 1632473701898,
+        "duration" : 316
+      }
+    }, {
+      "uid" : "c643d922b7660a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632473539841,
+        "stop" : 1632473540196,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "75838999e8038579",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469960173,
+        "stop" : 1632469960491,
+        "duration" : 318
+      }
+    }, {
+      "uid" : "71248b8d4e147c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469734964,
+        "stop" : 1632469735274,
+        "duration" : 310
+      }
+    }, {
+      "uid" : "662683a758b37346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469654714,
+        "stop" : 1632469655061,
+        "duration" : 347
+      }
+    }, {
+      "uid" : "1d274e38b9fff4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469570109,
+        "stop" : 1632469570418,
+        "duration" : 309
+      }
+    }, {
+      "uid" : "1453e788db395b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469450600,
+        "stop" : 1632469450906,
+        "duration" : 306
+      }
+    }, {
+      "uid" : "75e2418fd51905e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632469373329,
+        "stop" : 1632469373620,
+        "duration" : 291
+      }
+    }, {
+      "uid" : "955e9688cf52e833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632468356031,
+        "stop" : 1632468356337,
+        "duration" : 306
+      }
+    }, {
+      "uid" : "da81c674d9f8aee1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632455633341,
+        "stop" : 1632455633918,
+        "duration" : 577
+      }
+    }, {
+      "uid" : "ec8cb4345af18095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632454814830,
+        "stop" : 1632454815172,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "956606d100d5a8bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632453993897,
+        "stop" : 1632453994199,
+        "duration" : 302
+      }
+    }, {
+      "uid" : "f47cafe164cedf14",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1632453123853,
+        "stop" : 1632453124032,
+        "duration" : 179
+      }
+    }, {
+      "uid" : "97f14605fb4a4bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632453012258,
+        "stop" : 1632453012583,
+        "duration" : 325
+      }
+    }, {
+      "uid" : "34b0ddcb686500f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632387031023,
+        "stop" : 1632387031343,
+        "duration" : 320
+      }
+    }, {
+      "uid" : "c9e34dc2d711bf7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631518360070,
+        "stop" : 1631518360358,
+        "duration" : 288
+      }
+    }, {
+      "uid" : "2086a76af6a793bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631518039945,
+        "stop" : 1631518040149,
+        "duration" : 204
+      }
+    }, {
+      "uid" : "2bdab548dd1ea041",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631503266360,
+        "stop" : 1631503266594,
+        "duration" : 234
+      }
+    }, {
+      "uid" : "f79bd12d2d10b7b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631502912281,
+        "stop" : 1631502912484,
+        "duration" : 203
+      }
+    }, {
+      "uid" : "9a3bee8f5f99928c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631502407182,
+        "stop" : 1631502407349,
+        "duration" : 167
+      }
+    }, {
+      "uid" : "5b0dac6e39f7e435",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1631069450666,
+        "stop" : 1631069450773,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "6fef22ba61ec2dc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631069404437,
+        "stop" : 1631069404611,
+        "duration" : 174
+      }
+    }, {
+      "uid" : "97aa6e79e604bc3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629283723852,
+        "stop" : 1629283724040,
+        "duration" : 188
+      }
+    }, {
+      "uid" : "7572a3ac64056f12",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1629186773733,
+        "stop" : 1629186773865,
+        "duration" : 132
+      }
+    }, {
+      "uid" : "41dbe386d0d8a856",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629186619631,
+        "stop" : 1629186619828,
+        "duration" : 197
+      }
+    }, {
+      "uid" : "bdeab3c74ddb30ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629185608590,
+        "stop" : 1629185608804,
+        "duration" : 214
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e78074de35de6844.json",
+  "parameterValues" : [ ]
+}

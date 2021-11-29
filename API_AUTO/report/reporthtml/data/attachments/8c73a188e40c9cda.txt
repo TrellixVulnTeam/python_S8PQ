@@ -1,0 +1,4 @@
+INFO     run_all_case.py:Register_case.py:237 开始执行脚本test_CodeError：
+
+INFO     test_CodeError:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
+ERROR    test_CodeError:Assert.py:50 Response body msg != expected_msg, expected_msg is 请重新获取短信验证码,body_msg is 验证码无效，请重新获取

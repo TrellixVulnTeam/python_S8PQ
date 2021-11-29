@@ -1,0 +1,4 @@
+Wed, 18 Aug 2021 18:48:46-run_all_case.py-Login_case.py-[line:199]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Wed, 18 Aug 2021 18:48:46-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 18 Aug 2021 18:48:46-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 

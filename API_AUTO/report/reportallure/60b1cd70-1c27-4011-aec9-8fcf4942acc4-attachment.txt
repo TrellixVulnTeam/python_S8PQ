@@ -1,0 +1,2 @@
+Tue, 17 Aug 2021 15:52:53-run_all_case.py-Register_case.py-[line:60]-INFO-[日志信息]: 开始执行脚本test_No_Num：
+

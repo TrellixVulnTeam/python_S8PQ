@@ -1,0 +1,4 @@
+INFO     run_all_case.py:Login_case.py:65 开始执行脚本test_login：
+
+INFO     test_login:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
+INFO     test_login:Assert.py:47 Response body msg == expected_msg, expected_msg is ,body_msg is

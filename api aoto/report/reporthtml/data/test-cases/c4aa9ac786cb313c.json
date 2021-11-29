@@ -1,0 +1,93 @@
+{
+  "uid" : "c4aa9ac786cb313c",
+  "name" : "test_nonexistent_num",
+  "fullName" : "test_case.Login_case.TestLogin#test_nonexistent_num",
+  "historyId" : "6daa9c69cf928223a1f8b803b967af94",
+  "time" : {
+    "start" : 1632454819021,
+    "stop" : 1632454819215,
+    "duration" : 194
+  },
+  "description" : "输入不存在的账号",
+  "descriptionHtml" : "<p>输入不存在的账号</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "输入不存在的账号",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fab543ffe6b7c22b",
+      "name" : "log",
+      "source" : "fab543ffe6b7c22b.txt",
+      "type" : "text/plain",
+      "size" : 330
+    }, {
+      "uid" : "933b330479094849",
+      "name" : "stdout",
+      "source" : "933b330479094849.txt",
+      "type" : "text/plain",
+      "size" : 98
+    }, {
+      "uid" : "302112b7acad1049",
+      "name" : "stderr",
+      "source" : "302112b7acad1049.txt",
+      "type" : "text/plain",
+      "size" : 467
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "参数填写不正确，登录失败"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Login_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "18736-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Login_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4aa9ac786cb313c.json",
+  "parameterValues" : [ ]
+}

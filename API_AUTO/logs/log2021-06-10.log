@@ -1,0 +1,97 @@
+Thu, 10 Jun 2021 17:29:13-run_all_case.py-run_all_case.py-[line:21]-INFO-[日志信息]: ==================================2021-06-10 17:29:13===================================
+Thu, 10 Jun 2021 17:29:13-run_all_case.py-Image_warehouse.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Thu, 10 Jun 2021 17:29:13-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:13-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:13-run_all_case.py-Image_warehouse.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Thu, 10 Jun 2021 17:29:13-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:13-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:13-run_all_case.py-Image_warehouse.py-[line:109]-INFO-[日志信息]: 开始执行脚本test_PublicCreate_Cache:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:134]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_False:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:157]-INFO-[日志信息]: 开始执行脚本test_PublicCheckName_True:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:180]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:205]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_NotImageName:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:230]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheYes:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:255]-INFO-[日志信息]: 开始执行脚本test_PublicUpdate_CacheNo:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:279]-INFO-[日志信息]: 开始执行脚本test_PublicStartCache:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:301]-INFO-[日志信息]: 开始执行脚本test_PublicRemoveCache:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_PublicCreate:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Image_warehouse.py-[line:55]-INFO-[日志信息]: 开始执行脚本test_PublicList:
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:14-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:15-run_all_case.py-Image_warehouse.py-[line:323]-INFO-[日志信息]: 开始执行脚本test_PrivateList:
+Thu, 10 Jun 2021 17:29:15-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!
+Thu, 10 Jun 2021 17:29:15-run_all_case.py-Assert.py-[line:28]-INFO-[日志信息]: > backend response test pass!
+
+Thu, 10 Jun 2021 17:29:15-run_all_case.py-Image_warehouse.py-[line:346]-INFO-[日志信息]: 开始执行脚本test_PrivateUpdate:
+Thu, 10 Jun 2021 17:29:15-run_all_case.py-Assert.py-[line:23]-INFO-[日志信息]: > http status_code pass!

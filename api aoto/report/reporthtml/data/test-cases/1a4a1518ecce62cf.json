@@ -1,0 +1,61 @@
+{
+  "uid" : "1a4a1518ecce62cf",
+  "name" : "test_login[inBody2-expData2]",
+  "fullName" : "test_case.test_login.TestLogin#test_login",
+  "historyId" : "9e8b223ae10858a08392885ec24abbdb",
+  "time" : {
+    "start" : 1636712206621,
+    "stop" : 1636712206682,
+    "duration" : 61
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '连续超过 6 次错误，请于 5 分钟后重新登录' == '帐号未注册'\n  - 帐号未注册\n  + 连续超过 6 次错误，请于 5 分钟后重新登录",
+  "statusTrace" : "self = <test_case.test_login.TestLogin object at 0x00000265D978FC70>\ninBody = {'captcha_id': 'ada9a9e3-ae9e-4167-9f83-de4d51baec32', 'captcha_value': 'myyv', 'password': 'a753c776ff3ed4fefa2af948af87448910153281', 'phone': '18801053'}\nexpData = {'code': 200, 'msg': '帐号未注册'}\n\n    @pytest.mark.parametrize('inBody,expData', get_yaml_data('../test_data/test.yaml'))  # 数据驱动方法\n    def test_login(self, inBody, expData):\n        resData = Login().login(inData=inBody, mode=False)\n>       assert resData['msg'] == expData['msg']\nE       AssertionError: assert '连续超过 6 次错误，请于 5 分钟后重新登录' == '帐号未注册'\nE         - 帐号未注册\nE         + 连续超过 6 次错误，请于 5 分钟后重新登录\n\ntest_login.py:32: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "18380-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 200, 'msg': '帐号未注册'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'phone': '18801053', 'password': '123456Aa', 'captcha_id': 'ada9a9e3-ae9e-4167-9f83-de4d51baec32', 'captcha_value': 'myyv'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a4a1518ecce62cf.json",
+  "parameterValues" : [ "{'code': 200, 'msg': '帐号未注册'}", "{'phone': '18801053', 'password': '123456Aa', 'captcha_id': 'ada9a9e3-ae9e-4167-9f83-de4d51baec32', 'captcha_value': 'myyv'}" ]
+}

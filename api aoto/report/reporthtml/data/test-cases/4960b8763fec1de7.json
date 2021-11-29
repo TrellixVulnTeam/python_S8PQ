@@ -1,0 +1,59 @@
+{
+  "uid" : "4960b8763fec1de7",
+  "name" : "test_login[inBody1-expData1]",
+  "fullName" : "test_case.test_login.TestLogin#test_login",
+  "historyId" : "ab1f34654117103c7f32cf01ac9ff773",
+  "time" : {
+    "start" : 1636712023099,
+    "stop" : 1636712023200,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "8136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 200, 'msg': '手机号或密码错误，请重试'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'phone': '18801053303', 'password': '123', 'captcha_id': '12cbc037-3dfc-420e-9d58-3364ad05ef46', 'captcha_value': 'ThoM'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4960b8763fec1de7.json",
+  "parameterValues" : [ "{'code': 200, 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': '123', 'captcha_id': '12cbc037-3dfc-420e-9d58-3364ad05ef46', 'captcha_value': 'ThoM'}" ]
+}

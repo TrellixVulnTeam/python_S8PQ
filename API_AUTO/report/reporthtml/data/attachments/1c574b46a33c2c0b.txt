@@ -1,0 +1,1 @@
+INFO     run_all_case.py:Register_case.py:237 开始执行脚本test_CodeError：
