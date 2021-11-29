@@ -1,0 +1,3 @@
+INFO     run_all_case.py:Login_case.py:305 开始执行脚本test_wrong_pwd：
+
+ERROR    run_all_case.py:Login_case.py:316 Error! 没有触发等待 5 分钟

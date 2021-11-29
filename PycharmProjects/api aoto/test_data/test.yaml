@@ -1,0 +1,41 @@
+# 登录接口
+
+-
+  url: login
+  method: POST
+- #test_01用例
+  detail: 账号密码都正确
+  data:
+    phone: "18801053303"
+    password: "123456Aa"
+    captcha_id: "111"
+  resp:
+    code: 200
+    msg: ""
+
+- #test_02用例
+  detail: 账号正确密码错误
+  data:
+    phone: "18801053303"
+    password: "123"
+  resp:
+    code: 200
+    msg: "手机号或密码错误，请重试"
+
+- #test_03用例
+  detail: 账号错误密码正确
+  data:
+    phone: "188010533"
+    password: "123456Aa"
+  resp:
+    code: 200
+    msg: "帐号未注册"
+
+- #test_04用例
+  detail: 账号错误密码错误
+  data:
+    phone: "18801053124"
+    password: "123456A13a"
+  resp:
+    code: 200
+    msg: "帐号未注册"

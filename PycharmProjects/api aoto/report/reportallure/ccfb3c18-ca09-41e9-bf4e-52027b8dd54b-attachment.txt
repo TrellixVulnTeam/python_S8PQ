@@ -1,0 +1,4 @@
+Fri, 24 Sep 2021 15:52:44-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Fri, 24 Sep 2021 15:52:44-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Fri, 24 Sep 2021 15:52:44-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
