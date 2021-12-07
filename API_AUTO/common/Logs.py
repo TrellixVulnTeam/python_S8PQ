@@ -2,9 +2,11 @@ import logging
 import os.path
 import time
 
+from os.path import get_log_path
+
 
 def create_file():
-    log_dir = os.path.dirname(os.getcwd()) + '/logs/log'`
+    log_dir = get_log_path()
     if not os.path.exists(log_dir):
         os.mkdir(log_dir)
     else:

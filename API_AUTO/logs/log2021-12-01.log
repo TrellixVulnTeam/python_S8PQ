@@ -1,0 +1,273 @@
+Wed, 01 Dec 2021 10:32:55-pytest-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Wed, 01 Dec 2021 10:32:55-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 10:32:55-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Wed, 01 Dec 2021 10:32:55-pytest-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Wed, 01 Dec 2021 10:32:55-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 10:32:55-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 10:32:55-pytest-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Wed, 01 Dec 2021 10:32:55-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 10:32:55-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 10:32:55-pytest-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Wed, 01 Dec 2021 10:32:55-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 10:32:55-test_Num_Illegal_Character-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 10:32:56-pytest-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Wed, 01 Dec 2021 10:32:56-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 10:32:56-test_wrong_num-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 10:32:56-pytest-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Wed, 01 Dec 2021 10:32:56-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 10:32:56-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 10:32:56-pytest-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Wed, 01 Dec 2021 10:32:56-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 10:32:56-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 10:32:56-pytest-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Wed, 01 Dec 2021 10:32:56-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 10:32:56-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 10:32:57-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 10:32:57-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 10:32:57-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 10:32:57-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 10:32:57-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 10:32:58-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 10:32:58-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 10:32:58-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 10:32:58-pytest-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Wed, 01 Dec 2021 10:32:58-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 10:32:58-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Wed, 01 Dec 2021 11:40:02-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-01 11:40:02===================================
+Wed, 01 Dec 2021 11:40:22-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-01 11:40:22===================================
+Wed, 01 Dec 2021 11:43:32-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-01 11:43:32===================================
+Wed, 01 Dec 2021 11:43:32-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Wed, 01 Dec 2021 11:43:32-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:43:32-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Wed, 01 Dec 2021 11:43:32-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Wed, 01 Dec 2021 11:43:33-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:43:33-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:43:33-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Wed, 01 Dec 2021 11:43:33-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:43:33-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:43:33-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Wed, 01 Dec 2021 11:43:33-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:43:33-test_Num_Illegal_Character-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 11:43:33-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Wed, 01 Dec 2021 11:43:33-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:43:33-test_wrong_num-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 11:43:33-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Wed, 01 Dec 2021 11:43:34-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:43:34-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:43:34-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Wed, 01 Dec 2021 11:43:34-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:43:34-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:43:34-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Wed, 01 Dec 2021 11:43:34-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:43:34-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:43:35-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:43:35-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:43:35-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:43:35-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:43:35-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:43:35-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:43:36-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:43:36-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:43:36-run_all_case.py-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Wed, 01 Dec 2021 11:43:36-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:43:36-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Wed, 01 Dec 2021 11:44:03-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-01 11:44:03===================================
+Wed, 01 Dec 2021 11:44:04-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Wed, 01 Dec 2021 11:44:04-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:44:04-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Wed, 01 Dec 2021 11:44:04-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Wed, 01 Dec 2021 11:44:04-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:44:04-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:44:04-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Wed, 01 Dec 2021 11:44:04-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:44:04-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:44:04-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Wed, 01 Dec 2021 11:44:05-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:44:05-test_Num_Illegal_Character-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 11:44:05-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Wed, 01 Dec 2021 11:44:05-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:44:05-test_wrong_num-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 11:44:05-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Wed, 01 Dec 2021 11:44:05-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:44:05-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:44:05-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Wed, 01 Dec 2021 11:44:05-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:44:05-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:44:05-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Wed, 01 Dec 2021 11:44:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:06-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:07-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:07-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:07-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:07-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:44:07-run_all_case.py-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Wed, 01 Dec 2021 11:44:07-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:44:07-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Wed, 01 Dec 2021 11:49:25-pytest-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Wed, 01 Dec 2021 11:49:46-pytest-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Wed, 01 Dec 2021 11:49:46-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:49:46-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:49:46-pytest-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Wed, 01 Dec 2021 11:49:46-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:49:46-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:49:46-pytest-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Wed, 01 Dec 2021 11:49:46-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:49:46-test_Num_Illegal_Character-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 11:49:46-pytest-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Wed, 01 Dec 2021 11:49:47-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:49:47-test_wrong_num-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 11:49:47-pytest-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Wed, 01 Dec 2021 11:49:47-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:49:47-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:49:47-pytest-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Wed, 01 Dec 2021 11:49:47-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:49:47-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:49:47-pytest-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Wed, 01 Dec 2021 11:49:47-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:49:47-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:49:48-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:49:48-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:49:48-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=手机号或密码错误，请重试.
+
+Wed, 01 Dec 2021 11:49:48-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:49:48-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:49:48-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:49:49-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:49:49-pytest-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:49:49-pytest-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Wed, 01 Dec 2021 11:49:49-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:49:49-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Wed, 01 Dec 2021 11:53:08-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-01 11:53:08===================================
+Wed, 01 Dec 2021 11:53:08-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Wed, 01 Dec 2021 11:53:09-test_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:53:09-test_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  
+Wed, 01 Dec 2021 11:53:09-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Wed, 01 Dec 2021 11:53:09-test_no_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:53:09-test_no_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:53:09-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Wed, 01 Dec 2021 11:53:09-test_nonexistent_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:53:09-test_nonexistent_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:53:09-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Wed, 01 Dec 2021 11:53:09-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:53:09-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 帐号未注册,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 11:53:09-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Wed, 01 Dec 2021 11:53:09-test_wrong_num-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:53:09-test_wrong_num-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 帐号未注册,body_msg is 帐号未注册 
+Wed, 01 Dec 2021 11:53:09-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Wed, 01 Dec 2021 11:53:10-test_no_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:53:10-test_no_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:53:10-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Wed, 01 Dec 2021 11:53:10-test_no_num_pwd-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:53:10-test_no_num_pwd-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误 
+Wed, 01 Dec 2021 11:53:10-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Wed, 01 Dec 2021 11:53:10-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=0, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:10-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=1, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:10-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=2, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:10-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=3, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=4, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=5, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=6, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=7, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=8, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:11-run_all_case.py-Login_case.py-[line:315]-INFO-[日志信息]: login result: times=9, msg=连续超过 6 次错误，请于 5 分钟后重新登录.
+
+Wed, 01 Dec 2021 11:53:12-run_all_case.py-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Wed, 01 Dec 2021 11:53:12-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
+Wed, 01 Dec 2021 11:53:12-test_code_login-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is ,body_msg is  

@@ -1,4 +1,0 @@
-Fri, 24 Sep 2021 11:10:19-run_all_case.py-Login_case.py-[line:331]-INFO-[日志信息]: 开始执行脚本test_code_login：
-
-Fri, 24 Sep 2021 11:10:19-test_code_login-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
-Fri, 24 Sep 2021 11:10:19-test_code_login-Assert.py-[line:50]-ERROR-[日志信息]: Response body msg != expected_msg, expected_msg is ,body_msg is 连续超过 6 次错误，请于 5 分钟后重新登录 

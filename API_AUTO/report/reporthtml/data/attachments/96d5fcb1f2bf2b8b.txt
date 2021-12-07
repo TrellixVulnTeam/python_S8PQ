@@ -1,4 +1,0 @@
-Wed, 08 Sep 2021 10:50:06-run_all_case.py-Login_case.py-[line:145]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
-
-Wed, 08 Sep 2021 10:50:06-test_Num_Illegal_Character-Assert.py-[line:30]-INFO-[日志信息]: statusCode true, expected_code is 200, statusCode is 200 
-Wed, 08 Sep 2021 10:50:06-test_Num_Illegal_Character-Assert.py-[line:47]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试 

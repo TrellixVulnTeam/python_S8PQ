@@ -1,4 +1,0 @@
-INFO     run_all_case.py:Login_case.py:147 开始执行脚本test_Num_Illegal_Character：
-
-INFO     test_Num_Illegal_Character:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
-ERROR    test_Num_Illegal_Character:Assert.py:50 Response body msg != expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 连续超过 6 次错误，请于 5 分钟后重新登录

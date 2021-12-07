@@ -1,19 +1,6 @@
 import pytest
+from string import Template
 
-
-class Test1:
-
-    def test_01(self):
-        print("测试1")
-
-    def test_02(self):
-        print("测试2")
-
-    def test_03(self, db):
-        print("测试3："+str(db))
-
-
-
-
-
-
+tpe = Template("name is $name, age $age")
+d = {'name': 'zty', 'age': 'age'}
+print(tpe.substitute(d))

@@ -1,0 +1,31 @@
+- name: 用户注册
+  request:
+    url: https://test.autodl.com:33443/api/v1/register
+    method: post
+    data:
+      password: "123456aa"
+      phone: $phone
+      v_code: "666666"
+  validata: None
+
+- name: 手机号为空
+  request:
+    url: https://test.autodl.com:33443/api/v1/register
+    method: post
+    data:
+      password: "123456aa"
+      phone: ""
+      v_code: "666666"
+  validata:
+    eq: {msg: '请求参数错误'}
+
+- name: 密码为空
+  request:
+    url: https://test.autodl.com:33443/api/v1/register
+    method: post
+    data:
+      password: ""
+      phone: "18801053212"
+      v_code: "666666"
+  validata:
+    eq: {msg: '请求参数错误'}

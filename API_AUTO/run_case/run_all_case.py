@@ -11,20 +11,20 @@ if __name__ == "__main__":
     log = Log(file)
     logger = log.Logger
 
-    # 运行整个目录 pytest.main(['../test_case', '--html=../report/report.html'])
+    # 运行整个目录 pytest.main(['../cases', '--html=../report/report.html'])
     # logger.info("开始执行脚本") >pytest E:\project\Xiaoniu_Api_Rili\Run\run_all_case.py
 
     try:
         print("开始执行脚本")
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
-        # pytest.main(['C:\\Users\张铁瀛\\PycharmProjects\\api aoto\\test_case\\Image_warehouse.py', "--alluredir",
+        # pytest.main(['C:\\Users\张铁瀛\\PycharmProjects\\api aoto\\cases\\Image_warehouse.py', "--alluredir",
         #              "../report/reportallure/"])
         # pytest.main(
-        #     ['../test_case/Register_case.py', '../test_case/Login_case.py', "--alluredir", "../report/reportallure/",
+        #     ['../cases/Register_case.py', '../cases/Login_case.py', "--alluredir", "../report/reportallure/",
         #      '-W', 'ignore:Module already imported:pytest.PytestWarning'])
         pytest.main(
-            ['../test_case/Login_case.py', "--alluredir", "../report/reportallure/",
+            ['../cases/Login_case.py', "--alluredir",  "../report/reportallure/", "--clean-alluredir",
              '-W', 'ignore:Module already imported:pytest.PytestWarning'])
 
         print("脚本执行完成")

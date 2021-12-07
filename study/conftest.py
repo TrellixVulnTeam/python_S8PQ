@@ -12,13 +12,8 @@ import pytest
 def exe_sql(request):
     # print(request.param)
     print("执行sql查询")
-    yield request.param
+    yield
     print("关闭sql")
 
 
-@pytest.fixture(scope="function", autouse=False, name="db")
-def exe_sql(request):
-    # print(request.param)
-    print("执行sql查询")
-    yield request.param
-    print("关闭sql")
+

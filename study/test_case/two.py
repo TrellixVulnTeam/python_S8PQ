@@ -1,4 +1,10 @@
-class Test2:
+import pytest
 
-    def test_01_get(self, db):
-        print("获取XXX"+db)
+
+class Test2:
+    @pytest.mark.parametrize('caseinfo', {'name', 'AAA'}, [{'age', 'BBB'}])
+    def test_01_get(self, caseinfo):
+        print("获取Token" + caseinfo)
+
+
+
