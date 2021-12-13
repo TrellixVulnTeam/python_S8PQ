@@ -8,12 +8,12 @@ from data import Random_number
 
 class Register:
 
-    def register(self, inData, mode=False):
+    def register(self, inData):
         base_url = config.adss.server_ip()
         url = base_url + 'register'
         payload = inData
         res = RequestsHandler().post_Req(url, json=payload)
-        return res
+        return res.json()
 
 
 if __name__ == '__main__':

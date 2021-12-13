@@ -23,7 +23,7 @@ class Login:
         # 字典名[键名] = 新的值   字典修改值操作
         pwd = inData["password"]
         inData["password"] = get_sha1(pwd)
-        url = base_url + 'login'
+        url = base_url + 'new_login'
         # 参数
         payload = inData
 
@@ -43,7 +43,6 @@ class Login:
 
 
 if __name__ == '__main__':
-    cap_id, cap_val = get_captcha()
     res = Login().login(
-        {"phone": "18801053303", "password": "123456Aa", "captcha_id": cap_id, "captcha_value": cap_val})
+        {"phone": "18801053303", "password": "123456Aa", "picture_id": "", "v_code": ""})
     pprint.pprint(res)

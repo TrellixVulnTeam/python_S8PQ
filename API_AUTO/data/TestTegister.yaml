@@ -1,6 +1,6 @@
 # 注册接口
 
--
+- #111
   url: register
   method: POST
 - #test_01用例
@@ -22,3 +22,13 @@
   resp:
     code: 200
     msg: "请求参数错误"
+
+- #test_03用例
+  detail: 注册过的手机号
+  data:
+    password: "123456"
+    phone: $phone
+    v_code: "666666"
+  resp:
+    code: 200
+    msg: "手机号已注册"

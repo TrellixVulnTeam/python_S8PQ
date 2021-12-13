@@ -1,17 +1,20 @@
+from pprint import pprint
+
 import requests
 import config.adss
 
 
 def get_captcha():
     base_url = config.adss.server_ip()
-    url = base_url + 'debug/captcha/get'
+    url = base_url + 'captcha/block_puzzle'
     headers = {
         "Content-Type": "application/json;charset=UTF-8"
     }
     r = requests.get(url=url, headers=headers)
-    cap_id = r.json()['data']['id']
-    cap_val = r.json()['data']['value']
-    return cap_id, cap_val
+    pprint(r.json())
+    # cap_id = r.json()['data']['id']
+    # cap_val = r.json()['data']['value']
+    # return cap_id, cap_val
 
 
 def login():
@@ -47,4 +50,4 @@ def change_ticket():
 
 
 if __name__ == '__main__':
-    change_ticket()
+    get_captcha()

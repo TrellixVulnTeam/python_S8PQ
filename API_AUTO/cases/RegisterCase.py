@@ -10,3 +10,7 @@ class TestRegister:
     def test_register(self, inBody, expData):
         resData = Register().register(inData=inBody)
         assert resData['msg'] == expData['msg']
+
+
+if __name__ == '__main__':
+    pytest.main('-vs', 'RegisterCase.py')

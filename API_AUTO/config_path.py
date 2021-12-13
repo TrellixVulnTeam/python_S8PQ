@@ -14,7 +14,7 @@ def get_login_yaml_path():
 
     # 4、使用 join 来拼接 C文件名 + aa.py 的绝对路径
     aa_DIR = os.path.join(B_DIR, "login.yaml")
-
+    print(aa_DIR)
     return aa_DIR
 
 
@@ -30,7 +30,7 @@ def get_register_yaml_path():
     B_DIR = os.path.join(path2, "data")
 
     # 4、使用 join 来拼接 C文件名 + aa.py 的绝对路径
-    aa_DIR = os.path.join(B_DIR, "register11.yaml")
+    aa_DIR = os.path.join(B_DIR, "TestTegister.yaml")
     print(aa_DIR)
     return aa_DIR
 
