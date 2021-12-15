@@ -2,13 +2,12 @@ import os
 import sys
 import allure
 import config
-from common import Assert, Consts
+from common import Assert, Consts, Random_number
 from common.Logs import Log
 from common.Request import RequestsHandler
 from common.Return_Response import dict_style
 from Auth import AutoDL_auth
 from config import adss
-from data import Random_number
 
 file = os.path.basename(sys.argv[0])
 log = Log(file)

@@ -1,9 +1,7 @@
 from pprint import pprint
-import json
 import config.adss
-from common import Request
+from common import Random_number
 from common.Request import RequestsHandler
-from data import Random_number
 
 
 class Register:

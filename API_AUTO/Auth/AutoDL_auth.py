@@ -26,8 +26,8 @@ def login():
     r = requests.post(url=url, json={
         "picture_id": "",
         "v_code": "",
-        "phone": "16666666666",
-        "password": "7af2d10b73ab7cd8f603937f7697cb5fe432c7ff"
+        "phone": "18801053303",
+        "password": "a753c776ff3ed4fefa2af948af87448910153281"
     }, headers=headers)
     ticket = r.json()["data"]["ticket"]
     return ticket
@@ -45,9 +45,8 @@ def change_ticket():
     }
     r = requests.post(url=url, json=json, headers=headers)
     token = r.json()["data"]["token"]
-    print(token)
     return token
 
 
 if __name__ == '__main__':
-    get_captcha()
+    change_ticket()

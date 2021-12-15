@@ -9,6 +9,7 @@ class TestLogin:
     @pytest.mark.parametrize('inBody,expData', get_login_yaml_data())  # 数据驱动方法
     def test_login(self, inBody, expData):
         resData = Login().login(inData=inBody, mode=False)
+        print(resData)
         assert resData['msg'] == expData['msg']
 
 
