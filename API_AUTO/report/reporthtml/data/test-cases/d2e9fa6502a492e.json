@@ -1,0 +1,77 @@
+{
+  "uid" : "d2e9fa6502a492e",
+  "name" : "test_login[inBody1-expData1]",
+  "fullName" : "cases.LoginCase.TestLogin#test_login",
+  "historyId" : "5bf648d3c3ee876bc97ef069c75692df",
+  "time" : {
+    "start" : 1639648083508,
+    "stop" : 1639648083569,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "928c679d1c044711",
+      "name" : "stdout",
+      "source" : "928c679d1c044711.txt",
+      "type" : "text/plain",
+      "size" : 113
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "LoginCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "33312-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.LoginCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 200, 'msg': '手机号或密码错误，请重试'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'phone': '18801053303', 'password': '123'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2e9fa6502a492e.json",
+  "parameterValues" : [ "{'code': 200, 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': '123'}" ]
+}

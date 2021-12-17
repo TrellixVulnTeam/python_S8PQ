@@ -18,14 +18,12 @@ if __name__ == "__main__":
         print("开始执行脚本")
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
-        # pytest.main(['C:\\Users\张铁瀛\\PycharmProjects\\api aoto\\cases\\Image_warehouse.py', "--alluredir",
-        #              "../report/reportallure/"])
-        # pytest.main(
-        #     ['../cases/Register_case.py', '../cases/Login_case.py', "--alluredir", "../report/reportallure/",
-        #      '-W', 'ignore:Module already imported:pytest.PytestWarning'])
         pytest.main(
-            ['../cases/Login_case.py', "--alluredir",  "../report/reportallure/", "--clean-alluredir",
+            ['../cases/RegisterCase.py', '../cases/LoginCase.py', "--alluredir",  "../report/reportallure/","--clean-alluredir",
              '-W', 'ignore:Module already imported:pytest.PytestWarning'])
+        # pytest.main(
+        #     ['../cases', '-vs', "--alluredir", "../report/reportallure/", "--clean-alluredir",
+        #      '-W', 'ignore:Module already imported:pytest.PytestWarning'])
 
         print("脚本执行完成")
     except Exception as e:

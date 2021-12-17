@@ -1,4 +1,0 @@
-INFO     run_all_case.py:Login_case.py:147 开始执行脚本test_Num_Illegal_Character：
-
-INFO     test_Num_Illegal_Character:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
-INFO     test_Num_Illegal_Character:Assert.py:47 Response body msg == expected_msg, expected_msg is 帐号未注册,body_msg is 帐号未注册

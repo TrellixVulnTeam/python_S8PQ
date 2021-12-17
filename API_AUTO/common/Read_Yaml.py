@@ -1,7 +1,7 @@
 from string import Template
 
 import yaml
-from config_path import get_login_yaml_path, get_register_yaml_path, get_recharge_yaml_path
+from config_path import get_login_yaml_path, get_register_yaml_path, get_recharge_yaml_path, get_instance_yaml_path
 from common import Random_number
 
 
@@ -71,8 +71,27 @@ def get_recharge_yaml_data():
     return reqList  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
 
 
+def get_instance_yaml_data():
+    reqList = []  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
+    # 1- 读取文件操作，从磁盘读取到内存
+    fo = open(get_instance_yaml_path(), 'r', encoding="utf-8")
+    # 2- 使用yaml方法获取数据
+    res1 = yaml.load(fo, Loader=yaml.FullLoader)
+    print(res1)
+    fo.close()
+    # 删掉下标0的无用数据 删除集合里面的{'url': 'login', 'method': 'POST'}字典
+    del res1[0]
+    for one1 in res1:
+        reqList.append((one1['data'], one1['resp']))
+
+    print('>> reqList: ', reqList)
+    print('>> reqList len: ', reqList.__len__())
+
+    return reqList  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
+
+
 if __name__ == '__main__':
-    get_recharge_yaml_data()
+    get_instance_yaml_data()
     # req = get_login_yaml_data()
     # for one in req:
     #     print(one)

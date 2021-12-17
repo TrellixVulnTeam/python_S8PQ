@@ -1,0 +1,33 @@
+Thu, 16 Dec 2021 15:54:28-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 15:54:28===================================
+Thu, 16 Dec 2021 15:55:07-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 15:55:07===================================
+Thu, 16 Dec 2021 15:55:08-run_all_case.py-Login_case.py-[line:68]-INFO-[日志信息]: 开始执行脚本test_login：
+
+Thu, 16 Dec 2021 15:55:09-run_all_case.py-Login_case.py-[line:94]-INFO-[日志信息]: 开始执行脚本test_no_num：
+
+Thu, 16 Dec 2021 15:55:09-run_all_case.py-Login_case.py-[line:120]-INFO-[日志信息]: 开始执行脚本test_nonexistent_num：
+
+Thu, 16 Dec 2021 15:55:10-run_all_case.py-Login_case.py-[line:147]-INFO-[日志信息]: 开始执行脚本test_Num_Illegal_Character：
+
+Thu, 16 Dec 2021 15:55:11-run_all_case.py-Login_case.py-[line:201]-INFO-[日志信息]: 开始执行脚本test_wrong_num：
+
+Thu, 16 Dec 2021 15:55:11-run_all_case.py-Login_case.py-[line:228]-INFO-[日志信息]: 开始执行脚本test_no_pwd：
+
+Thu, 16 Dec 2021 15:55:12-run_all_case.py-Login_case.py-[line:282]-INFO-[日志信息]: 开始执行脚本test_no_num_pwd：
+
+Thu, 16 Dec 2021 15:55:13-run_all_case.py-Login_case.py-[line:309]-INFO-[日志信息]: 开始执行脚本test_wrong_pwd：
+
+Thu, 16 Dec 2021 15:55:13-run_all_case.py-Login_case.py-[line:339]-INFO-[日志信息]: 开始执行脚本test_code_login：
+
+Thu, 16 Dec 2021 15:55:23-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 15:55:23===================================
+Thu, 16 Dec 2021 15:56:56-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 15:56:56===================================
+Thu, 16 Dec 2021 15:57:53-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 15:57:53===================================
+Thu, 16 Dec 2021 15:59:15-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 15:59:15===================================
+Thu, 16 Dec 2021 15:59:23-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 15:59:23===================================
+Thu, 16 Dec 2021 15:59:58-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 15:59:58===================================
+Thu, 16 Dec 2021 16:01:16-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 16:01:16===================================
+Thu, 16 Dec 2021 16:01:36-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 16:01:36===================================
+Thu, 16 Dec 2021 16:02:05-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 16:02:05===================================
+Thu, 16 Dec 2021 17:46:38-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 17:46:38===================================
+Thu, 16 Dec 2021 17:47:05-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 17:47:05===================================
+Thu, 16 Dec 2021 17:47:24-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 17:47:24===================================
+Thu, 16 Dec 2021 17:48:02-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2021-12-16 17:48:02===================================

@@ -2,7 +2,7 @@ import logging
 import os.path
 import time
 
-from os.path import get_log_path
+from config_path import get_log_path
 
 
 def create_file():
