@@ -26,7 +26,7 @@ def login():
     r = requests.post(url=url, json={
         "picture_id": "",
         "v_code": "",
-        "phone": "18801053303",
+        "phone": "18801053333",
         "password": "a753c776ff3ed4fefa2af948af87448910153281"
     }, headers=headers)
     ticket = r.json()["data"]["ticket"]
@@ -49,4 +49,4 @@ def change_ticket():
 
 
 if __name__ == '__main__':
-    change_ticket()
+    login()

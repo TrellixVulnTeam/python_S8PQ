@@ -1,0 +1,61 @@
+{
+  "uid" : "317d169513714ab7",
+  "name" : "test_register[inBody1-expData1]",
+  "fullName" : "cases.test_RechargeCase.TestRecharge#test_register",
+  "historyId" : "420712e7d888c07bd24c688a5f233341",
+  "time" : {
+    "start" : 1640602521019,
+    "stop" : 1640602521201,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RechargeCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecharge"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "20860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_RechargeCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 200, 'msg': '请求参数错误'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'asset': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "317d169513714ab7.json",
+  "parameterValues" : [ "{'code': 200, 'msg': '请求参数错误'}", "{'asset': None}" ]
+}

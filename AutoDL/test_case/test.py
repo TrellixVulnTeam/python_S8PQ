@@ -17,7 +17,7 @@ def test_code_login():
         "Authorization": token
     }
     print(token1)
-    req = {"asset": 1000000, "id": 3}
+    req = {"asset": 50000000, "id": 241}
     r = requests.post(url=url, json=req, headers=token1)
     print(r.json())
     # code1 = r.status_code

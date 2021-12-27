@@ -18,8 +18,8 @@ def get_login_yaml_data():
     for one1 in res1:
         reqList.append((one1['data'], one1['resp']))
 
-    print('>> reqList: ', reqList)
-    print('>> reqList len: ', reqList.__len__())
+    # print('>> reqList: ', reqList)
+    # print('>> reqList len: ', reqList.__len__())
 
     return reqList  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
 
@@ -46,8 +46,8 @@ def get_register_yaml_data():
     for one1 in res2:
         res3.append((one1['data'], one1['resp']))
 
-    # print('>> reqList: ', res3)
-    # print('>> reqList len: ', res3.__len__())
+    print('>> reqList: ', res3)
+    print('>> reqList len: ', res3.__len__())
 
     return res3
 
@@ -65,8 +65,8 @@ def get_recharge_yaml_data():
     for one1 in res1:
         reqList.append((one1['data'], one1['resp']))
 
-    print('>> reqList: ', reqList)
-    print('>> reqList len: ', reqList.__len__())
+    # print('>> reqList: ', reqList)
+    # print('>> reqList len: ', reqList.__len__())
 
     return reqList  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
 
@@ -81,7 +81,9 @@ def get_instance_yaml_data():
     fo.close()
     # 删掉下标0的无用数据 删除集合里面的{'url': 'login', 'method': 'POST'}字典
     del res1[0]
+
     for one1 in res1:
+        # v = {'data': one1['data'], 'resp': one1['resp']}
         reqList.append((one1['data'], one1['resp']))
 
     print('>> reqList: ', reqList)
@@ -90,7 +92,44 @@ def get_instance_yaml_data():
     return reqList  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
 
 
+def get_instance_yaml_data2():
+    reqList = []  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
+    # 1- 读取文件操作，从磁盘读取到内存
+    fo = open(get_instance_yaml_path(), 'r', encoding="utf-8")
+    # 2- 使用yaml方法获取数据
+    res1 = yaml.load(fo, Loader=yaml.FullLoader)
+    print(res1)
+    fo.close()
+    # 删掉下标0的无用数据 删除集合里面的{'url': 'login', 'method': 'POST'}字典
+    del res1[0]
+
+    """
+    old tuple
+     (
+    [0]-'data'
+    [1]-'resp'
+    )...
+    
+    new tuple
+    (
+    [0]-{'data','resp'}
+    [1]-{'data','resp'}
+    ...
+    )
+    """
+
+    for one1 in res1:
+        v = {'data': one1['data'], 'resp': one1['resp']}
+        reqList.append(v)
+
+    print('>> reqList: ', reqList)
+    print('>> reqList len: ', reqList.__len__())
+
+    return reqList  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
+
+
 if __name__ == '__main__':
+    get_register_yaml_data()
     get_instance_yaml_data()
     # req = get_login_yaml_data()
     # for one in req:

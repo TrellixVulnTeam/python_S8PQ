@@ -5,8 +5,9 @@
   url: order/instance/create/payg
   method: post
 
-# 用例01
-- detail: 创建实例 172.181.217.174
+
+- # 用例01
+  detail: 创建实例 172.181.217.174
   data:
     {
       "instance_info": {
@@ -28,21 +29,21 @@
     msg: ""
 
 
-# 用例02
-- detail: 创建实例 172.181.217.172
+- # 用例02
+  detail: 创建实例 172.181.217.172
   data:
     {
       "instance_info": {
         "charge_type": "payg",
         "image": "hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0",
-        "machine_id": "baef119eac",
+        "machine_id": "f94411a60c",
         "instance_name": "",
         "req_gpu_amount": 1,
       },
       "price_info": {
         "charge_type": "payg",
         "duration": 1,
-        "machine_id": "baef119eac",
+        "machine_id": "f94411a60c",
         "num": 1,
       }
     }

@@ -61,3 +61,10 @@ stu('zty', 18, aa=['asd', '123'], bb=['zgdsd', 'lfask'], eat='12321dsa')
 
 a = 1
 print('a=', id(a))
+list = [{"name": "推荐食谱", "1": "症状", "name1": "浑身忽冷忽热"}, {"name": "绿豆薏米饭"}, {"name": "芝麻"}]
+
+res = [item[key] for item in list for key in item]
+print(res)
+for item in list:
+    for k, v in item.items():
+        print(k, v)
