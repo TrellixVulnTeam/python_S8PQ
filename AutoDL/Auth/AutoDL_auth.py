@@ -24,7 +24,7 @@ def login():
         "picture_id": "",
         "v_code": "",
         "phone": "16666666666",
-        "password": "7af2d10b73ab7cd8f603937f7697cb5fe432c7ff"
+        "password": "f865b53623b121fd34ee5426c792e5c33af8c227"
     }, headers=headers)
     ticket = r.json()["data"]["ticket"]
     return ticket
@@ -47,4 +47,4 @@ def change_ticket():
 
 
 if __name__ == '__main__':
-    change_ticket()
+    login()

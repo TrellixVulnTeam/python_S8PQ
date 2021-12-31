@@ -1,4 +1,15 @@
 {
-  "total" : 12,
-  "items" : [ ]
+  "total" : 11,
+  "items" : [ {
+    "uid" : "1ec85d305619bb014bb9b3571cb637e8",
+    "name" : "AutoDL",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

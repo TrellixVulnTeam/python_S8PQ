@@ -1,0 +1,61 @@
+{
+  "uid" : "d47739b62c6cfea7",
+  "name" : "test_instance_poweroff",
+  "fullName" : "cases.test_InstancePowerOffCase.TestInstancePowerOff#test_instance_poweroff",
+  "historyId" : "3002efdc46f7d234da93c53ba7b15d55",
+  "time" : {
+    "start" : 1640933348859,
+    "stop" : 1640933350041,
+    "duration" : 1182
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "tag",
+    "value" : "last"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_InstancePowerOffCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInstancePowerOff"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "27200-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_InstancePowerOffCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "last", "run(order=-1)" ]
+  },
+  "source" : "d47739b62c6cfea7.json",
+  "parameterValues" : [ ]
+}

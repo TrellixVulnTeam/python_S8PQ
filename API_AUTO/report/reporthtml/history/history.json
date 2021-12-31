@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "875361874d6b0691",
+      "uid" : "a258d58c9faaa83c",
       "status" : "passed",
       "time" : {
-        "start" : 1640602521496,
-        "stop" : 1640602521538,
-        "duration" : 42
+        "start" : 1640933348742,
+        "stop" : 1640933348795,
+        "duration" : 53
       }
     } ]
   },
@@ -28,50 +28,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b8d7a6b0c8547ddc",
+      "uid" : "f90c42a73f20dc",
       "status" : "passed",
       "time" : {
-        "start" : 1640602520343,
-        "stop" : 1640602520400,
-        "duration" : 57
+        "start" : 1640933302764,
+        "stop" : 1640933302820,
+        "duration" : 56
       }
     } ]
   },
   "2d117b22a808262f5709c7c84c17649b" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "96c1680e923eac8",
-      "status" : "passed",
+      "uid" : "7683fcf937251c6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '机器空闲GPU不足' == ''\n  + 机器空闲GPU不足",
       "time" : {
-        "start" : 1640602519420,
-        "stop" : 1640602520114,
-        "duration" : 694
-      }
-    } ]
-  },
-  "255f8959fa3a5d6737034fb9bbfdb1c2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ba4a12bd0b903ecf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1640602520279,
-        "stop" : 1640602520340,
-        "duration" : 61
+        "start" : 1640933301797,
+        "stop" : 1640933302527,
+        "duration" : 730
       }
     } ]
   },
@@ -85,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2405170a04a6712c",
+      "uid" : "a99cdefc97d54ec8",
       "status" : "passed",
       "time" : {
-        "start" : 1640602521542,
-        "stop" : 1640602521587,
-        "duration" : 45
+        "start" : 1640933348799,
+        "stop" : 1640933348855,
+        "duration" : 56
       }
     } ]
   },
@@ -104,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c737812ba4b3f309",
+      "uid" : "49eb94583560ec7a",
       "status" : "passed",
       "time" : {
-        "start" : 1640602520215,
-        "stop" : 1640602520275,
-        "duration" : 60
+        "start" : 1640933302613,
+        "stop" : 1640933302693,
+        "duration" : 80
       }
     } ]
   },
@@ -123,16 +105,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "317d169513714ab7",
+      "uid" : "b3a0458328fa77a8",
       "status" : "passed",
       "time" : {
-        "start" : 1640602521019,
-        "stop" : 1640602521201,
-        "duration" : 182
+        "start" : 1640933320947,
+        "stop" : 1640933321122,
+        "duration" : 175
       }
     } ]
   },
-  "dd78879a33d9164f40dc05d7d45b6068" : {
+  "255f8959fa3a5d6737034fb9bbfdb1c2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -142,12 +124,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad0f1bc01db47d7c",
+      "uid" : "dff60fce452e42cd",
       "status" : "passed",
       "time" : {
-        "start" : 1640602521214,
-        "stop" : 1640602521397,
-        "duration" : 183
+        "start" : 1640933302697,
+        "stop" : 1640933302760,
+        "duration" : 63
+      }
+    } ]
+  },
+  "dd78879a33d9164f40dc05d7d45b6068" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b43b2271d6f41833",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "time" : {
+        "start" : 1640933321126,
+        "stop" : 1640933348610,
+        "duration" : 27484
       }
     } ]
   },
@@ -161,16 +163,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46cff0eb35fbb5e2",
+      "uid" : "531cbda415da795d",
       "status" : "passed",
       "time" : {
-        "start" : 1640602521401,
-        "stop" : 1640602521490,
-        "duration" : 89
+        "start" : 1640933348641,
+        "stop" : 1640933348738,
+        "duration" : 97
       }
     } ]
   },
   "609dcc3124baf4a46cb35d7a6a07185f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d12651e4a5e38168",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '机器网络或存储异常，暂不可用，请更换机器' == ''\n  + 机器网络或存储异常，暂不可用，请更换机器",
+      "time" : {
+        "start" : 1640933301294,
+        "stop" : 1640933301567,
+        "duration" : 273
+      }
+    } ]
+  },
+  "3002efdc46f7d234da93c53ba7b15d55" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -180,12 +202,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d560ccde01e0cbf",
+      "uid" : "d47739b62c6cfea7",
       "status" : "passed",
       "time" : {
-        "start" : 1640602517121,
-        "stop" : 1640602519408,
-        "duration" : 2287
+        "start" : 1640933348859,
+        "stop" : 1640933350041,
+        "duration" : 1182
       }
     } ]
   },
@@ -199,31 +221,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cbf00982afa4ab5f",
+      "uid" : "e262baf385ec2b06",
       "status" : "passed",
       "time" : {
-        "start" : 1640602520133,
-        "stop" : 1640602520211,
-        "duration" : 78
+        "start" : 1640933302536,
+        "stop" : 1640933302609,
+        "duration" : 73
       }
     } ]
   },
   "35ff6c8eee1bb1e587198d9c1cb63893" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "35ab7bca68d55860",
-      "status" : "passed",
+      "uid" : "a0e0f7bf194f877",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
       "time" : {
-        "start" : 1640602520405,
-        "stop" : 1640602521015,
-        "duration" : 610
+        "start" : 1640933302824,
+        "stop" : 1640933320912,
+        "duration" : 18088
+      }
+    } ]
+  },
+  "2605697b5d3fde898dd042c97e2fc057" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75f9b2546857ab38",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('inData', <FixtureRequest for <Function test_instance_release>>)",
+      "time" : {
+        "start" : 1640933350042,
+        "stop" : 1640933350042,
+        "duration" : 0
       }
     } ]
   }

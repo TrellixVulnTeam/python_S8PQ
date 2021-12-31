@@ -19,7 +19,7 @@ if __name__ == "__main__":
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
         pytest.main(
-            ['../cases', "--alluredir",  "../report/reportallure/","--clean-alluredir",
+            ['../cases', "--alluredir", "../report/reportallure/", "--clean-alluredir",
              '-W', 'ignore:Module already imported:pytest.PytestWarning'])
         # pytest.main(
         #     ['../cases', '-vs', "--alluredir", "../report/reportallure/", "--clean-alluredir",

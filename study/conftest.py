@@ -9,11 +9,8 @@ import pytest
 
 
 @pytest.fixture(scope="function", autouse=False, name="db")
-def exe_sql(request):
+def exe_sql():
     # print(request.param)
     print("执行sql查询")
     yield
     print("关闭sql")
-
-
-

@@ -5,14 +5,16 @@
 # @File : test_InstancePowerOffCase.py
 import time
 
+import pytest
+
 import config.adss
 from Auth.AutoDL_auth import change_ticket
 from common.Request import RequestsHandler
 from config.instance_list import *
 
 
-class InstancePowerOff:
-
+@pytest.mark.last
+class TestInstancePowerOff:
     def test_instance_poweroff(self):
         base_url = config.adss.server_ip()
         url = base_url + 'instance/power_off'
@@ -36,7 +38,6 @@ class InstancePowerOff:
             all_shutdown = InstanceList().is_all_shutdown_InstanceList(uuid_list)
             if all_shutdown:
                 break
-
             print("waiting...")
             time.sleep(0.5)
 
@@ -45,6 +46,15 @@ class InstancePowerOff:
         else:
             print("failed")
 
+    def test_instance_release(self, inData):
+        base_url = config.adss.server_ip()
+        url = base_url + 'instance/release'
+        token = change_ticket()
+        header = {'Authorization': token}
+        payload = inData
+        res = RequestsHandler().post_Req(url, json=payload, headers=header)
+        return res.json()
+
 
 if __name__ == '__main__':
-    InstancePowerOff().test_instance_poweroff()
+    pytest.main("-vs", "test_InstancePowerOffCase.py")

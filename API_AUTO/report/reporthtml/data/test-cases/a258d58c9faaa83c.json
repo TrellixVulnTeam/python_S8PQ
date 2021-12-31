@@ -1,0 +1,61 @@
+{
+  "uid" : "a258d58c9faaa83c",
+  "name" : "test_register[inBody1-expData1]",
+  "fullName" : "cases.test_RegisterCase.TestRegister#test_register",
+  "historyId" : "256444386ceb5accf765a4f331baad67",
+  "time" : {
+    "start" : 1640933348742,
+    "stop" : 1640933348795,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RegisterCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "27200-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_RegisterCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 200, 'msg': '请求参数错误'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'password': '123456aa', 'phone': '', 'v_code': '666666'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a258d58c9faaa83c.json",
+  "parameterValues" : [ "{'code': 200, 'msg': '请求参数错误'}", "{'password': '123456aa', 'phone': '', 'v_code': '666666'}" ]
+}

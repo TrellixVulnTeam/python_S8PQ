@@ -26,7 +26,7 @@ class InstanceList:
         resp = res.json()
         fs = []
         for i in resp['data']["list"]:
-            if i["status"] == "running":
+            if i["status"] == "running" or i["status"] == "starting":
                 # print(i["uuid"])
                 fs.append(i["uuid"])
         print(fs)
