@@ -2,12 +2,17 @@ import json
 import logging
 import os
 import sys
+import traceback
+
 from common import Consts
 from common.Logs import Log
 
+#
 file = os.path.basename(sys.argv[0])
 log = Log(file)
 logger = log.Logger
+
+
 
 
 class Assertions:
@@ -90,3 +95,17 @@ class Assertions:
             Consts.RESULT_LIST.append('fail')
             raise
 
+
+class BaseAssert:
+    @classmethod  # 使用类名就可以直接调用类方法
+    def define_assert(cls, res, respData):
+        try:
+            if 'code' in respData:
+                assert res['code'] == respData['code']
+            elif 'msg' in respData:
+                assert res['msg'] == respData['msg']
+            else:
+                assert res.get('error') == respData['error']
+        except Exception as error:
+            logger.error(traceback.format_exc())
+            raise error

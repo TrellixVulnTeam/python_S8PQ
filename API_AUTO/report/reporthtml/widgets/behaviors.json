@@ -1,8 +1,63 @@
 {
-  "total" : 11,
+  "total" : 6,
   "items" : [ {
-    "uid" : "1ec85d305619bb014bb9b3571cb637e8",
-    "name" : "AutoDL",
+    "uid" : "3b90fe07f953e186581c7aba9d32305d",
+    "name" : "充值接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "fb2f655a35f354f581c4913014ef4863",
+    "name" : "注册接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "e8965cbeca95c887f394c365d52acca2",
+    "name" : "实例模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6958045a481574bf02bb11ef07a7047b",
+    "name" : "登录模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "73201afaa20413031b2c052994203ba9",
+    "name" : "实例关机接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "da26ad1fe2f97fd0d3ec67a26be08cda",
+    "name" : "实例释放接口",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

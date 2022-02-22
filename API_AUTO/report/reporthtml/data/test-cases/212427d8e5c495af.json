@@ -1,0 +1,67 @@
+{
+  "uid" : "212427d8e5c495af",
+  "name" : "输入负数",
+  "fullName" : "testCases.test_RechargeCase.TestRecharge#test_register",
+  "historyId" : "da0b501b64be3e821f10f538479ddcfc",
+  "time" : {
+    "start" : 1641983933159,
+    "stop" : 1641983933311,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "充值接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RechargeCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecharge"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "19388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_RechargeCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'WxClientError', 'msg': '生成微信订单失败, 请稍后重试'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'asset': -1}"
+  }, {
+    "name" : "title",
+    "value" : "'输入负数'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "212427d8e5c495af.json",
+  "parameterValues" : [ "{'code': 'WxClientError', 'msg': '生成微信订单失败, 请稍后重试'}", "{'asset': -1}", "'输入负数'" ]
+}

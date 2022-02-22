@@ -11,7 +11,7 @@ if __name__ == "__main__":
     log = Log(file)
     logger = log.Logger
 
-    # 运行整个目录 pytest.main(['../cases', '--html=../report/report.html'])
+    # 运行整个目录 pytest.main(['../testCases', '--html=../report/report.html'])
     # logger.info("开始执行脚本") >pytest E:\project\Xiaoniu_Api_Rili\Run\run_all_case.py
 
     try:
@@ -19,10 +19,10 @@ if __name__ == "__main__":
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
         pytest.main(
-            ['../cases', "--alluredir", "../report/reportallure/", "--clean-alluredir",
+            ['../testCases', "--alluredir", "../report/reportallure/", "--clean-alluredir",
              '-W', 'ignore:Module already imported:pytest.PytestWarning'])
         # pytest.main(
-        #     ['../cases', '-vs', "--alluredir", "../report/reportallure/", "--clean-alluredir",
+        #     ['../testCases', '-vs', "--alluredir", "../report/reportallure/", "--clean-alluredir",
         #      '-W', 'ignore:Module already imported:pytest.PytestWarning'])
 
         print("脚本执行完成")

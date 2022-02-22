@@ -2,184 +2,204 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test_instance[inBody0-expData0]",
-    "uid" : "d12651e4a5e38168",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1640933301294,
-      "stop" : 1640933301567,
-      "duration" : 273
-    },
-    "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': ''}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'c1ef11a4ac', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'c1ef11a4ac', 'num': 1}}" ]
-  }, {
-    "name" : "test_instance[inBody1-expData1]",
-    "uid" : "7683fcf937251c6",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1640933301797,
-      "stop" : 1640933302527,
-      "duration" : 730
-    },
-    "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': ''}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': 1}}" ]
-  }, {
-    "name" : "AutoDL",
+    "name" : "实例模块",
     "children" : [ {
-      "name" : "登录模块",
+      "name" : "创建实例接口",
       "children" : [ {
-        "name" : "登录接口",
-        "children" : [ {
-          "name" : "test_login[inBody0-expData0]",
-          "uid" : "e262baf385ec2b06",
-          "parentUid" : "53f331d55a886dc7e63bf343a5276a55",
-          "status" : "passed",
-          "time" : {
-            "start" : 1640933302536,
-            "stop" : 1640933302609,
-            "duration" : 73
-          },
-          "flaky" : false,
-          "parameters" : [ "{'code': 200, 'msg': ''}", "{'phone': '18801053303', 'password': '123456Aa', 'captcha_id': '111'}" ]
-        }, {
-          "name" : "test_login[inBody1-expData1]",
-          "uid" : "49eb94583560ec7a",
-          "parentUid" : "53f331d55a886dc7e63bf343a5276a55",
-          "status" : "passed",
-          "time" : {
-            "start" : 1640933302613,
-            "stop" : 1640933302693,
-            "duration" : 80
-          },
-          "flaky" : false,
-          "parameters" : [ "{'code': 200, 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': '123'}" ]
-        }, {
-          "name" : "test_login[inBody2-expData2]",
-          "uid" : "dff60fce452e42cd",
-          "parentUid" : "53f331d55a886dc7e63bf343a5276a55",
-          "status" : "passed",
-          "time" : {
-            "start" : 1640933302697,
-            "stop" : 1640933302760,
-            "duration" : 63
-          },
-          "flaky" : false,
-          "parameters" : [ "{'code': 200, 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010533', 'password': '123456Aa'}" ]
-        }, {
-          "name" : "test_login[inBody3-expData3]",
-          "uid" : "f90c42a73f20dc",
-          "parentUid" : "53f331d55a886dc7e63bf343a5276a55",
-          "status" : "passed",
-          "time" : {
-            "start" : 1640933302764,
-            "stop" : 1640933302820,
-            "duration" : 56
-          },
-          "flaky" : false,
-          "parameters" : [ "{'code': 200, 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053124', 'password': '123456A13a'}" ]
-        } ],
-        "uid" : "53f331d55a886dc7e63bf343a5276a55"
+        "name" : "创建实例 172.181.217.174",
+        "uid" : "48695ec8afb560a4",
+        "parentUid" : "adc6fdd664810277d91af9c3bc47ee0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641983930155,
+          "stop" : 1641983931162,
+          "duration" : 1007
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': '484411a80c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 1}}", "'创建实例 172.181.217.174'" ]
+      }, {
+        "name" : "创建实例 172.181.217.172",
+        "uid" : "ee8f932c6aff6351",
+        "parentUid" : "adc6fdd664810277d91af9c3bc47ee0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641983931166,
+          "stop" : 1641983932241,
+          "duration" : 1075
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': 1}}", "'创建实例 172.181.217.172'" ]
       } ],
-      "uid" : "fa866ee6ad211af48c597edce662b861"
+      "uid" : "adc6fdd664810277d91af9c3bc47ee0f"
     } ],
-    "uid" : "1ec85d305619bb014bb9b3571cb637e8"
+    "uid" : "e8965cbeca95c887f394c365d52acca2"
   }, {
-    "name" : "test_register[inBody0-expData0]",
-    "uid" : "a0e0f7bf194f877",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1640933302824,
-      "stop" : 1640933320912,
-      "duration" : 18088
-    },
-    "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': ''}", "{'asset': 100}" ]
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录接口",
+      "children" : [ {
+        "name" : "账号密码都正确",
+        "uid" : "d2c2b17156dc7229",
+        "parentUid" : "a96082a673a92859c3643f7f05d73935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641983932245,
+          "stop" : 1641983932302,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'phone': '18801053303', 'password': '123456Aa', 'captcha_id': '111'}", "'账号密码都正确'" ]
+      }, {
+        "name" : "账号正确密码错误",
+        "uid" : "9cbcc8782429940e",
+        "parentUid" : "a96082a673a92859c3643f7f05d73935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641983932307,
+          "stop" : 1641983932361,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': '123'}", "'账号正确密码错误'" ]
+      }, {
+        "name" : "账号错误密码正确",
+        "uid" : "2b0a2e350d587744",
+        "parentUid" : "a96082a673a92859c3643f7f05d73935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641983932364,
+          "stop" : 1641983932410,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010533', 'password': '123456Aa'}", "'账号错误密码正确'" ]
+      }, {
+        "name" : "账号错误密码错误",
+        "uid" : "d8f55211802b8515",
+        "parentUid" : "a96082a673a92859c3643f7f05d73935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641983932415,
+          "stop" : 1641983932461,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053124', 'password': '123456A13a'}", "'账号错误密码错误'" ]
+      } ],
+      "uid" : "a96082a673a92859c3643f7f05d73935"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
   }, {
-    "name" : "test_register[inBody1-expData1]",
-    "uid" : "b3a0458328fa77a8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1640933320947,
-      "stop" : 1640933321122,
-      "duration" : 175
-    },
-    "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': '请求参数错误'}", "{'asset': None}" ]
+    "name" : "充值接口",
+    "children" : [ {
+      "name" : "正常充值",
+      "uid" : "2b6522d3d05dee81",
+      "parentUid" : "3b90fe07f953e186581c7aba9d32305d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641983932466,
+        "stop" : 1641983933005,
+        "duration" : 539
+      },
+      "flaky" : false,
+      "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'asset': 100}", "'正常充值'" ]
+    }, {
+      "name" : "不输入金额",
+      "uid" : "8b22d58e3f60d3b4",
+      "parentUid" : "3b90fe07f953e186581c7aba9d32305d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641983933010,
+        "stop" : 1641983933155,
+        "duration" : 145
+      },
+      "flaky" : false,
+      "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': None}", "'不输入金额'" ]
+    }, {
+      "name" : "输入负数",
+      "uid" : "212427d8e5c495af",
+      "parentUid" : "3b90fe07f953e186581c7aba9d32305d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641983933159,
+        "stop" : 1641983933311,
+        "duration" : 152
+      },
+      "flaky" : false,
+      "parameters" : [ "{'code': 'WxClientError', 'msg': '生成微信订单失败, 请稍后重试'}", "{'asset': -1}", "'输入负数'" ]
+    } ],
+    "uid" : "3b90fe07f953e186581c7aba9d32305d"
   }, {
-    "name" : "test_register[inBody2-expData2]",
-    "uid" : "b43b2271d6f41833",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1640933321126,
-      "stop" : 1640933348610,
-      "duration" : 27484
-    },
-    "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': '生成微信订单失败, 请稍后重试'}", "{'asset': -1}" ]
+    "name" : "注册接口",
+    "children" : [ {
+      "name" : "用户注册",
+      "uid" : "9235aa3c3967bcab",
+      "parentUid" : "fb2f655a35f354f581c4913014ef4863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641983933315,
+        "stop" : 1641983933398,
+        "duration" : 83
+      },
+      "flaky" : false,
+      "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'password': '123456aa', 'phone': '18376328019', 'v_code': '666666'}", "'用户注册'" ]
+    }, {
+      "name" : "手机号为空",
+      "uid" : "8d506d56100c7447",
+      "parentUid" : "fb2f655a35f354f581c4913014ef4863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641983933402,
+        "stop" : 1641983933441,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'password': '123456aa', 'phone': '', 'v_code': '666666'}", "'手机号为空'" ]
+    }, {
+      "name" : "注册过的手机号",
+      "uid" : "9a9680be3d70e0db",
+      "parentUid" : "fb2f655a35f354f581c4913014ef4863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641983933445,
+        "stop" : 1641983933487,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "parameters" : [ "{'code': 'AlreadyExist', 'msg': '手机号已注册'}", "{'password': '123456', 'phone': '18376328019', 'v_code': '666666'}", "'注册过的手机号'" ]
+    } ],
+    "uid" : "fb2f655a35f354f581c4913014ef4863"
   }, {
-    "name" : "test_register[inBody0-expData0]",
-    "uid" : "531cbda415da795d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1640933348641,
-      "stop" : 1640933348738,
-      "duration" : 97
-    },
-    "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': ''}", "{'password': '123456aa', 'phone': '13280362195', 'v_code': '666666'}" ]
+    "name" : "实例关机接口",
+    "children" : [ {
+      "name" : "实例关机用例",
+      "uid" : "94f584774e57f21d",
+      "parentUid" : "73201afaa20413031b2c052994203ba9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641983933493,
+        "stop" : 1641983940625,
+        "duration" : 7132
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "73201afaa20413031b2c052994203ba9"
   }, {
-    "name" : "test_register[inBody1-expData1]",
-    "uid" : "a258d58c9faaa83c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1640933348742,
-      "stop" : 1640933348795,
-      "duration" : 53
-    },
-    "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': '请求参数错误'}", "{'password': '123456aa', 'phone': '', 'v_code': '666666'}" ]
-  }, {
-    "name" : "test_register[inBody2-expData2]",
-    "uid" : "a99cdefc97d54ec8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1640933348799,
-      "stop" : 1640933348855,
-      "duration" : 56
-    },
-    "flaky" : false,
-    "parameters" : [ "{'code': 200, 'msg': '手机号已注册'}", "{'password': '123456', 'phone': '13280362195', 'v_code': '666666'}" ]
-  }, {
-    "name" : "test_instance_poweroff",
-    "uid" : "d47739b62c6cfea7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1640933348859,
-      "stop" : 1640933350041,
-      "duration" : 1182
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_instance_release",
-    "uid" : "75f9b2546857ab38",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1640933350042,
-      "stop" : 1640933350042,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
+    "name" : "实例释放接口",
+    "children" : [ {
+      "name" : "实例释放用例",
+      "uid" : "c589769ef8fb1cc5",
+      "parentUid" : "da26ad1fe2f97fd0d3ec67a26be08cda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641983940628,
+        "stop" : 1641983941383,
+        "duration" : 755
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "da26ad1fe2f97fd0d3ec67a26be08cda"
   } ]
 }

@@ -5,6 +5,7 @@
 # @File : test2.py
 import traceback
 from pprint import pprint
+
 # import logging
 #
 # # 默认输出等级为debug
@@ -29,19 +30,12 @@ from pprint import pprint
 # log.warning("This is a warning log")
 # log.error("This is a error log")
 # log.critical("This is a critical log")
-from common.Assert import log
+
+# #打印100以内的基数
+# for i in range(1, 100, 2):
+#     print(i)
 
 
-class BaseAssert:
-    @classmethod  # 使用类名就可以直接调用类方法
-    def define_assert(cls, res, respData):
-        try:
-            if 'code' in respData:
-                assert res['code'] == respData['code']
-            elif 'msg' in respData:
-                assert res['msg'] == respData['msg']
-            else:
-                assert res.get('error') == respData['error']
-        except Exception as error:
-            log.error(traceback.format_exc())
-            raise error
+all_shutdown = True
+for i in range(10):
+    print(i)

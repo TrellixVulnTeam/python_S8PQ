@@ -1,0 +1,31 @@
+# 注册接口
+
+- #test_01用例
+  detail: 用户注册
+  data:
+    password: "123456aa"
+    phone: $phone
+    v_code: "666666"
+  resp:
+    code: "Success"
+    msg: ""
+
+- #test_02用例
+  detail: 手机号为空
+  data:
+    password: "123456aa"
+    phone: ""
+    v_code: "666666"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #test_03用例
+  detail: 注册过的手机号
+  data:
+    password: "123456"
+    phone: $phone
+    v_code: "666666"
+  resp:
+    code: "AlreadyExist"
+    msg: "手机号已注册"

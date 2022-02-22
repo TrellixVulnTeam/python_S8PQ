@@ -1,0 +1,15 @@
+Fri, 14 Jan 2022 11:18:25-_jb_pytest_runner.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+
+Fri, 14 Jan 2022 11:22:09-_jb_pytest_runner.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+
+Fri, 14 Jan 2022 11:33:34-_jb_pytest_runner.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+

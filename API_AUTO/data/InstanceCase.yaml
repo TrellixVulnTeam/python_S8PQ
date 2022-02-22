@@ -1,0 +1,46 @@
+# 创建实例用例
+
+- # 用例01
+  detail: 创建实例-主机ID：484411a80c
+  data:
+    {
+      "instance_info": {
+        "charge_type": "payg",
+        "image": "hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0",
+        "machine_id": "484411a80c",
+        "instance_name": "",
+        "req_gpu_amount": 1,
+      },
+      "price_info": {
+        "charge_type": "payg",
+        "duration": 1,
+        "machine_id": "484411a80c",
+        "num": 1,
+      }
+    }
+  resp:
+    code: "Success"
+    msg: ""
+
+
+- # 用例02
+  detail: 创建实例-主机ID：f94411a60c
+  data:
+    {
+      "instance_info": {
+        "charge_type": "payg",
+        "image": "hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0",
+        "machine_id": "f94411a60c",
+        "instance_name": "",
+        "req_gpu_amount": 1,
+      },
+      "price_info": {
+        "charge_type": "payg",
+        "duration": 1,
+        "machine_id": "f94411a60c",
+        "num": 1,
+      }
+    }
+  resp:
+    code: "Success"
+    msg: ""
