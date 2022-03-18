@@ -1,1 +1,0 @@
-{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '连续超过 6 次错误，请于 5 分钟后重新登录', 'debug_error': ''}

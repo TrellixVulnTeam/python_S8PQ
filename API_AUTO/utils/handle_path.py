@@ -15,7 +15,7 @@ import os
 project_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 测试数据路径
-data_path = os.path.join(project_path, 'data')
+data_path = os.path.join(project_path, 'data\\')
 
 # log 路径
 log_path = os.path.join(project_path, 'logs\\log')

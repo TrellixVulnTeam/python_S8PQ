@@ -1,1 +1,0 @@
-INFO     run_all_case.py:Register_case.py:265 开始执行脚本test_No_Code：

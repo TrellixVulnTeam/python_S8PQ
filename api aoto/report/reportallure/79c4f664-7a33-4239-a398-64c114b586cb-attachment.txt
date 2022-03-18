@@ -1,4 +1,0 @@
-INFO     run_all_case.py:Register_case.py:186 开始执行脚本test_Pwd_No_Capitalization：
-
-INFO     test_Pwd_No_Capitalization:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
-INFO     test_Pwd_No_Capitalization:Assert.py:47 Response body msg == expected_msg, expected_msg is ,body_msg is

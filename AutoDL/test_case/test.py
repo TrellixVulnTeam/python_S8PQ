@@ -7,37 +7,37 @@ from Auth.AutoDL_auth import get_captcha, change_ticket
 
 
 # 管理员充值
-# def test_admin_recharge():
-#     # def_name = sys._getframe().f_code.co_name
-#     # test_assert = Assert.Assertions(def_name)
-#     # logger.info("开始执行脚本%s：\n", def_name)
-#     token = change_ticket()
-#     url = 'https://test.autodl.com:33443/admin/v1/wallet/recharge'
-#     token1 = {
-#         "Authorization": token
-#     }
-#     # print(token1)
-#     req = {"asset": 100000, "id": 3}
-#     r = requests.post(url=url, json=req, headers=token1)
-#     print(r.json())
-
-
-def wx_msg_push():
-    url = 'https://test.autodl.com:33443/api/v1/wechat/message/push'
-    # print(token1)
-    req = {
-        "token": "62a0040085a2",
-        "title": "eg. 来自我的程序",
-        "device": "eg. 我的ImageNet实验",
-        "content": "eg. Epoch=100. Acc=90.2"
+def test_admin_recharge():
+    # def_name = sys._getframe().f_code.co_name
+    # test_assert = Assert.Assertions(def_name)
+    # logger.info("开始执行脚本%s：\n", def_name)
+    token = change_ticket()
+    url = 'https://test.autodl.com:33443/admin/v1/wallet/recharge'
+    token1 = {
+        "Authorization": token
     }
-    r = requests.post(url=url, json=req)
+    # print(token1)
+    req = {"asset": 6666000, "id": 241}
+    r = requests.post(url=url, json=req, headers=token1)
     print(r.json())
+
+#
+# def wx_msg_push():
+#     url = 'https://test.autodl.com:33443/api/v1/wechat/message/push'
+#     # print(token1)
+#     req = {
+#         "token": "62a0040085a2",
+#         "title": "eg. 来自我的程序",
+#         "device": "eg. 我的ImageNet实验",
+#         "content": "eg. Epoch=100. Acc=90.2"
+#     }
+#     r = requests.post(url=url, json=req)
+#     print(r.json())
 
 
 # resp = requests.post("https://www.autodl.com/api/v1/wechat/message/push",
 #                      json={
-#                          "token": "这里替换成你的token",
+#                          "token": "600e7fbd23a4",
 #                          "title": "eg. 来自我的程序",
 #                          "name": "eg. 我的ImageNet实验",
 #                          "content": "eg. Epoch=100. Acc=90.2"
@@ -45,8 +45,8 @@ def wx_msg_push():
 # print(resp.content.decode())
 
 if __name__ == '__main__':
-    wx_msg_push()
-    # test_admin_recharge()
+#     wx_msg_push()
+    test_admin_recharge()
 # code1 = r.status_code
 # # 获取接口返回信息
 # str_response = r.content.decode·()

@@ -3,6 +3,8 @@
 # @Time : 2021/12/15 14:39
 # @Author : ZhangTy
 # @File : creat_instance.py
+from pprint import pprint
+
 import config.adss
 from Auth.AutoDL_auth import change_ticket
 from common.Request import RequestsHandler
@@ -25,15 +27,15 @@ if __name__ == '__main__':
         "instance_info": {
             "charge_type": "payg",
             "image": "hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0",
-            "machine_id": "c1ef11a4ac",
+            "machine_id": "f94411a60c",
             "instance_name": "",
             "req_gpu_amount": 1,
         },
         "price_info": {
             "charge_type": "payg",
             "duration": 1,
-            "machine_id": "c1ef11a4ac",
+            "machine_id": "f94411a60c",
             "num": 1,
         }
     })
-    print(res)
+    pprint(res)

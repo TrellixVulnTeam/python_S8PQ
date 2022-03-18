@@ -1,0 +1,15 @@
+INFO     run_all_case.py:test_InstanceCase.py:39 当前用例名称：创建实例时GPU不足
+INFO     run_all_case.py:test_InstanceCase.py:40 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}
+INFO     run_all_case.py:test_InstanceCase.py:41 当前用例预期结果：{'code': 'InternalError', 'msg': '机器空闲GPU不足'}
+INFO     run_all_case.py:test_InstanceCase.py:42 当前用例实际结果：{'code': 'DatabaseError', 'data': None, 'msg': '服务异常，请稍后重试', 'debug_error': ''}
+
+ERROR    run_all_case.py:Assert.py:110 Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'DatabaseError' == 'InternalError'
+  - InternalError
+  + DatabaseError
+
+ERROR    run_all_case.py:test_InstanceCase.py:46 用例执行失败assert 'DatabaseError' == 'InternalError'
+  - InternalError
+  + DatabaseError

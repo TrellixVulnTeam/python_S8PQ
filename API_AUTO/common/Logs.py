@@ -1,5 +1,6 @@
 import logging
 import os.path
+import sys
 import time
 
 from utils.handle_path import log_path
@@ -59,6 +60,8 @@ class Log(object):
         self.__set_formatter(stream_handler, file_handler)
         self.__close_handler(stream_handler, file_handler)
         return self.__logger
+
+
 
 
 if __name__ == '__main__':

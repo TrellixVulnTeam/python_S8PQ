@@ -1,4 +1,0 @@
-INFO     run_all_case.py:Login_case.py:216 开始执行脚本test_no_pwd：
-
-INFO     test_no_pwd:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
-INFO     test_no_pwd:Assert.py:47 Response body msg == expected_msg, expected_msg is 请求参数错误,body_msg is 请求参数错误

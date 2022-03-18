@@ -1,0 +1,69 @@
+# 实例开机用例
+
+- #用例01
+  detail: 实例正常开机
+  data: {
+          "instance_uuid": "{{instance_uuid.0}}",
+          "payload": ""
+  }
+  resp:
+    code: "Success"
+    msg: ""
+
+- #用例02
+  detail: GPU不足，实例开机
+  data: {
+          "instance_uuid": "{{instance_uuid.1}}",
+          "payload": ""
+  }
+  resp:
+    code: "InternalError"
+    msg: "机器空闲GPU不足"
+
+- #用例03
+  detail: 机器下架，实例开机
+  data: {
+          "instance_uuid": "",
+          "payload": ""
+  }
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #用例04
+  detail: 实例uuid为空
+  data: {
+          "instance_uuid": "",
+          "payload": ""
+  }
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #用例05
+  detail: uuid传入错误
+  data: {
+          "instance_uuid": "dshjakdhsjakdhjk",
+          "payload": ""
+  }
+  resp:
+    code: "RecordNotFoundError"
+    msg: "未查询到相关实例"
+
+- #用例06
+  detail: 不传instance_uuid
+  data: {
+          "payload": ""
+  }
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #用例07
+  detail: 不传payload
+  data: {
+          "instance_uuid": "{{instance_uuid.0}}",
+  }
+  resp:
+    code: "Success"
+    msg: ""

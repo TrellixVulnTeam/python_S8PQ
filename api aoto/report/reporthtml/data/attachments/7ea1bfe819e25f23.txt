@@ -1,4 +1,0 @@
-INFO     run_all_case.py:Login_case.py:191 开始执行脚本test_wrong_num：
-
-INFO     test_wrong_num:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
-INFO     test_wrong_num:Assert.py:47 Response body msg == expected_msg, expected_msg is 手机号或密码错误，请重试,body_msg is 手机号或密码错误，请重试

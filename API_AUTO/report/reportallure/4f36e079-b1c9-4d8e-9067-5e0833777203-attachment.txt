@@ -1,0 +1,15 @@
+INFO     run_all_case.py:test_InstancePowerOnCase.py:29 当前用例名称：GPU不足，实例开机
+INFO     run_all_case.py:test_InstancePowerOnCase.py:30 当前测试用例请求参数：{'instance_uuid': 'None', 'payload': ''}
+INFO     run_all_case.py:test_InstancePowerOnCase.py:31 当前用例预期结果：{'code': 'InternalError', 'msg': '机器空闲GPU不足'}
+INFO     run_all_case.py:test_InstancePowerOnCase.py:32 当前用例实际结果：{'code': 'RecordNotFoundError', 'data': None, 'msg': '未查询到相关实例', 'debug_error': ''}
+
+ERROR    run_all_case.py:Assert.py:110 Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'InternalError'
+  - InternalError
+  + RecordNotFoundError
+
+ERROR    run_all_case.py:test_InstancePowerOnCase.py:36 用例执行失败assert 'RecordNotFoundError' == 'InternalError'
+  - InternalError
+  + RecordNotFoundError

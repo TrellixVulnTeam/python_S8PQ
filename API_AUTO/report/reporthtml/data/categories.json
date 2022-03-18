@@ -1,5 +1,189 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'DatabaseError' == 'InternalError'\n  - InternalError\n  + DatabaseError",
+      "children" : [ {
+        "name" : "创建实例时GPU不足",
+        "uid" : "a250c46a12b66447",
+        "parentUid" : "b5b8f041164cc3a18d1b0e521bfb2bed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423140657,
+          "stop" : 1647423141210,
+          "duration" : 553
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}", "'创建实例时GPU不足'" ]
+      } ],
+      "uid" : "b5b8f041164cc3a18d1b0e521bfb2bed"
+    }, {
+      "name" : "AssertionError: assert 'RecordNotFoundError' == 'Success'\n  - Success\n  + RecordNotFoundError",
+      "children" : [ {
+        "name" : "实例正常开机",
+        "uid" : "dd4d3df3e01f53d0",
+        "parentUid" : "2130b38ba2d75d9074349af27c0c8345",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423141482,
+          "stop" : 1647423141985,
+          "duration" : 503
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': 'None', 'payload': ''}", "'实例正常开机'" ]
+      }, {
+        "name" : "不传payload",
+        "uid" : "dda4581558fcb05e",
+        "parentUid" : "2130b38ba2d75d9074349af27c0c8345",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423144801,
+          "stop" : 1647423145361,
+          "duration" : 560
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': 'None'}", "'不传payload'" ]
+      } ],
+      "uid" : "2130b38ba2d75d9074349af27c0c8345"
+    }, {
+      "name" : "AssertionError: assert 'RecordNotFoundError' == 'InternalError'\n  - InternalError\n  + RecordNotFoundError",
+      "children" : [ {
+        "name" : "GPU不足，实例开机",
+        "uid" : "cae9262c419129d1",
+        "parentUid" : "c7f864f974f3e74c940d71078a006694",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423141999,
+          "stop" : 1647423142590,
+          "duration" : 591
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_uuid': 'None', 'payload': ''}", "'GPU不足，实例开机'" ]
+      } ],
+      "uid" : "c7f864f974f3e74c940d71078a006694"
+    }, {
+      "name" : "AssertionError: assert 'WxClientError' == 'BadRequest'\n  - BadRequest\n  + WxClientError",
+      "children" : [ {
+        "name" : "输入负数",
+        "uid" : "82e94b713ee62367",
+        "parentUid" : "f2956ba35999b2665242e6b012c04a1d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423150631,
+          "stop" : 1647423151136,
+          "duration" : 505
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
+      } ],
+      "uid" : "f2956ba35999b2665242e6b012c04a1d"
+    }, {
+      "name" : "AssertionError: assert 'Success' == 'BadRequest'\n  - BadRequest\n  + Success",
+      "children" : [ {
+        "name" : "充值少于1元",
+        "uid" : "11ef74eb2717c355",
+        "parentUid" : "5b97878cdd34afceb237094a747cc7d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423152830,
+          "stop" : 1647423153788,
+          "duration" : 958
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]
+      }, {
+        "name" : "输入负数",
+        "uid" : "50cba52f26ab5fc3",
+        "parentUid" : "5b97878cdd34afceb237094a747cc7d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423157886,
+          "stop" : 1647423158690,
+          "duration" : 804
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
+      }, {
+        "name" : "充值少于1元",
+        "uid" : "8cdd6190b7a24191",
+        "parentUid" : "5b97878cdd34afceb237094a747cc7d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423160026,
+          "stop" : 1647423161299,
+          "duration" : 1273
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]
+      } ],
+      "uid" : "5b97878cdd34afceb237094a747cc7d0"
+    }, {
+      "name" : "AssertionError: assert 'AlreadyExist' == 'InternalError'\n  - InternalError\n  + AlreadyExist",
+      "children" : [ {
+        "name" : "密码输入7位",
+        "uid" : "e9788d5d4a877b92",
+        "parentUid" : "47a15f2e1405d13e4f4dc8951451439c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423165539,
+          "stop" : 1647423165704,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '1234567', 'phone': '18843211234', 'v_code': '666666'}", "'密码输入7位'" ]
+      }, {
+        "name" : "密码输入17位",
+        "uid" : "f0be83e04277df1c",
+        "parentUid" : "47a15f2e1405d13e4f4dc8951451439c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423165718,
+          "stop" : 1647423165883,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '12345678901234567', 'phone': '18937524610', 'v_code': '666666'}", "'密码输入17位'" ]
+      }, {
+        "name" : "密码只输入数字",
+        "uid" : "a015eff4e20be516",
+        "parentUid" : "47a15f2e1405d13e4f4dc8951451439c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423165899,
+          "stop" : 1647423166054,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '12345678', 'phone': '18937524610', 'v_code': '666666'}", "'密码只输入数字'" ]
+      }, {
+        "name" : "密码只输入字母",
+        "uid" : "ae0b195689baf353",
+        "parentUid" : "47a15f2e1405d13e4f4dc8951451439c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423166071,
+          "stop" : 1647423166280,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': 'asdfghjkl', 'phone': '18937524610', 'v_code': '666666'}", "'密码只输入字母'" ]
+      }, {
+        "name" : "密码输入数字+特殊符号",
+        "uid" : "3aad611135018498",
+        "parentUid" : "47a15f2e1405d13e4f4dc8951451439c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647423166359,
+          "stop" : 1647423166514,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': 'asdfghjkl！@#￥%……&', 'phone': '18937524610', 'v_code': '666666'}", "'密码输入数字+特殊符号'" ]
+      } ],
+      "uid" : "47a15f2e1405d13e4f4dc8951451439c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

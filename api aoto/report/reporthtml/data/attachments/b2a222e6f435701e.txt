@@ -1,4 +1,0 @@
-INFO     run_all_case.py:Login_case.py:66 开始执行脚本test_login：
-
-INFO     test_login:Assert.py:30 statusCode true, expected_code is 200, statusCode is 200 
-ERROR    test_login:Assert.py:50 Response body msg != expected_msg, expected_msg is ,body_msg is 手机号或密码错误，请重试

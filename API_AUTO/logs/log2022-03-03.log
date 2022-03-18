@@ -1,0 +1,130 @@
+Thu, 03 Mar 2022 18:49:46-pytest-test_InstanceCase.py-[line:36]-INFO-[日志信息]: 当前用例名称：创建实例-主机ID：484411a80c
+Thu, 03 Mar 2022 18:49:46-pytest-test_InstanceCase.py-[line:37]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': '484411a80c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 1}}
+Thu, 03 Mar 2022 18:49:46-pytest-test_InstanceCase.py-[line:38]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:49:46-pytest-test_InstanceCase.py-[line:39]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': '484411a80c-c14312a1', 'msg': ''}
+
+Thu, 03 Mar 2022 18:49:48-pytest-test_InstanceCase.py-[line:36]-INFO-[日志信息]: 当前用例名称：创建实例-主机ID：f94411a60c
+Thu, 03 Mar 2022 18:49:48-pytest-test_InstanceCase.py-[line:37]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': 1}}
+Thu, 03 Mar 2022 18:49:48-pytest-test_InstanceCase.py-[line:38]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:49:48-pytest-test_InstanceCase.py-[line:39]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': 'f94411a60c-55dd916d', 'msg': ''}
+
+Thu, 03 Mar 2022 18:49:49-pytest-test_InstanceCase.py-[line:36]-INFO-[日志信息]: 当前用例名称：创建实例-主机ID：484411a80c
+Thu, 03 Mar 2022 18:49:49-pytest-test_InstanceCase.py-[line:37]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': '484411a80c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 1}}
+Thu, 03 Mar 2022 18:49:49-pytest-test_InstanceCase.py-[line:38]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:49:49-pytest-test_InstanceCase.py-[line:39]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': '484411a80c-72e76740', 'msg': ''}
+
+Thu, 03 Mar 2022 18:49:51-pytest-test_InstanceCase.py-[line:36]-INFO-[日志信息]: 当前用例名称：创建实例-主机ID：f94411a60c
+Thu, 03 Mar 2022 18:49:51-pytest-test_InstanceCase.py-[line:37]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': 1}}
+Thu, 03 Mar 2022 18:49:51-pytest-test_InstanceCase.py-[line:38]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:49:51-pytest-test_InstanceCase.py-[line:39]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': 'f94411a60c-b1c09e6e', 'msg': ''}
+
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：账号密码都正确
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053303', 'password': 'a753c776ff3ed4fefa2af948af87448910153281', 'captcha_id': '111'}
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'ticket': 'd95o2uzYI7q7tY7bHI4U1xBug7s=', 'user': {'id': 3, 'created_at': '2021-08-06T21:36:59+08:00', 'updated_at': '2021-09-14T10:40:09+08:00', 'uuid': '487686b5-637f-4d99-8202-7c0b29fa322d', 'username': 'zty_tester', 'nickname': 'ZhangTy', 'status': 'normal', 'logged_in_at': '2022-03-03T16:34:34.361+08:00', 'email': '', 'phone': '18801053303', 'is_admin': False, 'is_super_admin': False, 'sha1_password': 'a753c776ff3ed4fefa2af948af87448910153281', 'email_confirmed': False, 'idle_job_authority': True, 'mount_net_disk_authority': True, 'invitation_code': '', 'open_id': '111', 'union_id': '', 'applet_open_id': '', 'avatar_id': 0, 'register_ip': '', 'growth_value': -251000, 'member_level': 'normal_user', 'level_acq_mode': 'vip_user_acquire', 'member_dateline': None}}, 'msg': ''}
+
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：账号正确密码错误
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053303', 'password': '40bd001563085fc35165329ea1ff5c5ecbdbbeef'}
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：账号错误密码正确
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '188010533', 'password': 'a753c776ff3ed4fefa2af948af87448910153281'}
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：账号错误密码错误
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053124', 'password': 'a8ef6091e7aded9675e79ff635ffd80e8c780420'}
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 03 Mar 2022 18:49:51-pytest-test_LoginCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:49:52-pytest-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：正常充值
+Thu, 03 Mar 2022 18:49:52-pytest-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 100}
+Thu, 03 Mar 2022 18:49:52-pytest-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:49:52-pytest-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'code_url': 'weixin://wxpay/bizpayurl?pr=LbFMlnwzz', 'recharge_uuid': '319921821929030607', 'asset': 100}, 'msg': ''}
+
+Thu, 03 Mar 2022 18:49:53-pytest-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：不输入金额
+Thu, 03 Mar 2022 18:49:53-pytest-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': None}
+Thu, 03 Mar 2022 18:49:53-pytest-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 03 Mar 2022 18:49:53-pytest-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:49:53-pytest-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：输入负数
+Thu, 03 Mar 2022 18:49:53-pytest-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': -1}
+Thu, 03 Mar 2022 18:49:53-pytest-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'WxClientError', 'msg': '生成微信订单失败, 请稍后重试'}
+Thu, 03 Mar 2022 18:49:53-pytest-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'WxClientError', 'data': None, 'msg': '生成微信订单失败, 请稍后重试', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:49:53-pytest-test_RegisterCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：正确注册用户
+Thu, 03 Mar 2022 18:49:53-pytest-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '15506415372', 'v_code': '666666'}
+Thu, 03 Mar 2022 18:49:53-pytest-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:49:53-pytest-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'ticket': 'DZIRSAFXR3Pj9YTDpYyNyb_Um6E=', 'user': {'id': 1739, 'created_at': '2022-03-03T18:49:53+08:00', 'updated_at': '2022-03-03T18:49:53+08:00', 'uuid': '3a517d17-692c-4270-8000-aab653bea7c1', 'username': '炼丹师5372', 'nickname': '炼丹师5372', 'status': 'normal', 'logged_in_at': None, 'email': '', 'phone': '15506415372', 'is_admin': False, 'is_super_admin': False, 'sha1_password': '123456aa', 'email_confirmed': False, 'idle_job_authority': False, 'mount_net_disk_authority': True, 'invitation_code': '', 'open_id': '', 'union_id': '', 'applet_open_id': '', 'avatar_id': 0, 'register_ip': '172.17.50.1', 'growth_value': 0, 'member_level': '', 'level_acq_mode': '', 'member_dateline': None}}, 'msg': ''}
+
+Thu, 03 Mar 2022 18:49:53-pytest-test_RegisterCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：手机号为空
+Thu, 03 Mar 2022 18:49:53-pytest-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '', 'v_code': '666666'}
+Thu, 03 Mar 2022 18:49:53-pytest-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 03 Mar 2022 18:49:53-pytest-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:49:54-pytest-test_RegisterCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：注册过的手机号
+Thu, 03 Mar 2022 18:49:54-pytest-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456', 'phone': '15506415372', 'v_code': '666666'}
+Thu, 03 Mar 2022 18:49:54-pytest-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'AlreadyExist', 'msg': '手机号已注册'}
+Thu, 03 Mar 2022 18:49:54-pytest-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'AlreadyExist', 'data': None, 'msg': '手机号已注册', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:59:16-pytest-test_InstanceCase.py-[line:36]-INFO-[日志信息]: 当前用例名称：创建实例-主机ID：484411a80c
+Thu, 03 Mar 2022 18:59:16-pytest-test_InstanceCase.py-[line:37]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': '484411a80c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 1}}
+Thu, 03 Mar 2022 18:59:16-pytest-test_InstanceCase.py-[line:38]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:59:16-pytest-test_InstanceCase.py-[line:39]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': '484411a80c-c5ff56ba', 'msg': ''}
+
+Thu, 03 Mar 2022 18:59:17-pytest-test_InstanceCase.py-[line:36]-INFO-[日志信息]: 当前用例名称：创建实例-主机ID：f94411a60c
+Thu, 03 Mar 2022 18:59:17-pytest-test_InstanceCase.py-[line:37]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': 1}}
+Thu, 03 Mar 2022 18:59:17-pytest-test_InstanceCase.py-[line:38]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:59:17-pytest-test_InstanceCase.py-[line:39]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': 'f94411a60c-bb5cee54', 'msg': ''}
+
+Thu, 03 Mar 2022 18:59:17-pytest-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：账号密码都正确
+Thu, 03 Mar 2022 18:59:17-pytest-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053303', 'password': 'a753c776ff3ed4fefa2af948af87448910153281', 'captcha_id': '111'}
+Thu, 03 Mar 2022 18:59:17-pytest-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:59:17-pytest-test_LoginCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'ticket': 'd95o2uzYI7q7tY7bHI4U1xBug7s=', 'user': {'id': 3, 'created_at': '2021-08-06T21:36:59+08:00', 'updated_at': '2021-09-14T10:40:09+08:00', 'uuid': '487686b5-637f-4d99-8202-7c0b29fa322d', 'username': 'zty_tester', 'nickname': 'ZhangTy', 'status': 'normal', 'logged_in_at': '2022-03-03T18:49:50.806+08:00', 'email': '', 'phone': '18801053303', 'is_admin': False, 'is_super_admin': False, 'sha1_password': 'a753c776ff3ed4fefa2af948af87448910153281', 'email_confirmed': False, 'idle_job_authority': True, 'mount_net_disk_authority': True, 'invitation_code': '', 'open_id': '111', 'union_id': '', 'applet_open_id': '', 'avatar_id': 0, 'register_ip': '', 'growth_value': -251000, 'member_level': 'normal_user', 'level_acq_mode': 'vip_user_acquire', 'member_dateline': None}}, 'msg': ''}
+
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：账号正确密码错误
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053303', 'password': '40bd001563085fc35165329ea1ff5c5ecbdbbeef'}
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：账号错误密码正确
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '188010533', 'password': 'a753c776ff3ed4fefa2af948af87448910153281'}
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：账号错误密码错误
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053124', 'password': 'a8ef6091e7aded9675e79ff635ffd80e8c780420'}
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 03 Mar 2022 18:59:18-pytest-test_LoginCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:59:19-pytest-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：正常充值
+Thu, 03 Mar 2022 18:59:19-pytest-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 100}
+Thu, 03 Mar 2022 18:59:19-pytest-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:59:19-pytest-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'code_url': 'weixin://wxpay/bizpayurl?pr=ohgEWjpzz', 'recharge_uuid': '523810836574122442', 'asset': 100}, 'msg': ''}
+
+Thu, 03 Mar 2022 18:59:19-pytest-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：不输入金额
+Thu, 03 Mar 2022 18:59:19-pytest-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': None}
+Thu, 03 Mar 2022 18:59:19-pytest-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 03 Mar 2022 18:59:19-pytest-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:59:20-pytest-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：输入负数
+Thu, 03 Mar 2022 18:59:20-pytest-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': -1}
+Thu, 03 Mar 2022 18:59:20-pytest-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'WxClientError', 'msg': '生成微信订单失败, 请稍后重试'}
+Thu, 03 Mar 2022 18:59:20-pytest-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'WxClientError', 'data': None, 'msg': '生成微信订单失败, 请稍后重试', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：正确注册用户
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '14937658140', 'v_code': '666666'}
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'ticket': 'X0DU7lM8vb7rqExtaLSSXHDOgfM=', 'user': {'id': 1740, 'created_at': '2022-03-03T18:59:20+08:00', 'updated_at': '2022-03-03T18:59:20+08:00', 'uuid': '22abcdf6-1cde-4586-a260-7206a4555a39', 'username': '炼丹师8140', 'nickname': '炼丹师8140', 'status': 'normal', 'logged_in_at': None, 'email': '', 'phone': '14937658140', 'is_admin': False, 'is_super_admin': False, 'sha1_password': '123456aa', 'email_confirmed': False, 'idle_job_authority': False, 'mount_net_disk_authority': True, 'invitation_code': '', 'open_id': '', 'union_id': '', 'applet_open_id': '', 'avatar_id': 0, 'register_ip': '172.17.50.1', 'growth_value': 0, 'member_level': '', 'level_acq_mode': '', 'member_dateline': None}}, 'msg': ''}
+
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：手机号为空
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '', 'v_code': '666666'}
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:28]-INFO-[日志信息]: 当前用例名称：注册过的手机号
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456', 'phone': '14937658140', 'v_code': '666666'}
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前用例预期结果：{'code': 'AlreadyExist', 'msg': '手机号已注册'}
+Thu, 03 Mar 2022 18:59:20-pytest-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例实际结果：{'code': 'AlreadyExist', 'data': None, 'msg': '手机号已注册', 'debug_error': ''}
+

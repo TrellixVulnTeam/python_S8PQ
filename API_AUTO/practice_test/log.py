@@ -12,7 +12,6 @@ import logging
 import os
 import time
 
-
 # 获取当前脚本文件父类的绝对路径（项目主目录）
 path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 log_file = path + '/Logs/log.log'
@@ -33,6 +32,7 @@ logger = logging.getLogger()
 handler = logging.FileHandler(log_file, encoding='utf-8')
 err_handler = logging.FileHandler(err_file, encoding='utf-8')
 
+
 def create_file(file):
     # 路劲从右查询第一个/位置切片，获取log所在文件的路劲
     path = file[0:file.rfind('/')]
@@ -46,6 +46,7 @@ def create_file(file):
     else:
         pass
 
+
 # 为logger添加写入对应的handler
 def add_handler(levels):
     if levels == 'error':
@@ -58,6 +59,7 @@ def remove_handler(levels):
     if levels == 'error':
         logger.removeHandler(err_handler)
     logger.removeHandler(handler)
+
 
 # 获取当前时间
 def get_current_time():

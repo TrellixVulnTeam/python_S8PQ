@@ -17,4 +17,4 @@ class Register:
 if __name__ == '__main__':
     num = Random_number.main()
     res = Register().register({"password": "123456Aa", "phone": num, "v_code": "666666"})
-    pprint(res.json())
+    pprint(res)

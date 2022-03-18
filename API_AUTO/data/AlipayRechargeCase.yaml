@@ -1,0 +1,72 @@
+
+- #test_01用例
+  detail: 正常充值
+  data:
+      asset: 1000
+  resp:
+    code: "Success"
+    msg: ""
+
+- #test_02用例
+  detail: 不输入金额
+  data:
+      asset:
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #test_03用例
+  detail: 输入负数
+  data:
+      asset: -1
+  resp:
+    code: "BadRequest"
+    msg: "充值金额最低1元"
+
+- #test_04用例
+  detail: 输入字母
+  data:
+      asset: adsadsa
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #test_05用例
+  detail: 输入汉字
+  data:
+      asset: 测试测试
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+# #test_06用例
+#  detail: 充值大于100万
+#  data:
+#      asset: 10000000000
+#  resp:
+#    code: "WxClientError"
+#    msg: "生成微信订单失败, 请稍后重试"
+
+- #test_07用例
+  detail: 充值少于1元
+  data:
+      asset: 100
+  resp:
+    code: "BadRequest"
+    msg: "充值金额最低1元"
+
+- #test_08用例
+  detail: 支付0元
+  data:
+      asset: 0
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #test_09用例
+  detail: 充值金额为空
+  data:
+      asset:
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"

@@ -1,7 +1,7 @@
 # 登录接口
 
 - #test_01用例
-  detail: 账号密码都正确
+  detail: 手机号密码都正确
   data:
     phone: "18801053303"
     password: "123456Aa"
@@ -11,7 +11,7 @@
     msg: ""
 
 - #test_02用例
-  detail: 账号正确密码错误
+  detail: 手机号正确，密码错误
   data:
     phone: "18801053303"
     password: "123"
@@ -20,7 +20,7 @@
     msg: "手机号或密码错误，请重试"
 
 - #test_03用例
-  detail: 账号错误密码正确
+  detail: 手机号错误，密码正确
   data:
     phone: "188010533"
     password: "123456Aa"
@@ -29,10 +29,127 @@
     msg: "手机号或密码错误，请重试"
 
 - #test_04用例
-  detail: 账号错误密码错误
+  detail: 手机号错误，密码错误
   data:
     phone: "18801053124"
     password: "123456A13a"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_05用例
+  detail: 手机号输入9位，密码输入正确
+  data:
+    phone: "188010500"
+    password: "123456Aa"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_06用例
+  detail: 手机号输入12位，密码输入正确
+  data:
+    phone: "188010500001"
+    password: "123456Aa"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_07用例
+  detail: 密码输入7位，手机号输入正确
+  data:
+    phone: "188010500001"
+    password: "1234567"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_08用例
+  detail: 密码输入17位，手机号输入正确
+  data:
+    phone: "188010500001"
+    password: "12345671111111111"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_09用例
+  detail: 密码输入17位，手机号输入正确
+  data:
+    phone: "188010500001"
+    password: "12345671111111111"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_10用例
+  detail: 手机号输入英文+汉字，密码输入正确
+  data:
+    phone: "test登录"
+    password: "123456A13a"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_11用例
+  detail: 不输入手机号，密码输入正确
+  data:
+    phone: ""
+    password: "123456A13a"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_12用例
+  detail: 不输入密码，手机号输入正确
+  data:
+    phone: "18801053303"
+    password: ""
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_13用例
+  detail: 手机号输入特殊符号
+  data:
+    phone: "！@#￥%……&*（)"
+    password: ""
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_14用例
+  detail: 手机号输入null 密码不输入
+  data:
+    phone: "Null"
+    password: ""
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_15用例
+  detail: 密码输入null 手机号不输入
+  data:
+    phone: ""
+    password: "Null"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_16用例
+  detail: 手机号输入null 密码输入null
+  data:
+    phone: ""
+    password: "Null"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "手机号或密码错误，请重试"
+
+- #test_17用例
+  detail: 输入sql语句
+  data:
+    phone: "select username，password from user where username="
+    password: "select username，password from user where username="
   resp:
     code: "RequestParameterIsWrong"
     msg: "手机号或密码错误，请重试"
