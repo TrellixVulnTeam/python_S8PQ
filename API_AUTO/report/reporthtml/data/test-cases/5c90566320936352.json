@@ -1,0 +1,86 @@
+{
+  "uid" : "5c90566320936352",
+  "name" : "不输入金额",
+  "fullName" : "testCases.test_RechargeCase.TestRecharge#test_alopay_register",
+  "historyId" : "2c2255a526b0ccd17a98acd411fded0d",
+  "time" : {
+    "start" : 1648717076342,
+    "stop" : 1648717076824,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2b0595893af54a30",
+      "name" : "log",
+      "source" : "2b0595893af54a30.txt",
+      "type" : "text/plain",
+      "size" : 498
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "支付宝充值接口"
+  }, {
+    "name" : "feature",
+    "value" : "充值模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RechargeCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecharge"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "38140-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_RechargeCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'asset': None}"
+  }, {
+    "name" : "title",
+    "value" : "'不输入金额'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c90566320936352.json",
+  "parameterValues" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': None}", "'不输入金额'" ]
+}

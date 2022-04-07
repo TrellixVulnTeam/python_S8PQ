@@ -2,11 +2,12 @@ from pprint import pprint
 
 import config
 from Auth.AutoDL_auth import change_ticket
+from common.BaseApi import BaseApi
 from common.Request import RequestsHandler
 from config.adss import server_ip
 
 
-class Recharge:
+class Recharge(BaseApi):
 
     def wx_recharge(self, inData):
         base_url = config.adss.server_ip()
@@ -29,7 +30,7 @@ class Recharge:
         return res.json()
 
     # 轮循查看是否充值成功
-    def wwallt_recharge(self):
+    def wallt_recharge(self):
         base_url = config.adss.server_ip()
         url = base_url + 'wallet/recharge'
         token = change_ticket()
@@ -43,5 +44,5 @@ class Recharge:
 
 
 if __name__ == '__main__':
-    Recharge().alipay_recharge({"asset": 1000})
-    Recharge().wx_recharge({"asset": 1000})
+    # Recharge().alipay_recharge({"asset": 1000})
+    Recharge().wallt_recharge()

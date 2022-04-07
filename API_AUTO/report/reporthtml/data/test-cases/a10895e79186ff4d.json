@@ -1,0 +1,94 @@
+{
+  "uid" : "a10895e79186ff4d",
+  "name" : "创建实例时GPU不足",
+  "fullName" : "testCases.test_InstanceCase.TestCreatInstance#test_instance",
+  "historyId" : "e8f3792aff031d706eca47283485aa71",
+  "time" : {
+    "start" : 1648717060816,
+    "stop" : 1648717061334,
+    "duration" : 518
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'DatabaseError' == 'InternalError'\n  - InternalError\n  + DatabaseError",
+  "statusTrace" : "self = <testCases.test_InstanceCase.TestCreatInstance object at 0x000001F82C7FCB50>\ntitle = '创建实例时GPU不足'\ninBody = {'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu1...: '', 'machine_id': 'None', ...}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}\nexpData = {'code': 'InternalError', 'msg': '机器空闲GPU不足'}\n\n    @allure.story('创建实例接口')  # 接口名称\n    @pytest.mark.parametrize('title,inBody,expData', get_CreatInstance_yaml_data(data_path + 'InstanceCreateCase.yaml'))\n    @allure.title(\"{title}\")\n    def test_instance(self, title, inBody, expData):\n        resData = InstanceCreat().creat_instance(inData=inBody)\n        logger.info(f'当前用例名称：{title}')\n        logger.info(f'当前测试用例请求参数：{inBody}')\n        logger.info(f'当前用例预期结果：{expData}')\n        logger.info(f'当前用例实际结果：{resData}\\n')\n        try:\n            self.define_assert(resData, expData)\n        except AssertionError as e:\n            logger.error(f'用例执行失败{e}')\n>           raise e\n\n..\\testCases\\test_InstanceCase.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\testCases\\test_InstanceCase.py:45: in test_instance\n    self.define_assert(resData, expData)\n..\\common\\Assert.py:111: in define_assert\n    raise error\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'testCases.test_InstanceCase.TestCreatInstance'>\nres = {'code': 'DatabaseError', 'data': None, 'debug_error': '', 'msg': '服务异常，请稍后重试'}\nrespData = {'code': 'InternalError', 'msg': '机器空闲GPU不足'}\n\n    @classmethod  # 使用类名就可以直接调用类方法\n    def define_assert(cls, res, respData):\n        try:\n            if 'code' in respData:\n>               assert res['code'] == respData['code']\nE               AssertionError: assert 'DatabaseError' == 'InternalError'\nE                 - InternalError\nE                 + DatabaseError\n\n..\\common\\Assert.py:104: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'DatabaseError' == 'InternalError'\n  - InternalError\n  + DatabaseError",
+    "statusTrace" : "self = <testCases.test_InstanceCase.TestCreatInstance object at 0x000001F82C7FCB50>\ntitle = '创建实例时GPU不足'\ninBody = {'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu1...: '', 'machine_id': 'None', ...}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}\nexpData = {'code': 'InternalError', 'msg': '机器空闲GPU不足'}\n\n    @allure.story('创建实例接口')  # 接口名称\n    @pytest.mark.parametrize('title,inBody,expData', get_CreatInstance_yaml_data(data_path + 'InstanceCreateCase.yaml'))\n    @allure.title(\"{title}\")\n    def test_instance(self, title, inBody, expData):\n        resData = InstanceCreat().creat_instance(inData=inBody)\n        logger.info(f'当前用例名称：{title}')\n        logger.info(f'当前测试用例请求参数：{inBody}')\n        logger.info(f'当前用例预期结果：{expData}')\n        logger.info(f'当前用例实际结果：{resData}\\n')\n        try:\n            self.define_assert(resData, expData)\n        except AssertionError as e:\n            logger.error(f'用例执行失败{e}')\n>           raise e\n\n..\\testCases\\test_InstanceCase.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\testCases\\test_InstanceCase.py:45: in test_instance\n    self.define_assert(resData, expData)\n..\\common\\Assert.py:111: in define_assert\n    raise error\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'testCases.test_InstanceCase.TestCreatInstance'>\nres = {'code': 'DatabaseError', 'data': None, 'debug_error': '', 'msg': '服务异常，请稍后重试'}\nrespData = {'code': 'InternalError', 'msg': '机器空闲GPU不足'}\n\n    @classmethod  # 使用类名就可以直接调用类方法\n    def define_assert(cls, res, respData):\n        try:\n            if 'code' in respData:\n>               assert res['code'] == respData['code']\nE               AssertionError: assert 'DatabaseError' == 'InternalError'\nE                 - InternalError\nE                 + DatabaseError\n\n..\\common\\Assert.py:104: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c7f3cf557ae9f7cd",
+      "name" : "log",
+      "source" : "c7f3cf557ae9f7cd.txt",
+      "type" : "text/plain",
+      "size" : 1234
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "创建实例接口"
+  }, {
+    "name" : "feature",
+    "value" : "实例模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_InstanceCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreatInstance"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "38140-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_InstanceCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}"
+  }, {
+    "name" : "title",
+    "value" : "'创建实例时GPU不足'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a10895e79186ff4d.json",
+  "parameterValues" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}", "'创建实例时GPU不足'" ]
+}

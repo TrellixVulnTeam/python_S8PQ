@@ -1,0 +1,4 @@
+INFO     run_all_case.py:test_RegisterCase.py:29 当前用例名称：密码为空
+INFO     run_all_case.py:test_RegisterCase.py:30 当前测试用例请求参数：{'password': '', 'phone': '18843211234', 'v_code': '666666'}
+INFO     run_all_case.py:test_RegisterCase.py:31 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+INFO     run_all_case.py:test_RegisterCase.py:32 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}

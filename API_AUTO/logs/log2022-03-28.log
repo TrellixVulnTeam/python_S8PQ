@@ -1,0 +1,133 @@
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:40]-INFO-[日志信息]: 当前用例名称：正确创建实例
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:41]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': '1'}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': '1'}}
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:42]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:43]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RequestParameterIsWrong' == 'Success'
+
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:47]-ERROR-[日志信息]: 用例执行失败assert 'RequestParameterIsWrong' == 'Success'
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:40]-INFO-[日志信息]: 当前用例名称：创建实例时GPU不足
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:41]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': ''}}
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:42]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '机器空闲GPU不足'}
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:43]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RequestParameterIsWrong' == 'InternalError'
+
+Mon, 28 Mar 2022 11:47:56-_jb_pytest_runner.py-test_InstanceCase.py-[line:47]-ERROR-[日志信息]: 用例执行失败assert 'RequestParameterIsWrong' == 'InternalError'
+Mon, 28 Mar 2022 11:56:46-_jb_pytest_runner.py-test_InstanceCase.py-[line:40]-INFO-[日志信息]: 当前用例名称：正确创建实例
+Mon, 28 Mar 2022 11:56:46-_jb_pytest_runner.py-test_InstanceCase.py-[line:41]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': '1'}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': '1'}}
+Mon, 28 Mar 2022 11:56:46-_jb_pytest_runner.py-test_InstanceCase.py-[line:42]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Mon, 28 Mar 2022 11:56:46-_jb_pytest_runner.py-test_InstanceCase.py-[line:43]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 11:56:46-_jb_pytest_runner.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RequestParameterIsWrong' == 'Success'
+
+Mon, 28 Mar 2022 11:56:46-_jb_pytest_runner.py-test_InstanceCase.py-[line:47]-ERROR-[日志信息]: 用例执行失败assert 'RequestParameterIsWrong' == 'Success'
+Mon, 28 Mar 2022 11:56:47-_jb_pytest_runner.py-test_InstanceCase.py-[line:40]-INFO-[日志信息]: 当前用例名称：创建实例时GPU不足
+Mon, 28 Mar 2022 11:56:47-_jb_pytest_runner.py-test_InstanceCase.py-[line:41]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': '484411a80c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 1}}
+Mon, 28 Mar 2022 11:56:47-_jb_pytest_runner.py-test_InstanceCase.py-[line:42]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '机器空闲GPU不足'}
+Mon, 28 Mar 2022 11:56:47-_jb_pytest_runner.py-test_InstanceCase.py-[line:43]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '机器空闲GPU不足', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:55-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：正确注册用户
+Mon, 28 Mar 2022 14:09:55-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '17325619380', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:55-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Mon, 28 Mar 2022 14:09:55-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'ticket': 'Iy59SG_uyqHO_Gc6OLZsjEeIYMI=', 'user': {'id': 23781, 'created_at': '2022-03-28T14:09:55+08:00', 'updated_at': '2022-03-28T14:09:55+08:00', 'uuid': 'deb45334-4aee-45ea-be77-6f3b430222a2', 'username': '炼丹师9380', 'nickname': '炼丹师9380', 'status': 'normal', 'logged_in_at': None, 'email': '', 'phone': '17325619380', 'is_admin': False, 'is_super_admin': False, 'sha1_password': '123456aa', 'email_confirmed': False, 'idle_job_authority': False, 'mount_net_disk_authority': True, 'invitation_code': '', 'open_id': '', 'union_id': '', 'applet_open_id': '', 'avatar_id': 0, 'register_ip': '172.17.9.1', 'growth_value': 0, 'member_level': '', 'level_acq_mode': '', 'member_dateline': None}}, 'msg': ''}
+
+Mon, 28 Mar 2022 14:09:55-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入10位
+Mon, 28 Mar 2022 14:09:55-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '1880105330', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:55-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Mon, 28 Mar 2022 14:09:55-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入12位
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '188010533033', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入中文
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '测试登录', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入英文
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': 'qwertyuui', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入特殊符号
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '!@#$%^&*()', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入11位数字+字母
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18801053303asdsadsa', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入11位数字+汉字
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18801053303测试测试', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Mon, 28 Mar 2022 14:09:56-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入11位数字+特殊符号
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18801053303!@#$%', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号为空
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码输入7位
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '1234567', 'phone': '18804320001', 'v_code': '123456'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码输入17位
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '12345678901234567', 'phone': '18804320002', 'v_code': '123456'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码只输入数字
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '12345678', 'phone': '18804320003', 'v_code': '123456'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码只输入字母
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': 'asdfghjkl', 'phone': '18804320004', 'v_code': '123456'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Mon, 28 Mar 2022 14:09:57-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码输入数字+特殊符号
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': 'asdfghjkl！@#￥%……&', 'phone': '18804320005', 'v_code': '123456'}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码为空
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '', 'phone': '18843211234', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：验证码输入错误，手机号、密码输入正确
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18843211234', 'v_code': '123456'}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：验证码为空
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '17325619380', 'v_code': ''}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：注册过的手机号
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456', 'phone': '18801053303', 'v_code': '666666'}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'AlreadyExist', 'msg': '手机号已注册'}
+Mon, 28 Mar 2022 14:09:58-_jb_pytest_runner.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'AlreadyExist', 'data': None, 'msg': '手机号已注册', 'debug_error': ''}
+

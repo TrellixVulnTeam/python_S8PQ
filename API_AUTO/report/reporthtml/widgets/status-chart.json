@@ -1,640 +1,630 @@
 [ {
-  "uid" : "11ef74eb2717c355",
-  "name" : "充值少于1元",
-  "time" : {
-    "start" : 1647423152830,
-    "stop" : 1647423153788,
-    "duration" : 958
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "dd4d3df3e01f53d0",
-  "name" : "实例正常开机",
-  "time" : {
-    "start" : 1647423141482,
-    "stop" : 1647423141985,
-    "duration" : 503
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "63be4ca67ee4c1aa",
-  "name" : "正确注册用户",
-  "time" : {
-    "start" : 1647423163719,
-    "stop" : 1647423163941,
-    "duration" : 222
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a825f7429a64c6c",
-  "name" : "密码输入17位，手机号输入正确",
-  "time" : {
-    "start" : 1647423146977,
-    "stop" : 1647423147415,
-    "duration" : 438
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cae9262c419129d1",
-  "name" : "GPU不足，实例开机",
-  "time" : {
-    "start" : 1647423141999,
-    "stop" : 1647423142590,
-    "duration" : 591
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c4e63e857c32f224",
-  "name" : "手机号输入null 密码输入null",
-  "time" : {
-    "start" : 1647423148726,
-    "stop" : 1647423148886,
-    "duration" : 160
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3196019a5cfa6b97",
-  "name" : "手机号输入10位",
-  "time" : {
-    "start" : 1647423163946,
-    "stop" : 1647423164146,
-    "duration" : 200
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d5639bff1593750",
-  "name" : "验证码为空",
-  "time" : {
-    "start" : 1647423166877,
-    "stop" : 1647423167037,
-    "duration" : 160
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "133c18a2a9906512",
-  "name" : "uuid传入错误",
-  "time" : {
-    "start" : 1647423143688,
-    "stop" : 1647423144238,
-    "duration" : 550
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4eac5b82856e49b0",
-  "name" : "输入sql语句",
-  "time" : {
-    "start" : 1647423148890,
-    "stop" : 1647423149053,
-    "duration" : 163
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e066341767f1f7a8",
-  "name" : "支付0元",
-  "time" : {
-    "start" : 1647423161314,
-    "stop" : 1647423163138,
-    "duration" : 1824
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1718f5c35bd20a8f",
-  "name" : "实例释放用例",
-  "time" : {
-    "start" : 1647423175764,
-    "stop" : 1647423177991,
-    "duration" : 2227
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6cdfce5f7d84f76",
-  "name" : "手机号正确，密码错误",
-  "time" : {
-    "start" : 1647423145559,
-    "stop" : 1647423145754,
-    "duration" : 195
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ae0b195689baf353",
-  "name" : "密码只输入字母",
-  "time" : {
-    "start" : 1647423166071,
-    "stop" : 1647423166280,
-    "duration" : 209
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "312e8aa016e52da4",
-  "name" : "手机号输入特殊符号",
-  "time" : {
-    "start" : 1647423164669,
-    "stop" : 1647423164820,
-    "duration" : 151
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c22af1e316530545",
-  "name" : "不输入手机号，密码输入正确",
-  "time" : {
-    "start" : 1647423147778,
-    "stop" : 1647423147962,
-    "duration" : 184
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4c89574bebaeb98",
-  "name" : "正确创建实例",
-  "time" : {
-    "start" : 1647423139320,
-    "stop" : 1647423140652,
-    "duration" : 1332
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "804eb5b676fc6876",
-  "name" : "输入字母",
-  "time" : {
-    "start" : 1647423151150,
-    "stop" : 1647423151700,
-    "duration" : 550
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "364e4a9060ae105c",
-  "name" : "手机号错误，密码正确",
-  "time" : {
-    "start" : 1647423145758,
-    "stop" : 1647423145964,
-    "duration" : 206
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5dfbcda52a43c16",
-  "name" : "充值金额为空",
-  "time" : {
-    "start" : 1647423163142,
-    "stop" : 1647423163714,
-    "duration" : 572
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "50cba52f26ab5fc3",
-  "name" : "输入负数",
-  "time" : {
-    "start" : 1647423157886,
-    "stop" : 1647423158690,
-    "duration" : 804
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "19ac738fe4a13ec4",
-  "name" : "手机号输入中文",
-  "time" : {
-    "start" : 1647423164342,
-    "stop" : 1647423164498,
-    "duration" : 156
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c8c5f934f3ce22d",
-  "name" : "手机号输入12位",
-  "time" : {
-    "start" : 1647423164152,
-    "stop" : 1647423164337,
-    "duration" : 185
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "faf3b9a8380946f3",
+  "uid" : "a24eafa55e34cc28",
   "name" : "输入汉字",
   "time" : {
-    "start" : 1647423151705,
-    "stop" : 1647423152264,
-    "duration" : 559
+    "start" : 1648717078684,
+    "stop" : 1648717079175,
+    "duration" : 491
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f0be83e04277df1c",
-  "name" : "密码输入17位",
-  "time" : {
-    "start" : 1647423165718,
-    "stop" : 1647423165883,
-    "duration" : 165
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1bd9476f3b1bf742",
-  "name" : "手机号输入11位数字+特殊符号",
-  "time" : {
-    "start" : 1647423165169,
-    "stop" : 1647423165371,
-    "duration" : 202
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2628dcef9a938821",
-  "name" : "实例关机用例",
-  "time" : {
-    "start" : 1647423167262,
-    "stop" : 1647423175759,
-    "duration" : 8497
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e67ca033dced6b5",
-  "name" : "正常充值",
-  "time" : {
-    "start" : 1647423149058,
-    "stop" : 1647423150030,
-    "duration" : 972
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1f8115a7d5ddf16d",
+  "uid" : "66c6b22c1fc1d8ec",
   "name" : "密码为空",
   "time" : {
-    "start" : 1647423166527,
-    "stop" : 1647423166695,
-    "duration" : 168
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "82e94b713ee62367",
-  "name" : "输入负数",
-  "time" : {
-    "start" : 1647423150631,
-    "stop" : 1647423151136,
-    "duration" : 505
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ad3bb8b76f1c2f2",
-  "name" : "注册过的手机号",
-  "time" : {
-    "start" : 1647423167042,
-    "stop" : 1647423167258,
-    "duration" : 216
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "75b70493d3851ade",
-  "name" : "手机号输入英文+汉字，密码输入正确",
-  "time" : {
-    "start" : 1647423147592,
-    "stop" : 1647423147772,
-    "duration" : 180
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a250c46a12b66447",
-  "name" : "创建实例时GPU不足",
-  "time" : {
-    "start" : 1647423140657,
-    "stop" : 1647423141210,
-    "duration" : 553
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "348142d25dfb8dc",
-  "name" : "不传instance_uuid",
-  "time" : {
-    "start" : 1647423144302,
-    "stop" : 1647423144796,
-    "duration" : 494
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7c0ad9837a913c4d",
-  "name" : "手机号为空",
-  "time" : {
-    "start" : 1647423165376,
-    "stop" : 1647423165534,
-    "duration" : 158
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c7a7a9080efd4c4b",
-  "name" : "手机号输入英文",
-  "time" : {
-    "start" : 1647423164503,
-    "stop" : 1647423164665,
-    "duration" : 162
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c07b20772c823a20",
-  "name" : "手机号输入特殊符号",
-  "time" : {
-    "start" : 1647423148174,
-    "stop" : 1647423148384,
-    "duration" : 210
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "25c2adbc61da1be9",
-  "name" : "机器下架，实例开机",
-  "time" : {
-    "start" : 1647423142605,
-    "stop" : 1647423143120,
-    "duration" : 515
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a3071524d9c9728",
-  "name" : "手机号输入9位，密码输入正确",
-  "time" : {
-    "start" : 1647423146160,
-    "stop" : 1647423146378,
-    "duration" : 218
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aa750938f2dce16c",
-  "name" : "不输入密码，手机号输入正确",
-  "time" : {
-    "start" : 1647423147966,
-    "stop" : 1647423148169,
-    "duration" : 203
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ca03011effc3ab44",
-  "name" : "充值大于100万",
-  "time" : {
-    "start" : 1647423152269,
-    "stop" : 1647423152825,
-    "duration" : 556
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c2edf2be6a303181",
-  "name" : "手机号输入11位数字+汉字",
-  "time" : {
-    "start" : 1647423164977,
-    "stop" : 1647423165165,
-    "duration" : 188
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "928e7f7575d773ec",
-  "name" : "验证码输入错误，手机号、密码输入正确",
-  "time" : {
-    "start" : 1647423166699,
-    "stop" : 1647423166872,
-    "duration" : 173
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "27bf7d3886f3fee7",
-  "name" : "输入汉字",
-  "time" : {
-    "start" : 1647423159515,
-    "stop" : 1647423160021,
-    "duration" : 506
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3aad611135018498",
-  "name" : "密码输入数字+特殊符号",
-  "time" : {
-    "start" : 1647423166359,
-    "stop" : 1647423166514,
-    "duration" : 155
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "703b2b6045b45033",
-  "name" : "正常充值",
-  "time" : {
-    "start" : 1647423155308,
-    "stop" : 1647423157393,
-    "duration" : 2085
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c12b516ca10a7751",
-  "name" : "手机号输入11位数字+字母",
-  "time" : {
-    "start" : 1647423164825,
-    "stop" : 1647423164972,
-    "duration" : 147
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "addba014aaa0fa4b",
-  "name" : "不输入金额",
-  "time" : {
-    "start" : 1647423157398,
-    "stop" : 1647423157882,
-    "duration" : 484
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dda4581558fcb05e",
-  "name" : "不传payload",
-  "time" : {
-    "start" : 1647423144801,
-    "stop" : 1647423145361,
-    "duration" : 560
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad4f6b80a94e8e30",
-  "name" : "手机号输入null 密码不输入",
-  "time" : {
-    "start" : 1647423148390,
-    "stop" : 1647423148560,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2026f11d40fcebd9",
-  "name" : "支付0元",
-  "time" : {
-    "start" : 1647423153802,
-    "stop" : 1647423154711,
-    "duration" : 909
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "713f3d3fffa9fa9c",
-  "name" : "密码输入7位，手机号输入正确",
-  "time" : {
-    "start" : 1647423146806,
-    "stop" : 1647423146971,
-    "duration" : 165
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c3ad66e004570a22",
-  "name" : "充值金额为空",
-  "time" : {
-    "start" : 1647423154716,
-    "stop" : 1647423155304,
-    "duration" : 588
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e62b931686f4375a",
-  "name" : "输入字母",
-  "time" : {
-    "start" : 1647423158707,
-    "stop" : 1647423159511,
-    "duration" : 804
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ff986679d51e330",
-  "name" : "手机号错误，密码错误",
-  "time" : {
-    "start" : 1647423145969,
-    "stop" : 1647423146155,
-    "duration" : 186
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "804fdcd4c229bd4a",
-  "name" : "手机号密码都正确",
-  "time" : {
-    "start" : 1647423145376,
-    "stop" : 1647423145553,
-    "duration" : 177
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8cdd6190b7a24191",
-  "name" : "充值少于1元",
-  "time" : {
-    "start" : 1647423160026,
-    "stop" : 1647423161299,
-    "duration" : 1273
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9788d5d4a877b92",
-  "name" : "密码输入7位",
-  "time" : {
-    "start" : 1647423165539,
-    "stop" : 1647423165704,
-    "duration" : 165
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6cdb5e01eda9174",
-  "name" : "密码输入null 手机号不输入",
-  "time" : {
-    "start" : 1647423148564,
-    "stop" : 1647423148721,
+    "start" : 1648717084219,
+    "stop" : 1648717084376,
     "duration" : 157
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "428d4965927335f8",
-  "name" : "实例uuid为空",
+  "uid" : "306114490228c27b",
+  "name" : "密码输入17位",
   "time" : {
-    "start" : 1647423143126,
-    "stop" : 1647423143682,
-    "duration" : 556
+    "start" : 1648717083517,
+    "stop" : 1648717083698,
+    "duration" : 181
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d97d9a13c6721b56",
-  "name" : "密码输入17位，手机号输入正确",
-  "time" : {
-    "start" : 1647423147420,
-    "stop" : 1647423147587,
-    "duration" : 167
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9ab50960425d43a6",
+  "uid" : "d181d92349485167",
   "name" : "手机号输入12位，密码输入正确",
   "time" : {
-    "start" : 1647423146383,
-    "stop" : 1647423146801,
-    "duration" : 418
+    "start" : 1648717066616,
+    "stop" : 1648717066870,
+    "duration" : 254
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a015eff4e20be516",
-  "name" : "密码只输入数字",
+  "uid" : "c3952c5130ca6367",
+  "name" : "输入sql语句",
   "time" : {
-    "start" : 1647423165899,
-    "stop" : 1647423166054,
-    "duration" : 155
+    "start" : 1648717069019,
+    "stop" : 1648717069269,
+    "duration" : 250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4c12eae712fbe27",
+  "name" : "正常充值",
+  "time" : {
+    "start" : 1648717069275,
+    "stop" : 1648717070129,
+    "duration" : 854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bfafe0b3099d83f",
+  "name" : "手机号输入9位，密码输入正确",
+  "time" : {
+    "start" : 1648717066347,
+    "stop" : 1648717066611,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb27cb26f13b5409",
+  "name" : "不输入手机号，密码输入正确",
+  "time" : {
+    "start" : 1648717067884,
+    "stop" : 1648717068028,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeff7faacd05eb6a",
+  "name" : "手机号输入11位数字+特殊符号",
+  "time" : {
+    "start" : 1648717082950,
+    "stop" : 1648717083118,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2f1fa216d8a75c8",
+  "name" : "输入汉字",
+  "time" : {
+    "start" : 1648717071746,
+    "stop" : 1648717072307,
+    "duration" : 561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94f5c152dddae5e0",
+  "name" : "验证码为空",
+  "time" : {
+    "start" : 1648717084539,
+    "stop" : 1648717084710,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bacf12b8290b784",
+  "name" : "手机号输入英文",
+  "time" : {
+    "start" : 1648717082237,
+    "stop" : 1648717082433,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3de724d618816a9",
+  "name" : "密码输入17位，手机号输入正确",
+  "time" : {
+    "start" : 1648717067377,
+    "stop" : 1648717067628,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3f002d3f9f02353",
+  "name" : "输入负数",
+  "time" : {
+    "start" : 1648717070635,
+    "stop" : 1648717071134,
+    "duration" : 499
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "75b902107847f389",
+  "uid" : "ad27d5349b209aba",
+  "name" : "正常充值",
+  "time" : {
+    "start" : 1648717074607,
+    "stop" : 1648717076337,
+    "duration" : 1730
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8af34cf78189df2b",
+  "name" : "输入负数",
+  "time" : {
+    "start" : 1648717076829,
+    "stop" : 1648717078135,
+    "duration" : 1306
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2085b1e267c4b7a6",
+  "name" : "输入字母",
+  "time" : {
+    "start" : 1648717078150,
+    "stop" : 1648717078679,
+    "duration" : 529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8755cfa3ce41f0a6",
+  "name" : "实例关机用例",
+  "time" : {
+    "start" : 1648717084917,
+    "stop" : 1648717093633,
+    "duration" : 8716
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c6eb106fce51e13",
+  "name" : "充值少于1元",
+  "time" : {
+    "start" : 1648717072852,
+    "stop" : 1648717073567,
+    "duration" : 715
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "44267069eb64e3b2",
+  "name" : "充值大于100万",
+  "time" : {
+    "start" : 1648717072313,
+    "stop" : 1648717072847,
+    "duration" : 534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c90566320936352",
   "name" : "不输入金额",
   "time" : {
-    "start" : 1647423150034,
-    "stop" : 1647423150625,
-    "duration" : 591
+    "start" : 1648717076342,
+    "stop" : 1648717076824,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1949f8466e3aa2da",
+  "name" : "不输入金额",
+  "time" : {
+    "start" : 1648717070135,
+    "stop" : 1648717070630,
+    "duration" : 495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a37bb78d8cd1848",
+  "name" : "密码输入null 手机号不输入",
+  "time" : {
+    "start" : 1648717068716,
+    "stop" : 1648717068863,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3e9f9c7574c85b4",
+  "name" : "充值少于1元",
+  "time" : {
+    "start" : 1648717079179,
+    "stop" : 1648717080207,
+    "duration" : 1028
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba1541f2b1797961",
+  "name" : "手机号输入11位数字+字母",
+  "time" : {
+    "start" : 1648717082617,
+    "stop" : 1648717082768,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "906d131b8e2b36ff",
+  "name" : "不传instance_uuid",
+  "time" : {
+    "start" : 1648717064310,
+    "stop" : 1648717064793,
+    "duration" : 483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e4b60184cc124ca",
+  "name" : "充值金额为空",
+  "time" : {
+    "start" : 1648717080773,
+    "stop" : 1648717081332,
+    "duration" : 559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d4d61d33d175529",
+  "name" : "手机号密码都正确",
+  "time" : {
+    "start" : 1648717065408,
+    "stop" : 1648717065590,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bff6bd8b0266002",
+  "name" : "手机号输入10位",
+  "time" : {
+    "start" : 1648717081673,
+    "stop" : 1648717081842,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cffabf4a564515c",
+  "name" : "手机号输入英文+汉字，密码输入正确",
+  "time" : {
+    "start" : 1648717067633,
+    "stop" : 1648717067878,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2be01b47111aaf4",
+  "name" : "支付0元",
+  "time" : {
+    "start" : 1648717073585,
+    "stop" : 1648717074112,
+    "duration" : 527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35932f7798452e60",
+  "name" : "手机号正确，密码错误",
+  "time" : {
+    "start" : 1648717065595,
+    "stop" : 1648717065767,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ebb0a99f83b95bf",
+  "name" : "手机号输入特殊符号",
+  "time" : {
+    "start" : 1648717068210,
+    "stop" : 1648717068451,
+    "duration" : 241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f55dc78c651df3b",
+  "name" : "验证码输入错误，手机号、密码输入正确",
+  "time" : {
+    "start" : 1648717084381,
+    "stop" : 1648717084534,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27ae9878f2714be3",
+  "name" : "手机号输入null 密码不输入",
+  "time" : {
+    "start" : 1648717068456,
+    "stop" : 1648717068711,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "498d242a0fce8f0c",
+  "name" : "手机号输入12位",
+  "time" : {
+    "start" : 1648717081847,
+    "stop" : 1648717082030,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "641d79973856d1db",
+  "name" : "密码只输入数字",
+  "time" : {
+    "start" : 1648717083703,
+    "stop" : 1648717083874,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7c34db3be62901a",
+  "name" : "正确注册用户",
+  "time" : {
+    "start" : 1648717081338,
+    "stop" : 1648717081666,
+    "duration" : 328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "359e84c47e5be8ad",
+  "name" : "实例正常开机",
+  "time" : {
+    "start" : 1648717061646,
+    "stop" : 1648717062290,
+    "duration" : 644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf3a6274a9166ef",
+  "name" : "密码输入7位，手机号输入正确",
+  "time" : {
+    "start" : 1648717066876,
+    "stop" : 1648717067119,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90dbf43c7810e97a",
+  "name" : "机器下架，实例开机",
+  "time" : {
+    "start" : 1648717062808,
+    "stop" : 1648717063298,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d89e23cf43a64f47",
+  "name" : "正确创建实例",
+  "time" : {
+    "start" : 1648717059329,
+    "stop" : 1648717060812,
+    "duration" : 1483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71a058a43deba16",
+  "name" : "GPU不足，实例开机",
+  "time" : {
+    "start" : 1648717062294,
+    "stop" : 1648717062794,
+    "duration" : 500
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de28f08177a67884",
+  "name" : "uuid传入错误",
+  "time" : {
+    "start" : 1648717063823,
+    "stop" : 1648717064304,
+    "duration" : 481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a10895e79186ff4d",
+  "name" : "创建实例时GPU不足",
+  "time" : {
+    "start" : 1648717060816,
+    "stop" : 1648717061334,
+    "duration" : 518
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7f2cf6ca15d94c4",
+  "name" : "注册过的手机号",
+  "time" : {
+    "start" : 1648717084715,
+    "stop" : 1648717084912,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ee765d74df54617",
+  "name" : "手机号错误，密码错误",
+  "time" : {
+    "start" : 1648717066029,
+    "stop" : 1648717066342,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac2f67fcab6e8cf7",
+  "name" : "手机号输入null 密码输入null",
+  "time" : {
+    "start" : 1648717068869,
+    "stop" : 1648717069014,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "675e2fe9f3bdde1",
+  "name" : "充值金额为空",
+  "time" : {
+    "start" : 1648717074118,
+    "stop" : 1648717074602,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ccaac79eb163f78",
+  "name" : "手机号输入特殊符号",
+  "time" : {
+    "start" : 1648717082438,
+    "stop" : 1648717082610,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4efabec9c7806f41",
+  "name" : "手机号输入中文",
+  "time" : {
+    "start" : 1648717082036,
+    "stop" : 1648717082230,
+    "duration" : 194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fab208d2f2c4ee3",
+  "name" : "实例uuid为空",
+  "time" : {
+    "start" : 1648717063303,
+    "stop" : 1648717063818,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c577ff20824d4b44",
+  "name" : "不传payload",
+  "time" : {
+    "start" : 1648717064798,
+    "stop" : 1648717065403,
+    "duration" : 605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f81fbeacda56f14",
+  "name" : "密码输入17位，手机号输入正确",
+  "time" : {
+    "start" : 1648717067124,
+    "stop" : 1648717067373,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b894099795c67d2e",
+  "name" : "密码输入7位",
+  "time" : {
+    "start" : 1648717083322,
+    "stop" : 1648717083512,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78b353157fbdf465",
+  "name" : "不输入密码，手机号输入正确",
+  "time" : {
+    "start" : 1648717068032,
+    "stop" : 1648717068205,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6df5e95134a4002f",
+  "name" : "手机号为空",
+  "time" : {
+    "start" : 1648717083123,
+    "stop" : 1648717083316,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16f978e9683dbd2b",
+  "name" : "手机号错误，密码正确",
+  "time" : {
+    "start" : 1648717065771,
+    "stop" : 1648717066024,
+    "duration" : 253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cca21c230191da5e",
+  "name" : "输入字母",
+  "time" : {
+    "start" : 1648717071151,
+    "stop" : 1648717071740,
+    "duration" : 589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ecb0dc1af5e0f10",
+  "name" : "密码只输入字母",
+  "time" : {
+    "start" : 1648717083880,
+    "stop" : 1648717084044,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b560082354bd6a4",
+  "name" : "手机号输入11位数字+汉字",
+  "time" : {
+    "start" : 1648717082776,
+    "stop" : 1648717082945,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56a12ed6a2c97939",
+  "name" : "支付0元",
+  "time" : {
+    "start" : 1648717080221,
+    "stop" : 1648717080767,
+    "duration" : 546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef3e3da26dbe025f",
+  "name" : "密码输入数字+特殊符号",
+  "time" : {
+    "start" : 1648717084048,
+    "stop" : 1648717084215,
+    "duration" : 167
   },
   "status" : "passed",
   "severity" : "normal"

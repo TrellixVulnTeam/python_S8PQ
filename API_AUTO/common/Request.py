@@ -5,7 +5,7 @@
 封装request
 
 """
-
+import inspect
 import os
 import random
 import requests
@@ -19,8 +19,9 @@ class RequestsHandler:
     def get_Req(self, url, params, **kw):  # **kwargs是不定长参数，headers是放在这个不定长参数里
         # '''封装一个get方法，发送get请求'''
         try:  # 当处理不成功时，比如URL地址输入方式错误，或者接口超时timeout，需要抛出一个异常
+            funcName = inspect.stack()[1][3]
+            print('调用我-request_send-的函数名是>>> ', funcName)
             res = requests.get(url, params=params, **kw)
-
         except TimeoutError:
             # 记录日志信息，放入logger里边，这样我们就能知道问题出在哪里
             logging.error('访问不成功')
@@ -50,12 +51,3 @@ class RequestsHandler:
         else:
             return requests.request(method, url, **kw)
 
-    def json(self, method, url, params=None, data=None, json=None, **kw):  # json是要再vist方法下去进行进一步的处理
-        """访问接口，获取json数据"""
-        res = self.vist_Req(url, method, params=params, data=data, json=json, **kw)
-        # 获取json数据
-        try:
-            return res.json()
-        except:
-            # 记录日志信息
-            logging.error('不是json格式的数据')

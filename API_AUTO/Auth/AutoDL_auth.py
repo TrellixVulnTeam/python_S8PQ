@@ -49,4 +49,4 @@ def change_ticket():
 
 
 if __name__ == '__main__':
-    login()
+    get_captcha()

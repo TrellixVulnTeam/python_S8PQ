@@ -105,7 +105,7 @@
   data:
     password: "1234567"
     phone: "18804320001"
-    v_code: "666666"
+    v_code: "123456"
   resp:
     code: "InternalError"
     msg: "验证码无效，请重新获取"
@@ -115,7 +115,7 @@
   data:
     password: "12345678901234567"
     phone: "18804320002"
-    v_code: "666666"
+    v_code: "123456"
   resp:
     code: "InternalError"
     msg: "验证码无效，请重新获取"
@@ -125,7 +125,7 @@
   data:
     password: "12345678"
     phone: "18804320003"
-    v_code: "666666"
+    v_code: "123456"
   resp:
     code: "InternalError"
     msg: "验证码无效，请重新获取"
@@ -135,7 +135,7 @@
   data:
     password: "asdfghjkl"
     phone: "18804320004"
-    v_code: "666666"
+    v_code: "123456"
   resp:
     code: "InternalError"
     msg: "验证码无效，请重新获取"
@@ -145,7 +145,7 @@
   data:
     password: "asdfghjkl！@#￥%……&"
     phone: "18804320005"
-    v_code: "666666"
+    v_code: "123456"
   resp:
     code: "InternalError"
     msg: "验证码无效，请重新获取"

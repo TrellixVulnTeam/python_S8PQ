@@ -1,4 +1,0 @@
-INFO     run_all_case.py:test_RechargeCase.py:30 当前用例名称：充值大于100万
-INFO     run_all_case.py:test_RechargeCase.py:31 当前测试用例请求参数：{'asset': 10000000000}
-INFO     run_all_case.py:test_RechargeCase.py:32 当前用例预期结果：{'code': 'WxClientError', 'msg': '生成微信订单失败, 请稍后重试'}
-INFO     run_all_case.py:test_RechargeCase.py:33 当前用例实际结果：{'code': 'WxClientError', 'data': None, 'msg': '生成微信订单失败, 请稍后重试', 'debug_error': ''}

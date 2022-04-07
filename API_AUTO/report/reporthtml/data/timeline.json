@@ -4,777 +4,765 @@
   "children" : [ {
     "name" : "DESKTOP-KSOAST3",
     "children" : [ {
-      "name" : "5836-MainThread",
+      "name" : "38140-MainThread",
       "children" : [ {
-        "name" : "充值少于1元",
-        "uid" : "11ef74eb2717c355",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423152830,
-          "stop" : 1647423153788,
-          "duration" : 958
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]
-      }, {
-        "name" : "实例正常开机",
-        "uid" : "dd4d3df3e01f53d0",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423141482,
-          "stop" : 1647423141985,
-          "duration" : 503
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': 'None', 'payload': ''}", "'实例正常开机'" ]
-      }, {
-        "name" : "正确注册用户",
-        "uid" : "63be4ca67ee4c1aa",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423163719,
-          "stop" : 1647423163941,
-          "duration" : 222
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'password': '123456aa', 'phone': '18937524610', 'v_code': '666666'}", "'正确注册用户'" ]
-      }, {
-        "name" : "密码输入17位，手机号输入正确",
-        "uid" : "3a825f7429a64c6c",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423146977,
-          "stop" : 1647423147415,
-          "duration" : 438
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010500001', 'password': '12345671111111111'}", "'密码输入17位，手机号输入正确'" ]
-      }, {
-        "name" : "GPU不足，实例开机",
-        "uid" : "cae9262c419129d1",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423141999,
-          "stop" : 1647423142590,
-          "duration" : 591
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_uuid': 'None', 'payload': ''}", "'GPU不足，实例开机'" ]
-      }, {
-        "name" : "手机号输入null 密码输入null",
-        "uid" : "c4e63e857c32f224",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423148726,
-          "stop" : 1647423148886,
-          "duration" : 160
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '', 'password': 'Null'}", "'手机号输入null 密码输入null'" ]
-      }, {
-        "name" : "手机号输入10位",
-        "uid" : "3196019a5cfa6b97",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423163946,
-          "stop" : 1647423164146,
-          "duration" : 200
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '1880105330', 'v_code': '666666'}", "'手机号输入10位'" ]
-      }, {
-        "name" : "验证码为空",
-        "uid" : "7d5639bff1593750",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423166877,
-          "stop" : 1647423167037,
-          "duration" : 160
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'password': '123456aa', 'phone': '18937524610', 'v_code': ''}", "'验证码为空'" ]
-      }, {
-        "name" : "uuid传入错误",
-        "uid" : "133c18a2a9906512",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423143688,
-          "stop" : 1647423144238,
-          "duration" : 550
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RecordNotFoundError', 'msg': '未查询到相关实例'}", "{'instance_uuid': 'dshjakdhsjakdhjk', 'payload': ''}", "'uuid传入错误'" ]
-      }, {
-        "name" : "输入sql语句",
-        "uid" : "4eac5b82856e49b0",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423148890,
-          "stop" : 1647423149053,
-          "duration" : 163
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': 'select username，password from user where username=', 'password': 'select username，password from user where username='}", "'输入sql语句'" ]
-      }, {
-        "name" : "支付0元",
-        "uid" : "e066341767f1f7a8",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423161314,
-          "stop" : 1647423163138,
-          "duration" : 1824
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': 0}", "'支付0元'" ]
-      }, {
-        "name" : "实例释放用例",
-        "uid" : "1718f5c35bd20a8f",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423175764,
-          "stop" : 1647423177991,
-          "duration" : 2227
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "手机号正确，密码错误",
-        "uid" : "d6cdfce5f7d84f76",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423145559,
-          "stop" : 1647423145754,
-          "duration" : 195
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': '123'}", "'手机号正确，密码错误'" ]
-      }, {
-        "name" : "密码只输入字母",
-        "uid" : "ae0b195689baf353",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423166071,
-          "stop" : 1647423166280,
-          "duration" : 209
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': 'asdfghjkl', 'phone': '18937524610', 'v_code': '666666'}", "'密码只输入字母'" ]
-      }, {
-        "name" : "手机号输入特殊符号",
-        "uid" : "312e8aa016e52da4",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423164669,
-          "stop" : 1647423164820,
-          "duration" : 151
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '!@#$%^&*()', 'v_code': '666666'}", "'手机号输入特殊符号'" ]
-      }, {
-        "name" : "不输入手机号，密码输入正确",
-        "uid" : "c22af1e316530545",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423147778,
-          "stop" : 1647423147962,
-          "duration" : 184
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '', 'password': '123456A13a'}", "'不输入手机号，密码输入正确'" ]
-      }, {
-        "name" : "正确创建实例",
-        "uid" : "f4c89574bebaeb98",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423139320,
-          "stop" : 1647423140652,
-          "duration" : 1332
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': 1}}", "'正确创建实例'" ]
-      }, {
-        "name" : "输入字母",
-        "uid" : "804eb5b676fc6876",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423151150,
-          "stop" : 1647423151700,
-          "duration" : 550
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': 'adsadsa'}", "'输入字母'" ]
-      }, {
-        "name" : "手机号错误，密码正确",
-        "uid" : "364e4a9060ae105c",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423145758,
-          "stop" : 1647423145964,
-          "duration" : 206
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010533', 'password': '123456Aa'}", "'手机号错误，密码正确'" ]
-      }, {
-        "name" : "充值金额为空",
-        "uid" : "f5dfbcda52a43c16",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423163142,
-          "stop" : 1647423163714,
-          "duration" : 572
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': None}", "'充值金额为空'" ]
-      }, {
-        "name" : "输入负数",
-        "uid" : "50cba52f26ab5fc3",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423157886,
-          "stop" : 1647423158690,
-          "duration" : 804
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
-      }, {
-        "name" : "手机号输入中文",
-        "uid" : "19ac738fe4a13ec4",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423164342,
-          "stop" : 1647423164498,
-          "duration" : 156
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '测试登录', 'v_code': '666666'}", "'手机号输入中文'" ]
-      }, {
-        "name" : "手机号输入12位",
-        "uid" : "9c8c5f934f3ce22d",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423164152,
-          "stop" : 1647423164337,
-          "duration" : 185
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '188010533033', 'v_code': '666666'}", "'手机号输入12位'" ]
-      }, {
         "name" : "输入汉字",
-        "uid" : "faf3b9a8380946f3",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
+        "uid" : "a24eafa55e34cc28",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
         "status" : "passed",
         "time" : {
-          "start" : 1647423151705,
-          "stop" : 1647423152264,
-          "duration" : 559
+          "start" : 1648717078684,
+          "stop" : 1648717079175,
+          "duration" : 491
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': '测试测试'}", "'输入汉字'" ]
       }, {
-        "name" : "密码输入17位",
-        "uid" : "f0be83e04277df1c",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423165718,
-          "stop" : 1647423165883,
-          "duration" : 165
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '12345678901234567', 'phone': '18937524610', 'v_code': '666666'}", "'密码输入17位'" ]
-      }, {
-        "name" : "手机号输入11位数字+特殊符号",
-        "uid" : "1bd9476f3b1bf742",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423165169,
-          "stop" : 1647423165371,
-          "duration" : 202
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '18801053303!@#$%', 'v_code': '666666'}", "'手机号输入11位数字+特殊符号'" ]
-      }, {
-        "name" : "实例关机用例",
-        "uid" : "2628dcef9a938821",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423167262,
-          "stop" : 1647423175759,
-          "duration" : 8497
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "正常充值",
-        "uid" : "5e67ca033dced6b5",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423149058,
-          "stop" : 1647423150030,
-          "duration" : 972
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'asset': 1000}", "'正常充值'" ]
-      }, {
         "name" : "密码为空",
-        "uid" : "1f8115a7d5ddf16d",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
+        "uid" : "66c6b22c1fc1d8ec",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
         "status" : "passed",
         "time" : {
-          "start" : 1647423166527,
-          "stop" : 1647423166695,
-          "duration" : 168
+          "start" : 1648717084219,
+          "stop" : 1648717084376,
+          "duration" : 157
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'password': '', 'phone': '18843211234', 'v_code': '666666'}", "'密码为空'" ]
       }, {
-        "name" : "输入负数",
-        "uid" : "82e94b713ee62367",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423150631,
-          "stop" : 1647423151136,
-          "duration" : 505
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
-      }, {
-        "name" : "注册过的手机号",
-        "uid" : "8ad3bb8b76f1c2f2",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
+        "name" : "密码输入17位",
+        "uid" : "306114490228c27b",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
         "status" : "passed",
         "time" : {
-          "start" : 1647423167042,
-          "stop" : 1647423167258,
-          "duration" : 216
+          "start" : 1648717083517,
+          "stop" : 1648717083698,
+          "duration" : 181
         },
         "flaky" : false,
-        "parameters" : [ "{'code': 'AlreadyExist', 'msg': '手机号已注册'}", "{'password': '123456', 'phone': '18801053303', 'v_code': '666666'}", "'注册过的手机号'" ]
-      }, {
-        "name" : "手机号输入英文+汉字，密码输入正确",
-        "uid" : "75b70493d3851ade",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423147592,
-          "stop" : 1647423147772,
-          "duration" : 180
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': 'test登录', 'password': '123456A13a'}", "'手机号输入英文+汉字，密码输入正确'" ]
-      }, {
-        "name" : "创建实例时GPU不足",
-        "uid" : "a250c46a12b66447",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423140657,
-          "stop" : 1647423141210,
-          "duration" : 553
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}", "'创建实例时GPU不足'" ]
-      }, {
-        "name" : "不传instance_uuid",
-        "uid" : "348142d25dfb8dc",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423144302,
-          "stop" : 1647423144796,
-          "duration" : 494
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'payload': ''}", "'不传instance_uuid'" ]
-      }, {
-        "name" : "手机号为空",
-        "uid" : "7c0ad9837a913c4d",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423165376,
-          "stop" : 1647423165534,
-          "duration" : 158
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'password': '123456aa', 'phone': '', 'v_code': '666666'}", "'手机号为空'" ]
-      }, {
-        "name" : "手机号输入英文",
-        "uid" : "c7a7a9080efd4c4b",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423164503,
-          "stop" : 1647423164665,
-          "duration" : 162
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': 'qwertyuui', 'v_code': '666666'}", "'手机号输入英文'" ]
-      }, {
-        "name" : "手机号输入特殊符号",
-        "uid" : "c07b20772c823a20",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423148174,
-          "stop" : 1647423148384,
-          "duration" : 210
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '！@#￥%……&*（)', 'password': ''}", "'手机号输入特殊符号'" ]
-      }, {
-        "name" : "机器下架，实例开机",
-        "uid" : "25c2adbc61da1be9",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423142605,
-          "stop" : 1647423143120,
-          "duration" : 515
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'instance_uuid': '', 'payload': ''}", "'机器下架，实例开机'" ]
-      }, {
-        "name" : "手机号输入9位，密码输入正确",
-        "uid" : "1a3071524d9c9728",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423146160,
-          "stop" : 1647423146378,
-          "duration" : 218
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010500', 'password': '123456Aa'}", "'手机号输入9位，密码输入正确'" ]
-      }, {
-        "name" : "不输入密码，手机号输入正确",
-        "uid" : "aa750938f2dce16c",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423147966,
-          "stop" : 1647423148169,
-          "duration" : 203
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': ''}", "'不输入密码，手机号输入正确'" ]
-      }, {
-        "name" : "充值大于100万",
-        "uid" : "ca03011effc3ab44",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423152269,
-          "stop" : 1647423152825,
-          "duration" : 556
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'WxClientError', 'msg': '生成微信订单失败, 请稍后重试'}", "{'asset': 10000000000}", "'充值大于100万'" ]
-      }, {
-        "name" : "手机号输入11位数字+汉字",
-        "uid" : "c2edf2be6a303181",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423164977,
-          "stop" : 1647423165165,
-          "duration" : 188
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '18801053303测试测试', 'v_code': '666666'}", "'手机号输入11位数字+汉字'" ]
-      }, {
-        "name" : "验证码输入错误，手机号、密码输入正确",
-        "uid" : "928e7f7575d773ec",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423166699,
-          "stop" : 1647423166872,
-          "duration" : 173
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '123456aa', 'phone': '18843211234', 'v_code': '123456'}", "'验证码输入错误，手机号、密码输入正确'" ]
-      }, {
-        "name" : "输入汉字",
-        "uid" : "27bf7d3886f3fee7",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423159515,
-          "stop" : 1647423160021,
-          "duration" : 506
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': '测试测试'}", "'输入汉字'" ]
-      }, {
-        "name" : "密码输入数字+特殊符号",
-        "uid" : "3aad611135018498",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423166359,
-          "stop" : 1647423166514,
-          "duration" : 155
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': 'asdfghjkl！@#￥%……&', 'phone': '18937524610', 'v_code': '666666'}", "'密码输入数字+特殊符号'" ]
-      }, {
-        "name" : "正常充值",
-        "uid" : "703b2b6045b45033",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423155308,
-          "stop" : 1647423157393,
-          "duration" : 2085
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'asset': 1000}", "'正常充值'" ]
-      }, {
-        "name" : "手机号输入11位数字+字母",
-        "uid" : "c12b516ca10a7751",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423164825,
-          "stop" : 1647423164972,
-          "duration" : 147
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '18801053303asdsadsa', 'v_code': '666666'}", "'手机号输入11位数字+字母'" ]
-      }, {
-        "name" : "不输入金额",
-        "uid" : "addba014aaa0fa4b",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423157398,
-          "stop" : 1647423157882,
-          "duration" : 484
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': None}", "'不输入金额'" ]
-      }, {
-        "name" : "不传payload",
-        "uid" : "dda4581558fcb05e",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423144801,
-          "stop" : 1647423145361,
-          "duration" : 560
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': 'None'}", "'不传payload'" ]
-      }, {
-        "name" : "手机号输入null 密码不输入",
-        "uid" : "ad4f6b80a94e8e30",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423148390,
-          "stop" : 1647423148560,
-          "duration" : 170
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': 'Null', 'password': ''}", "'手机号输入null 密码不输入'" ]
-      }, {
-        "name" : "支付0元",
-        "uid" : "2026f11d40fcebd9",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423153802,
-          "stop" : 1647423154711,
-          "duration" : 909
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': 0}", "'支付0元'" ]
-      }, {
-        "name" : "密码输入7位，手机号输入正确",
-        "uid" : "713f3d3fffa9fa9c",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423146806,
-          "stop" : 1647423146971,
-          "duration" : 165
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010500001', 'password': '1234567'}", "'密码输入7位，手机号输入正确'" ]
-      }, {
-        "name" : "充值金额为空",
-        "uid" : "c3ad66e004570a22",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423154716,
-          "stop" : 1647423155304,
-          "duration" : 588
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': None}", "'充值金额为空'" ]
-      }, {
-        "name" : "输入字母",
-        "uid" : "e62b931686f4375a",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423158707,
-          "stop" : 1647423159511,
-          "duration" : 804
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': 'adsadsa'}", "'输入字母'" ]
-      }, {
-        "name" : "手机号错误，密码错误",
-        "uid" : "1ff986679d51e330",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423145969,
-          "stop" : 1647423146155,
-          "duration" : 186
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053124', 'password': '123456A13a'}", "'手机号错误，密码错误'" ]
-      }, {
-        "name" : "手机号密码都正确",
-        "uid" : "804fdcd4c229bd4a",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423145376,
-          "stop" : 1647423145553,
-          "duration" : 177
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'phone': '18801053303', 'password': '123456Aa', 'captcha_id': '111'}", "'手机号密码都正确'" ]
-      }, {
-        "name" : "充值少于1元",
-        "uid" : "8cdd6190b7a24191",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423160026,
-          "stop" : 1647423161299,
-          "duration" : 1273
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]
-      }, {
-        "name" : "密码输入7位",
-        "uid" : "e9788d5d4a877b92",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423165539,
-          "stop" : 1647423165704,
-          "duration" : 165
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '1234567', 'phone': '18843211234', 'v_code': '666666'}", "'密码输入7位'" ]
-      }, {
-        "name" : "密码输入null 手机号不输入",
-        "uid" : "d6cdb5e01eda9174",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423148564,
-          "stop" : 1647423148721,
-          "duration" : 157
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '', 'password': 'Null'}", "'密码输入null 手机号不输入'" ]
-      }, {
-        "name" : "实例uuid为空",
-        "uid" : "428d4965927335f8",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423143126,
-          "stop" : 1647423143682,
-          "duration" : 556
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'instance_uuid': '', 'payload': ''}", "'实例uuid为空'" ]
-      }, {
-        "name" : "密码输入17位，手机号输入正确",
-        "uid" : "d97d9a13c6721b56",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647423147420,
-          "stop" : 1647423147587,
-          "duration" : 167
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010500001', 'password': '12345671111111111'}", "'密码输入17位，手机号输入正确'" ]
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '12345678901234567', 'phone': '18804320002', 'v_code': '123456'}", "'密码输入17位'" ]
       }, {
         "name" : "手机号输入12位，密码输入正确",
-        "uid" : "9ab50960425d43a6",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
+        "uid" : "d181d92349485167",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
         "status" : "passed",
         "time" : {
-          "start" : 1647423146383,
-          "stop" : 1647423146801,
-          "duration" : 418
+          "start" : 1648717066616,
+          "stop" : 1648717066870,
+          "duration" : 254
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010500001', 'password': '123456Aa'}", "'手机号输入12位，密码输入正确'" ]
       }, {
-        "name" : "密码只输入数字",
-        "uid" : "a015eff4e20be516",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
-        "status" : "failed",
-        "time" : {
-          "start" : 1647423165899,
-          "stop" : 1647423166054,
-          "duration" : 155
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '12345678', 'phone': '18937524610', 'v_code': '666666'}", "'密码只输入数字'" ]
-      }, {
-        "name" : "不输入金额",
-        "uid" : "75b902107847f389",
-        "parentUid" : "6abc257bbebcbd2f39339dbaeac12129",
+        "name" : "输入sql语句",
+        "uid" : "c3952c5130ca6367",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
         "status" : "passed",
         "time" : {
-          "start" : 1647423150034,
-          "stop" : 1647423150625,
-          "duration" : 591
+          "start" : 1648717069019,
+          "stop" : 1648717069269,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': 'select username，password from user where username=', 'password': 'select username，password from user where username='}", "'输入sql语句'" ]
+      }, {
+        "name" : "正常充值",
+        "uid" : "c4c12eae712fbe27",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717069275,
+          "stop" : 1648717070129,
+          "duration" : 854
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'asset': 1000}", "'正常充值'" ]
+      }, {
+        "name" : "手机号输入9位，密码输入正确",
+        "uid" : "5bfafe0b3099d83f",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717066347,
+          "stop" : 1648717066611,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010500', 'password': '123456Aa'}", "'手机号输入9位，密码输入正确'" ]
+      }, {
+        "name" : "不输入手机号，密码输入正确",
+        "uid" : "fb27cb26f13b5409",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717067884,
+          "stop" : 1648717068028,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '', 'password': '123456A13a'}", "'不输入手机号，密码输入正确'" ]
+      }, {
+        "name" : "手机号输入11位数字+特殊符号",
+        "uid" : "eeff7faacd05eb6a",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717082950,
+          "stop" : 1648717083118,
+          "duration" : 168
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '18801053303!@#$%', 'v_code': '666666'}", "'手机号输入11位数字+特殊符号'" ]
+      }, {
+        "name" : "输入汉字",
+        "uid" : "c2f1fa216d8a75c8",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717071746,
+          "stop" : 1648717072307,
+          "duration" : 561
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': '测试测试'}", "'输入汉字'" ]
+      }, {
+        "name" : "验证码为空",
+        "uid" : "94f5c152dddae5e0",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717084539,
+          "stop" : 1648717084710,
+          "duration" : 171
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'password': '123456aa', 'phone': '18634791052', 'v_code': ''}", "'验证码为空'" ]
+      }, {
+        "name" : "手机号输入英文",
+        "uid" : "5bacf12b8290b784",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717082237,
+          "stop" : 1648717082433,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': 'qwertyuui', 'v_code': '666666'}", "'手机号输入英文'" ]
+      }, {
+        "name" : "密码输入17位，手机号输入正确",
+        "uid" : "b3de724d618816a9",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717067377,
+          "stop" : 1648717067628,
+          "duration" : 251
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010500001', 'password': '12345671111111111'}", "'密码输入17位，手机号输入正确'" ]
+      }, {
+        "name" : "输入负数",
+        "uid" : "a3f002d3f9f02353",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648717070635,
+          "stop" : 1648717071134,
+          "duration" : 499
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
+      }, {
+        "name" : "正常充值",
+        "uid" : "ad27d5349b209aba",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717074607,
+          "stop" : 1648717076337,
+          "duration" : 1730
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'asset': 1000}", "'正常充值'" ]
+      }, {
+        "name" : "输入负数",
+        "uid" : "8af34cf78189df2b",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648717076829,
+          "stop" : 1648717078135,
+          "duration" : 1306
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
+      }, {
+        "name" : "输入字母",
+        "uid" : "2085b1e267c4b7a6",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717078150,
+          "stop" : 1648717078679,
+          "duration" : 529
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': 'adsadsa'}", "'输入字母'" ]
+      }, {
+        "name" : "实例关机用例",
+        "uid" : "8755cfa3ce41f0a6",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717084917,
+          "stop" : 1648717093633,
+          "duration" : 8716
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "充值少于1元",
+        "uid" : "1c6eb106fce51e13",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648717072852,
+          "stop" : 1648717073567,
+          "duration" : 715
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]
+      }, {
+        "name" : "充值大于100万",
+        "uid" : "44267069eb64e3b2",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717072313,
+          "stop" : 1648717072847,
+          "duration" : 534
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'WxClientError', 'msg': '生成微信订单失败, 请稍后重试'}", "{'asset': 10000000000}", "'充值大于100万'" ]
+      }, {
+        "name" : "不输入金额",
+        "uid" : "5c90566320936352",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717076342,
+          "stop" : 1648717076824,
+          "duration" : 482
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': None}", "'不输入金额'" ]
+      }, {
+        "name" : "不输入金额",
+        "uid" : "1949f8466e3aa2da",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717070135,
+          "stop" : 1648717070630,
+          "duration" : 495
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': None}", "'不输入金额'" ]
+      }, {
+        "name" : "密码输入null 手机号不输入",
+        "uid" : "8a37bb78d8cd1848",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717068716,
+          "stop" : 1648717068863,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '', 'password': 'Null'}", "'密码输入null 手机号不输入'" ]
+      }, {
+        "name" : "充值少于1元",
+        "uid" : "f3e9f9c7574c85b4",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648717079179,
+          "stop" : 1648717080207,
+          "duration" : 1028
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]
+      }, {
+        "name" : "手机号输入11位数字+字母",
+        "uid" : "ba1541f2b1797961",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717082617,
+          "stop" : 1648717082768,
+          "duration" : 151
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '18801053303asdsadsa', 'v_code': '666666'}", "'手机号输入11位数字+字母'" ]
+      }, {
+        "name" : "不传instance_uuid",
+        "uid" : "906d131b8e2b36ff",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717064310,
+          "stop" : 1648717064793,
+          "duration" : 483
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'payload': ''}", "'不传instance_uuid'" ]
+      }, {
+        "name" : "充值金额为空",
+        "uid" : "1e4b60184cc124ca",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717080773,
+          "stop" : 1648717081332,
+          "duration" : 559
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': None}", "'充值金额为空'" ]
+      }, {
+        "name" : "手机号密码都正确",
+        "uid" : "6d4d61d33d175529",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717065408,
+          "stop" : 1648717065590,
+          "duration" : 182
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'phone': '18801053303', 'password': '123456Aa', 'captcha_id': '111'}", "'手机号密码都正确'" ]
+      }, {
+        "name" : "手机号输入10位",
+        "uid" : "6bff6bd8b0266002",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717081673,
+          "stop" : 1648717081842,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '1880105330', 'v_code': '666666'}", "'手机号输入10位'" ]
+      }, {
+        "name" : "手机号输入英文+汉字，密码输入正确",
+        "uid" : "3cffabf4a564515c",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717067633,
+          "stop" : 1648717067878,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': 'test登录', 'password': '123456A13a'}", "'手机号输入英文+汉字，密码输入正确'" ]
+      }, {
+        "name" : "支付0元",
+        "uid" : "2be01b47111aaf4",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717073585,
+          "stop" : 1648717074112,
+          "duration" : 527
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': 0}", "'支付0元'" ]
+      }, {
+        "name" : "手机号正确，密码错误",
+        "uid" : "35932f7798452e60",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717065595,
+          "stop" : 1648717065767,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': '123'}", "'手机号正确，密码错误'" ]
+      }, {
+        "name" : "手机号输入特殊符号",
+        "uid" : "5ebb0a99f83b95bf",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717068210,
+          "stop" : 1648717068451,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '！@#￥%……&*（)', 'password': ''}", "'手机号输入特殊符号'" ]
+      }, {
+        "name" : "验证码输入错误，手机号、密码输入正确",
+        "uid" : "6f55dc78c651df3b",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717084381,
+          "stop" : 1648717084534,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '123456aa', 'phone': '18843211234', 'v_code': '123456'}", "'验证码输入错误，手机号、密码输入正确'" ]
+      }, {
+        "name" : "手机号输入null 密码不输入",
+        "uid" : "27ae9878f2714be3",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717068456,
+          "stop" : 1648717068711,
+          "duration" : 255
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': 'Null', 'password': ''}", "'手机号输入null 密码不输入'" ]
+      }, {
+        "name" : "手机号输入12位",
+        "uid" : "498d242a0fce8f0c",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717081847,
+          "stop" : 1648717082030,
+          "duration" : 183
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '188010533033', 'v_code': '666666'}", "'手机号输入12位'" ]
+      }, {
+        "name" : "密码只输入数字",
+        "uid" : "641d79973856d1db",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717083703,
+          "stop" : 1648717083874,
+          "duration" : 171
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '12345678', 'phone': '18804320003', 'v_code': '123456'}", "'密码只输入数字'" ]
+      }, {
+        "name" : "正确注册用户",
+        "uid" : "f7c34db3be62901a",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717081338,
+          "stop" : 1648717081666,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'password': '123456aa', 'phone': '18634791052', 'v_code': '666666'}", "'正确注册用户'" ]
+      }, {
+        "name" : "实例正常开机",
+        "uid" : "359e84c47e5be8ad",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717061646,
+          "stop" : 1648717062290,
+          "duration" : 644
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': 'f94411a60c-1645c329', 'payload': ''}", "'实例正常开机'" ]
+      }, {
+        "name" : "密码输入7位，手机号输入正确",
+        "uid" : "bf3a6274a9166ef",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717066876,
+          "stop" : 1648717067119,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010500001', 'password': '1234567'}", "'密码输入7位，手机号输入正确'" ]
+      }, {
+        "name" : "机器下架，实例开机",
+        "uid" : "90dbf43c7810e97a",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717062808,
+          "stop" : 1648717063298,
+          "duration" : 490
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'instance_uuid': '', 'payload': ''}", "'机器下架，实例开机'" ]
+      }, {
+        "name" : "正确创建实例",
+        "uid" : "d89e23cf43a64f47",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717059329,
+          "stop" : 1648717060812,
+          "duration" : 1483
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': 1}}", "'正确创建实例'" ]
+      }, {
+        "name" : "GPU不足，实例开机",
+        "uid" : "71a058a43deba16",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648717062294,
+          "stop" : 1648717062794,
+          "duration" : 500
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_uuid': 'None', 'payload': ''}", "'GPU不足，实例开机'" ]
+      }, {
+        "name" : "uuid传入错误",
+        "uid" : "de28f08177a67884",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717063823,
+          "stop" : 1648717064304,
+          "duration" : 481
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RecordNotFoundError', 'msg': '未查询到相关实例'}", "{'instance_uuid': 'dshjakdhsjakdhjk', 'payload': ''}", "'uuid传入错误'" ]
+      }, {
+        "name" : "创建实例时GPU不足",
+        "uid" : "a10895e79186ff4d",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648717060816,
+          "stop" : 1648717061334,
+          "duration" : 518
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}", "'创建实例时GPU不足'" ]
+      }, {
+        "name" : "注册过的手机号",
+        "uid" : "a7f2cf6ca15d94c4",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717084715,
+          "stop" : 1648717084912,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'AlreadyExist', 'msg': '手机号已注册'}", "{'password': '123456', 'phone': '18801053303', 'v_code': '666666'}", "'注册过的手机号'" ]
+      }, {
+        "name" : "手机号错误，密码错误",
+        "uid" : "2ee765d74df54617",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717066029,
+          "stop" : 1648717066342,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053124', 'password': '123456A13a'}", "'手机号错误，密码错误'" ]
+      }, {
+        "name" : "手机号输入null 密码输入null",
+        "uid" : "ac2f67fcab6e8cf7",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717068869,
+          "stop" : 1648717069014,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '', 'password': 'Null'}", "'手机号输入null 密码输入null'" ]
+      }, {
+        "name" : "充值金额为空",
+        "uid" : "675e2fe9f3bdde1",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717074118,
+          "stop" : 1648717074602,
+          "duration" : 484
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': None}", "'充值金额为空'" ]
+      }, {
+        "name" : "手机号输入特殊符号",
+        "uid" : "1ccaac79eb163f78",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717082438,
+          "stop" : 1648717082610,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '!@#$%^&*()', 'v_code': '666666'}", "'手机号输入特殊符号'" ]
+      }, {
+        "name" : "手机号输入中文",
+        "uid" : "4efabec9c7806f41",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717082036,
+          "stop" : 1648717082230,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '测试登录', 'v_code': '666666'}", "'手机号输入中文'" ]
+      }, {
+        "name" : "实例uuid为空",
+        "uid" : "4fab208d2f2c4ee3",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717063303,
+          "stop" : 1648717063818,
+          "duration" : 515
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'instance_uuid': '', 'payload': ''}", "'实例uuid为空'" ]
+      }, {
+        "name" : "不传payload",
+        "uid" : "c577ff20824d4b44",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717064798,
+          "stop" : 1648717065403,
+          "duration" : 605
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': 'f94411a60c-1645c329'}", "'不传payload'" ]
+      }, {
+        "name" : "密码输入17位，手机号输入正确",
+        "uid" : "7f81fbeacda56f14",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717067124,
+          "stop" : 1648717067373,
+          "duration" : 249
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010500001', 'password': '12345671111111111'}", "'密码输入17位，手机号输入正确'" ]
+      }, {
+        "name" : "密码输入7位",
+        "uid" : "b894099795c67d2e",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717083322,
+          "stop" : 1648717083512,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '1234567', 'phone': '18804320001', 'v_code': '123456'}", "'密码输入7位'" ]
+      }, {
+        "name" : "不输入密码，手机号输入正确",
+        "uid" : "78b353157fbdf465",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717068032,
+          "stop" : 1648717068205,
+          "duration" : 173
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053303', 'password': ''}", "'不输入密码，手机号输入正确'" ]
+      }, {
+        "name" : "手机号为空",
+        "uid" : "6df5e95134a4002f",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717083123,
+          "stop" : 1648717083316,
+          "duration" : 193
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'password': '123456aa', 'phone': '', 'v_code': '666666'}", "'手机号为空'" ]
+      }, {
+        "name" : "手机号错误，密码正确",
+        "uid" : "16f978e9683dbd2b",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717065771,
+          "stop" : 1648717066024,
+          "duration" : 253
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '188010533', 'password': '123456Aa'}", "'手机号错误，密码正确'" ]
+      }, {
+        "name" : "输入字母",
+        "uid" : "cca21c230191da5e",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717071151,
+          "stop" : 1648717071740,
+          "duration" : 589
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': 'adsadsa'}", "'输入字母'" ]
+      }, {
+        "name" : "密码只输入字母",
+        "uid" : "7ecb0dc1af5e0f10",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717083880,
+          "stop" : 1648717084044,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': 'asdfghjkl', 'phone': '18804320004', 'v_code': '123456'}", "'密码只输入字母'" ]
+      }, {
+        "name" : "手机号输入11位数字+汉字",
+        "uid" : "5b560082354bd6a4",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717082776,
+          "stop" : 1648717082945,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '18801053303测试测试', 'v_code': '666666'}", "'手机号输入11位数字+汉字'" ]
+      }, {
+        "name" : "支付0元",
+        "uid" : "56a12ed6a2c97939",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717080221,
+          "stop" : 1648717080767,
+          "duration" : 546
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'asset': 0}", "'支付0元'" ]
+      }, {
+        "name" : "密码输入数字+特殊符号",
+        "uid" : "ef3e3da26dbe025f",
+        "parentUid" : "d6f24028152c17b6fda36a920413ce43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648717084048,
+          "stop" : 1648717084215,
+          "duration" : 167
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': 'asdfghjkl！@#￥%……&', 'phone': '18804320005', 'v_code': '123456'}", "'密码输入数字+特殊符号'" ]
       } ],
-      "uid" : "6abc257bbebcbd2f39339dbaeac12129"
+      "uid" : "d6f24028152c17b6fda36a920413ce43"
     } ],
     "uid" : "9cd1bcbf5d3eb7d8fa6880bd739d4846"
   } ]

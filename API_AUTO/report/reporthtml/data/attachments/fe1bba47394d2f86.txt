@@ -1,0 +1,4 @@
+INFO     run_all_case.py:test_RechargeCase.py:31 当前用例名称：正常充值
+INFO     run_all_case.py:test_RechargeCase.py:32 当前测试用例请求参数：{'asset': 1000}
+INFO     run_all_case.py:test_RechargeCase.py:33 当前用例预期结果：{'code': 'Success', 'msg': ''}
+INFO     run_all_case.py:test_RechargeCase.py:34 当前用例实际结果：{'code': 'Success', 'data': {'code_url': 'weixin://wxpay/bizpayurl?pr=wrEc5mdzz', 'recharge_uuid': '096980172311928693', 'asset': 1000}, 'msg': ''}

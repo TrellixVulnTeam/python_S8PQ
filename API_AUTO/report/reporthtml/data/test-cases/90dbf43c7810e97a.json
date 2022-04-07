@@ -1,0 +1,86 @@
+{
+  "uid" : "90dbf43c7810e97a",
+  "name" : "机器下架，实例开机",
+  "fullName" : "testCases.test_InstancePowerOnCase.TestInstancePowerOn#test_instance_power_on",
+  "historyId" : "abd9a687585c01114276d617f2a0a909",
+  "time" : {
+    "start" : 1648717062808,
+    "stop" : 1648717063298,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "696b111a9a1a4a72",
+      "name" : "log",
+      "source" : "696b111a9a1a4a72.txt",
+      "type" : "text/plain",
+      "size" : 559
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "实例模块"
+  }, {
+    "name" : "story",
+    "value" : "实例开机接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_InstancePowerOnCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInstancePowerOn"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "38140-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_InstancePowerOnCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'instance_uuid': '', 'payload': ''}"
+  }, {
+    "name" : "title",
+    "value" : "'机器下架，实例开机'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90dbf43c7810e97a.json",
+  "parameterValues" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'instance_uuid': '', 'payload': ''}", "'机器下架，实例开机'" ]
+}

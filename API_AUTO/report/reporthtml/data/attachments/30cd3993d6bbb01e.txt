@@ -1,0 +1,4 @@
+INFO     run_all_case.py:test_RechargeCase.py:46 当前用例名称：支付0元
+INFO     run_all_case.py:test_RechargeCase.py:47 当前测试用例请求参数：{'asset': 0}
+INFO     run_all_case.py:test_RechargeCase.py:48 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+INFO     run_all_case.py:test_RechargeCase.py:49 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}

@@ -11,15 +11,7 @@ from common.Request import RequestsHandler
 from common.Return_Response import dict_style
 from config import adss
 from common.Assert import Assertions
-
-
-def get_sha1(psw):
-    # 实例化对象
-    md5 = hashlib.sha1()
-    # 调用加密方法直接加密
-    md5.update(psw.encode("utf-8"))
-    # 返回md5加密的结果
-    return md5.hexdigest()
+from utils.handle_data import get_sha1
 
 
 class Login:

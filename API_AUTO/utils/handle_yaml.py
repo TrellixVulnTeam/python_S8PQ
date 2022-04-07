@@ -6,13 +6,13 @@
 import json
 from pprint import pprint
 import random
-from string import Template
+
 from libs.instance_list import InstanceList
 import yaml
 from common import Random_number
-from libs.rental_Instance import get_gpu_idle_num, get_gpu_not_enough
-import jinja2
-
+from libs.rental_Instance import get_gpu_idle_num, get_gpu_not_enough, get_instance_gpu_num
+from jinja2 import Template
+import utils.ReadYamlRender
 from utils.ReadYamlRender import ReadYamlRender
 
 
@@ -35,7 +35,7 @@ def get_register_yaml_data(fileDir):
     # yml 文件数据，转 python 类型
     num = Random_number.main()
     new_data = {"phone": num}
-    res1 = jinja2.Template(str(res)).render(new_data)
+    res1 = Template(str(res)).render(new_data)
     results = yaml.safe_load(res1)
     # a = ReadYamlRender('../data/RegisterCase.yaml', {"phone": num}).render
     for one1 in results:
@@ -50,12 +50,13 @@ def get_CreatInstance_yaml_data(fileDir):
         res = yaml.safe_load(fo.read())
     mid1 = get_gpu_idle_num()
     mid2 = get_gpu_not_enough()
-    new_data = {"machine_id": [mid1, mid2]}
-    res1 = jinja2.Template(str(res)).render(new_data)  # 引入jinja2中的Template类读取yaml模板数据,再调用render方法进行数据替换
+    num = get_instance_gpu_num()
+    new_data = {"machine_id": [mid1, mid2]}  # 多参数写成字典 字典里可以加列表
+    res1 = Template(str(res)).render(new_data)
+    # print(res1)
     results = yaml.safe_load(res1)
     for one in results:
         reslist.append((one['detail'], one['data'], one['resp']))
-    # print(reslist)
     return reslist
 
 
@@ -68,7 +69,7 @@ def get_InstancePowerOn_yaml_data(fileDir):
     # mid1 = random.choice(uuidlist)
     mid2 = InstanceList().found_gpu_NotEnoughInstance()
     new_data = {'instance_uuid': [mid1, mid2]}  # 列表类型数据   使用下标获取，例如：{{instance_uuid.0}}
-    res1 = jinja2.Template(str(res)).render(new_data)
+    res1 = Template(str(res)).render(new_data)
     results = yaml.safe_load(res1)
     for one in results:
         reslist.append((one['detail'], one['data'], one['resp']))
@@ -77,6 +78,6 @@ def get_InstancePowerOn_yaml_data(fileDir):
 
 
 if __name__ == '__main__':
-    # pprint(get_CreatInstance_yaml_data('../data/InstanceCreateCase.yaml'))
-    # print(get_register_yaml_data('../data/RegisterCase.yaml'))
-    pprint(get_InstancePowerOn_yaml_data('../data/InstancePowerOnCase.yaml'))
+    pprint(get_CreatInstance_yaml_data('../data/InstanceCreateCase.yaml'))
+    # pprint(get_register_yaml_data('../data/RegisterCase.yaml'))
+    # pprint(get_InstancePowerOn_yaml_data('../data/InstancePowerOnCase.yaml'))

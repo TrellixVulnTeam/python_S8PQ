@@ -1,70 +1,48 @@
 {
-  "total" : 6,
+  "total" : 4,
   "items" : [ {
-    "uid" : "fb2f655a35f354f581c4913014ef4863",
-    "name" : "注册接口",
-    "statistic" : {
-      "failed" : 5,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 14,
-      "unknown" : 0,
-      "total" : 19
-    }
-  }, {
-    "uid" : "eeb411e8f73000580c854136a1fcbd37",
-    "name" : "实例开机接口",
-    "statistic" : {
-      "failed" : 3,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 7
-    }
-  }, {
-    "uid" : "a7581b4b7022ab040a76321bf0276fbc",
-    "name" : "微信充值接口",
-    "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 7,
-      "unknown" : 0,
-      "total" : 9
-    }
-  }, {
-    "uid" : "6d2514d286e45ae43425ac5983c057a4",
-    "name" : "支付宝充值接口",
-    "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 8
-    }
-  }, {
     "uid" : "e8965cbeca95c887f394c365d52acca2",
     "name" : "实例模块",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 3
     }
   }, {
-    "uid" : "0d5b5d5ed9a9bc64a2ee56bbf79043e1",
-    "name" : "登录接口",
+    "uid" : "19e4aa5da2e51d90b2de51107419ab5c",
+    "name" : "充值模块",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "1ec85d305619bb014bb9b3571cb637e8",
+    "name" : "AutoDL",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 17
+      "total" : 1
+    }
+  }, {
+    "uid" : "76e5fd360fd49f5d26aa0e7d1dc18c5c",
+    "name" : "注册模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

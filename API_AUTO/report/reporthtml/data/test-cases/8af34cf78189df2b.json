@@ -1,0 +1,94 @@
+{
+  "uid" : "8af34cf78189df2b",
+  "name" : "输入负数",
+  "fullName" : "testCases.test_RechargeCase.TestRecharge#test_alopay_register",
+  "historyId" : "37619380c0a892eb7a79fe2e987351a7",
+  "time" : {
+    "start" : 1648717076829,
+    "stop" : 1648717078135,
+    "duration" : 1306
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'Success' == 'BadRequest'\n  - BadRequest\n  + Success",
+  "statusTrace" : "self = <testCases.test_RechargeCase.TestRecharge object at 0x000001F82C8C5D00>\ntitle = '输入负数', inBody = {'asset': -1}\nexpData = {'code': 'BadRequest', 'msg': '充值金额最低1元'}\n\n    @allure.story('支付宝充值接口')  # 接口名称\n    @pytest.mark.parametrize('title,inBody,expData', get_yamlCase_data(data_path + 'AlipayRechargeCase.yaml'))\n    @allure.title(\"{title}\")\n    def test_alopay_register(self, title, inBody, expData):\n        resData = Recharge().alipay_recharge(inData=inBody)\n        logger.info(f'当前用例名称：{title}')\n        logger.info(f'当前测试用例请求参数：{inBody}')\n        logger.info(f'当前用例预期结果：{expData}')\n        logger.info(f'当前用例实际结果：{resData}\\n')\n        try:\n            self.define_assert(resData, expData)\n        except AssertionError as e:\n            logger.error(f'用例执行失败{e}')\n>           raise e\n\n..\\testCases\\test_RechargeCase.py:54: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\testCases\\test_RechargeCase.py:51: in test_alopay_register\n    self.define_assert(resData, expData)\n..\\common\\Assert.py:111: in define_assert\n    raise error\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'testCases.test_RechargeCase.TestRecharge'>\nres = {'code': 'Success', 'data': {'asset': -1, 'code_url': '', 'recharge_uuid': '015947235872192993'}, 'msg': ''}\nrespData = {'code': 'BadRequest', 'msg': '充值金额最低1元'}\n\n    @classmethod  # 使用类名就可以直接调用类方法\n    def define_assert(cls, res, respData):\n        try:\n            if 'code' in respData:\n>               assert res['code'] == respData['code']\nE               AssertionError: assert 'Success' == 'BadRequest'\nE                 - BadRequest\nE                 + Success\n\n..\\common\\Assert.py:104: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'Success' == 'BadRequest'\n  - BadRequest\n  + Success",
+    "statusTrace" : "self = <testCases.test_RechargeCase.TestRecharge object at 0x000001F82C8C5D00>\ntitle = '输入负数', inBody = {'asset': -1}\nexpData = {'code': 'BadRequest', 'msg': '充值金额最低1元'}\n\n    @allure.story('支付宝充值接口')  # 接口名称\n    @pytest.mark.parametrize('title,inBody,expData', get_yamlCase_data(data_path + 'AlipayRechargeCase.yaml'))\n    @allure.title(\"{title}\")\n    def test_alopay_register(self, title, inBody, expData):\n        resData = Recharge().alipay_recharge(inData=inBody)\n        logger.info(f'当前用例名称：{title}')\n        logger.info(f'当前测试用例请求参数：{inBody}')\n        logger.info(f'当前用例预期结果：{expData}')\n        logger.info(f'当前用例实际结果：{resData}\\n')\n        try:\n            self.define_assert(resData, expData)\n        except AssertionError as e:\n            logger.error(f'用例执行失败{e}')\n>           raise e\n\n..\\testCases\\test_RechargeCase.py:54: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\testCases\\test_RechargeCase.py:51: in test_alopay_register\n    self.define_assert(resData, expData)\n..\\common\\Assert.py:111: in define_assert\n    raise error\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'testCases.test_RechargeCase.TestRecharge'>\nres = {'code': 'Success', 'data': {'asset': -1, 'code_url': '', 'recharge_uuid': '015947235872192993'}, 'msg': ''}\nrespData = {'code': 'BadRequest', 'msg': '充值金额最低1元'}\n\n    @classmethod  # 使用类名就可以直接调用类方法\n    def define_assert(cls, res, respData):\n        try:\n            if 'code' in respData:\n>               assert res['code'] == respData['code']\nE               AssertionError: assert 'Success' == 'BadRequest'\nE                 - BadRequest\nE                 + Success\n\n..\\common\\Assert.py:104: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74604c11bc64262f",
+      "name" : "log",
+      "source" : "74604c11bc64262f.txt",
+      "type" : "text/plain",
+      "size" : 915
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "支付宝充值接口"
+  }, {
+    "name" : "feature",
+    "value" : "充值模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RechargeCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecharge"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "38140-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_RechargeCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'BadRequest', 'msg': '充值金额最低1元'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'asset': -1}"
+  }, {
+    "name" : "title",
+    "value" : "'输入负数'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8af34cf78189df2b.json",
+  "parameterValues" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
+}

@@ -28,5 +28,7 @@ if __name__ == '__main__':
     # 测试下封装是否正确
     new_data = {"parent_id": {"name": "被替换的成功的数据-1"}}
     BASE_DIR = Path(__file__).resolve().parent.parent
+    print(BASE_DIR)
     FILE_PATH = Path.joinpath(BASE_DIR, "data", "LoginCase.yaml")
+    print(FILE_PATH)
     print(ReadYamlRender(FILE_PATH, new_data).render)

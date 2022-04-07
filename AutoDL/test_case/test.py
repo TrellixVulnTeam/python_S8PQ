@@ -17,7 +17,7 @@ def test_admin_recharge():
         "Authorization": token
     }
     # print(token1)
-    req = {"asset": 6666000, "id": 241}
+    req = {"asset": 100000, "id": 1760}
     r = requests.post(url=url, json=req, headers=token1)
     print(r.json())
 

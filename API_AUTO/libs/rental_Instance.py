@@ -28,16 +28,34 @@ def get_instance_list():
     return res.json()["data"]["list"]
 
 
+# 获取机器剩余GPU
+def get_instance_gpu_num():
+    list1 = get_instance_list()
+    # pprint(list1)
+    # print(type(list1))
+    list2 = get_gpu_idle_num()
+    # print(type(list2))
+    for i in list1:
+        # print(i)
+        if list2 in i.values():
+            # print(i["gpu_idle_num"])
+            # gpu_num = list1[0]["gpu_idle_num"]
+            # print(gpu_num)
+            # print('找到gpu空闲机器的ID了')
+            return i["gpu_idle_num"]
+
+
 # 获取有空闲GPU的机器
 def get_gpu_idle_num():
     for i in get_instance_list():
         # pprint(i)
         mid = []
-        if i["gpu_idle_num"] > 1:
+        if i["gpu_idle_num"] > 0:
             # pprint(i["machine_id"])
             mid.append(i["machine_id"])
             # print(type(mid))
-            return random.choice(mid)
+            # print(mid)
+            return i["machine_id"]
 
 
 # 获取GPU不足的机器
@@ -45,13 +63,14 @@ def get_gpu_not_enough():
     for i in get_instance_list():
         # pprint(i)
         mid2 = []
-        if i["gpu_idle_num"] < 1:
+        if i["gpu_idle_num"] == 0:
             # pprint(i["machine_id"])
             mid2.append(i["machine_id"])
-            return random.choice(mid2)
+            # print(i["machine_id"])
+            return i["machine_id"]
 
 
 if __name__ == '__main__':
     # get_instance_list()
     # get_gpu_idle_num()
-    get_gpu_not_enough()
+    get_instance_gpu_num()

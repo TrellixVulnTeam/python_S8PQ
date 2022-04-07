@@ -1,0 +1,372 @@
+Thu, 31 Mar 2022 16:57:33-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2022-03-31 16:57:33===================================
+Thu, 31 Mar 2022 16:57:40-run_all_case.py-test_InstanceCase.py-[line:40]-INFO-[日志信息]: 当前用例名称：正确创建实例
+Thu, 31 Mar 2022 16:57:40-run_all_case.py-test_InstanceCase.py-[line:41]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': 1}}
+Thu, 31 Mar 2022 16:57:40-run_all_case.py-test_InstanceCase.py-[line:42]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 31 Mar 2022 16:57:40-run_all_case.py-test_InstanceCase.py-[line:43]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': 'f94411a60c-c519d334', 'msg': ''}
+
+Thu, 31 Mar 2022 16:57:41-run_all_case.py-test_InstanceCase.py-[line:40]-INFO-[日志信息]: 当前用例名称：创建实例时GPU不足
+Thu, 31 Mar 2022 16:57:41-run_all_case.py-test_InstanceCase.py-[line:41]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}
+Thu, 31 Mar 2022 16:57:41-run_all_case.py-test_InstanceCase.py-[line:42]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '机器空闲GPU不足'}
+Thu, 31 Mar 2022 16:57:41-run_all_case.py-test_InstanceCase.py-[line:43]-INFO-[日志信息]: 当前用例实际结果：{'code': 'DatabaseError', 'data': None, 'msg': '服务异常，请稍后重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:41-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'DatabaseError' == 'InternalError'
+  - InternalError
+  + DatabaseError
+
+Thu, 31 Mar 2022 16:57:41-run_all_case.py-test_InstanceCase.py-[line:47]-ERROR-[日志信息]: 用例执行失败assert 'DatabaseError' == 'InternalError'
+  - InternalError
+  + DatabaseError
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-test_InstancePowerOnCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：实例正常开机
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-test_InstancePowerOnCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_uuid': 'f94411a60c-1645c329', 'payload': ''}
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-test_InstancePowerOnCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-test_InstancePowerOnCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': None, 'msg': ''}
+
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-test_InstancePowerOnCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：GPU不足，实例开机
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-test_InstancePowerOnCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_uuid': 'None', 'payload': ''}
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-test_InstancePowerOnCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '机器空闲GPU不足'}
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-test_InstancePowerOnCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RecordNotFoundError', 'data': None, 'msg': '未查询到相关实例', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'InternalError'
+  - InternalError
+  + RecordNotFoundError
+
+Thu, 31 Mar 2022 16:57:42-run_all_case.py-test_InstancePowerOnCase.py-[line:38]-ERROR-[日志信息]: 用例执行失败assert 'RecordNotFoundError' == 'InternalError'
+  - InternalError
+  + RecordNotFoundError
+Thu, 31 Mar 2022 16:57:43-run_all_case.py-test_InstancePowerOnCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：机器下架，实例开机
+Thu, 31 Mar 2022 16:57:43-run_all_case.py-test_InstancePowerOnCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_uuid': '', 'payload': ''}
+Thu, 31 Mar 2022 16:57:43-run_all_case.py-test_InstancePowerOnCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:43-run_all_case.py-test_InstancePowerOnCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:43-run_all_case.py-test_InstancePowerOnCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：实例uuid为空
+Thu, 31 Mar 2022 16:57:43-run_all_case.py-test_InstancePowerOnCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_uuid': '', 'payload': ''}
+Thu, 31 Mar 2022 16:57:43-run_all_case.py-test_InstancePowerOnCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:43-run_all_case.py-test_InstancePowerOnCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:44-run_all_case.py-test_InstancePowerOnCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：uuid传入错误
+Thu, 31 Mar 2022 16:57:44-run_all_case.py-test_InstancePowerOnCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_uuid': 'dshjakdhsjakdhjk', 'payload': ''}
+Thu, 31 Mar 2022 16:57:44-run_all_case.py-test_InstancePowerOnCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RecordNotFoundError', 'msg': '未查询到相关实例'}
+Thu, 31 Mar 2022 16:57:44-run_all_case.py-test_InstancePowerOnCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RecordNotFoundError', 'data': None, 'msg': '未查询到相关实例', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:44-run_all_case.py-test_InstancePowerOnCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：不传instance_uuid
+Thu, 31 Mar 2022 16:57:44-run_all_case.py-test_InstancePowerOnCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'payload': ''}
+Thu, 31 Mar 2022 16:57:44-run_all_case.py-test_InstancePowerOnCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:44-run_all_case.py-test_InstancePowerOnCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_InstancePowerOnCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：不传payload
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_InstancePowerOnCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'instance_uuid': 'f94411a60c-1645c329'}
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_InstancePowerOnCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_InstancePowerOnCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': None, 'msg': ''}
+
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号密码都正确
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053303', 'password': 'a753c776ff3ed4fefa2af948af87448910153281', 'captcha_id': '111'}
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'ticket': 'd95o2uzYI7q7tY7bHI4U1xBug7s=', 'user': {'id': 3, 'created_at': '2021-08-06T21:36:59+08:00', 'updated_at': '2021-09-14T10:40:09+08:00', 'uuid': '487686b5-637f-4d99-8202-7c0b29fa322d', 'username': 'zty_tester', 'nickname': 'ZhangTy', 'status': 'normal', 'logged_in_at': '2022-03-24T15:11:11.377+08:00', 'email': '', 'phone': '18801053303', 'is_admin': False, 'is_super_admin': False, 'sha1_password': 'a753c776ff3ed4fefa2af948af87448910153281', 'email_confirmed': False, 'idle_job_authority': True, 'mount_net_disk_authority': True, 'invitation_code': '', 'open_id': '111', 'union_id': '', 'applet_open_id': '', 'avatar_id': 0, 'register_ip': ''}}, 'msg': ''}
+
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号正确，密码错误
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053303', 'password': '40bd001563085fc35165329ea1ff5c5ecbdbbeef'}
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:45-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号错误，密码正确
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '188010533', 'password': 'a753c776ff3ed4fefa2af948af87448910153281'}
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号错误，密码错误
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053124', 'password': 'a8ef6091e7aded9675e79ff635ffd80e8c780420'}
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号输入9位，密码输入正确
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '188010500', 'password': 'a753c776ff3ed4fefa2af948af87448910153281'}
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号输入12位，密码输入正确
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '188010500001', 'password': 'a753c776ff3ed4fefa2af948af87448910153281'}
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:46-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：密码输入7位，手机号输入正确
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '188010500001', 'password': '20eabe5d64b0e216796e834f52d61fd0b70332fc'}
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 2, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：密码输入17位，手机号输入正确
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '188010500001', 'password': 'f6cff2998c2f0fd52fb0e9891d10ca3b0cb41fc1'}
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 3, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：密码输入17位，手机号输入正确
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '188010500001', 'password': 'f6cff2998c2f0fd52fb0e9891d10ca3b0cb41fc1'}
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 4, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号输入英文+汉字，密码输入正确
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': 'test登录', 'password': 'a8ef6091e7aded9675e79ff635ffd80e8c780420'}
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:47-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：不输入手机号，密码输入正确
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '', 'password': 'a8ef6091e7aded9675e79ff635ffd80e8c780420'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：不输入密码，手机号输入正确
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '18801053303', 'password': 'da39a3ee5e6b4b0d3255bfef95601890afd80709'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 2, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号输入特殊符号
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '！@#￥%……&*（)', 'password': 'da39a3ee5e6b4b0d3255bfef95601890afd80709'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号输入null 密码不输入
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': 'Null', 'password': 'da39a3ee5e6b4b0d3255bfef95601890afd80709'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：密码输入null 手机号不输入
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '', 'password': '109085beaaa80ac89858b283a64f7c75d7e5bb12'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:48-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:49-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：手机号输入null 密码输入null
+Thu, 31 Mar 2022 16:57:49-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': '', 'password': '109085beaaa80ac89858b283a64f7c75d7e5bb12'}
+Thu, 31 Mar 2022 16:57:49-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:49-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:49-run_all_case.py-test_LoginCase.py-[line:27]-INFO-[日志信息]: 当前用例名称：输入sql语句
+Thu, 31 Mar 2022 16:57:49-run_all_case.py-test_LoginCase.py-[line:28]-INFO-[日志信息]: 当前测试用例请求参数：{'phone': 'select username，password from user where username=', 'password': 'e693f99fbb5efd10efe806601ff8bfebb64a4343'}
+Thu, 31 Mar 2022 16:57:49-run_all_case.py-test_LoginCase.py-[line:29]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+Thu, 31 Mar 2022 16:57:49-run_all_case.py-test_LoginCase.py-[line:30]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:50-run_all_case.py-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：正常充值
+Thu, 31 Mar 2022 16:57:50-run_all_case.py-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 1000}
+Thu, 31 Mar 2022 16:57:50-run_all_case.py-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 31 Mar 2022 16:57:50-run_all_case.py-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'code_url': 'weixin://wxpay/bizpayurl?pr=wrEc5mdzz', 'recharge_uuid': '096980172311928693', 'asset': 1000}, 'msg': ''}
+
+Thu, 31 Mar 2022 16:57:50-run_all_case.py-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：不输入金额
+Thu, 31 Mar 2022 16:57:50-run_all_case.py-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': None}
+Thu, 31 Mar 2022 16:57:50-run_all_case.py-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:50-run_all_case.py-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：输入负数
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': -1}
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'BadRequest', 'msg': '充值金额最低1元'}
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'WxClientError', 'data': None, 'msg': '生成微信订单失败, 请稍后重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'WxClientError' == 'BadRequest'
+  - BadRequest
+  + WxClientError
+
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-test_RechargeCase.py-[line:38]-ERROR-[日志信息]: 用例执行失败assert 'WxClientError' == 'BadRequest'
+  - BadRequest
+  + WxClientError
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：输入字母
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 'adsadsa'}
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:51-run_all_case.py-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:52-run_all_case.py-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：输入汉字
+Thu, 31 Mar 2022 16:57:52-run_all_case.py-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': '测试测试'}
+Thu, 31 Mar 2022 16:57:52-run_all_case.py-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:52-run_all_case.py-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:52-run_all_case.py-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：充值大于100万
+Thu, 31 Mar 2022 16:57:52-run_all_case.py-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 10000000000}
+Thu, 31 Mar 2022 16:57:52-run_all_case.py-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'WxClientError', 'msg': '生成微信订单失败, 请稍后重试'}
+Thu, 31 Mar 2022 16:57:52-run_all_case.py-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'WxClientError', 'data': None, 'msg': '生成微信订单失败, 请稍后重试', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:53-run_all_case.py-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：充值少于1元
+Thu, 31 Mar 2022 16:57:53-run_all_case.py-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 100}
+Thu, 31 Mar 2022 16:57:53-run_all_case.py-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'BadRequest', 'msg': '充值金额最低1元'}
+Thu, 31 Mar 2022 16:57:53-run_all_case.py-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'code_url': 'weixin://wxpay/bizpayurl?pr=iMlSazwzz', 'recharge_uuid': '245794062211726347', 'asset': 100}, 'msg': ''}
+
+Thu, 31 Mar 2022 16:57:53-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Thu, 31 Mar 2022 16:57:53-run_all_case.py-test_RechargeCase.py-[line:38]-ERROR-[日志信息]: 用例执行失败assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+Thu, 31 Mar 2022 16:57:54-run_all_case.py-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：支付0元
+Thu, 31 Mar 2022 16:57:54-run_all_case.py-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 0}
+Thu, 31 Mar 2022 16:57:54-run_all_case.py-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:54-run_all_case.py-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:54-run_all_case.py-test_RechargeCase.py-[line:31]-INFO-[日志信息]: 当前用例名称：充值金额为空
+Thu, 31 Mar 2022 16:57:54-run_all_case.py-test_RechargeCase.py-[line:32]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': None}
+Thu, 31 Mar 2022 16:57:54-run_all_case.py-test_RechargeCase.py-[line:33]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:54-run_all_case.py-test_RechargeCase.py-[line:34]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:56-run_all_case.py-test_RechargeCase.py-[line:46]-INFO-[日志信息]: 当前用例名称：正常充值
+Thu, 31 Mar 2022 16:57:56-run_all_case.py-test_RechargeCase.py-[line:47]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 1000}
+Thu, 31 Mar 2022 16:57:56-run_all_case.py-test_RechargeCase.py-[line:48]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 31 Mar 2022 16:57:56-run_all_case.py-test_RechargeCase.py-[line:49]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'code_url': 'https://qr.alipay.com/upx01066vvw1qatss7ox3062', 'recharge_uuid': '136288493662272925', 'asset': 1000}, 'msg': ''}
+
+Thu, 31 Mar 2022 16:57:56-run_all_case.py-test_RechargeCase.py-[line:46]-INFO-[日志信息]: 当前用例名称：不输入金额
+Thu, 31 Mar 2022 16:57:56-run_all_case.py-test_RechargeCase.py-[line:47]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': None}
+Thu, 31 Mar 2022 16:57:56-run_all_case.py-test_RechargeCase.py-[line:48]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:56-run_all_case.py-test_RechargeCase.py-[line:49]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-test_RechargeCase.py-[line:46]-INFO-[日志信息]: 当前用例名称：输入负数
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-test_RechargeCase.py-[line:47]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': -1}
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-test_RechargeCase.py-[line:48]-INFO-[日志信息]: 当前用例预期结果：{'code': 'BadRequest', 'msg': '充值金额最低1元'}
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-test_RechargeCase.py-[line:49]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'code_url': '', 'recharge_uuid': '015947235872192993', 'asset': -1}, 'msg': ''}
+
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-test_RechargeCase.py-[line:53]-ERROR-[日志信息]: 用例执行失败assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-test_RechargeCase.py-[line:46]-INFO-[日志信息]: 当前用例名称：输入字母
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-test_RechargeCase.py-[line:47]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 'adsadsa'}
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-test_RechargeCase.py-[line:48]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:58-run_all_case.py-test_RechargeCase.py-[line:49]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:57:59-run_all_case.py-test_RechargeCase.py-[line:46]-INFO-[日志信息]: 当前用例名称：输入汉字
+Thu, 31 Mar 2022 16:57:59-run_all_case.py-test_RechargeCase.py-[line:47]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': '测试测试'}
+Thu, 31 Mar 2022 16:57:59-run_all_case.py-test_RechargeCase.py-[line:48]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:57:59-run_all_case.py-test_RechargeCase.py-[line:49]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-test_RechargeCase.py-[line:46]-INFO-[日志信息]: 当前用例名称：充值少于1元
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-test_RechargeCase.py-[line:47]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 100}
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-test_RechargeCase.py-[line:48]-INFO-[日志信息]: 当前用例预期结果：{'code': 'BadRequest', 'msg': '充值金额最低1元'}
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-test_RechargeCase.py-[line:49]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'code_url': 'https://qr.alipay.com/upx03391jt5bt99sg4kv250d', 'recharge_uuid': '845667825151495274', 'asset': 100}, 'msg': ''}
+
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-test_RechargeCase.py-[line:53]-ERROR-[日志信息]: 用例执行失败assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-test_RechargeCase.py-[line:46]-INFO-[日志信息]: 当前用例名称：支付0元
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-test_RechargeCase.py-[line:47]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': 0}
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-test_RechargeCase.py-[line:48]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:58:00-run_all_case.py-test_RechargeCase.py-[line:49]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RechargeCase.py-[line:46]-INFO-[日志信息]: 当前用例名称：充值金额为空
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RechargeCase.py-[line:47]-INFO-[日志信息]: 当前测试用例请求参数：{'asset': None}
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RechargeCase.py-[line:48]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RechargeCase.py-[line:49]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：正确注册用户
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18634791052', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'Success', 'msg': ''}
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'Success', 'data': {'ticket': 'aiTP7U4d6Dzugts45X9ToclMBjk=', 'user': {'id': 44203, 'created_at': '2022-03-31T16:58:01+08:00', 'updated_at': '2022-03-31T16:58:01+08:00', 'uuid': '35e20642-64ea-4924-99ad-ca94282c7239', 'username': '炼丹师1052', 'nickname': '炼丹师1052', 'status': 'normal', 'logged_in_at': None, 'email': '', 'phone': '18634791052', 'is_admin': False, 'is_super_admin': False, 'sha1_password': '123456aa', 'email_confirmed': False, 'idle_job_authority': False, 'mount_net_disk_authority': True, 'invitation_code': '', 'open_id': '', 'union_id': '', 'applet_open_id': '', 'avatar_id': 0, 'register_ip': '172.17.9.1'}}, 'msg': ''}
+
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入10位
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '1880105330', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Thu, 31 Mar 2022 16:58:01-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入12位
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '188010533033', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入中文
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '测试登录', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入英文
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': 'qwertyuui', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入特殊符号
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '!@#$%^&*()', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入11位数字+字母
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18801053303asdsadsa', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入11位数字+汉字
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18801053303测试测试', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Thu, 31 Mar 2022 16:58:02-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号输入11位数字+特殊符号
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18801053303!@#$%', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：手机号为空
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码输入7位
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '1234567', 'phone': '18804320001', 'v_code': '123456'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码输入17位
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '12345678901234567', 'phone': '18804320002', 'v_code': '123456'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码只输入数字
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '12345678', 'phone': '18804320003', 'v_code': '123456'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Thu, 31 Mar 2022 16:58:03-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码只输入字母
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': 'asdfghjkl', 'phone': '18804320004', 'v_code': '123456'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码输入数字+特殊符号
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': 'asdfghjkl！@#￥%……&', 'phone': '18804320005', 'v_code': '123456'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：密码为空
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '', 'phone': '18843211234', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：验证码输入错误，手机号、密码输入正确
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18843211234', 'v_code': '123456'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '验证码无效，请重新获取', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：验证码为空
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456aa', 'phone': '18634791052', 'v_code': ''}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
+
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:29]-INFO-[日志信息]: 当前用例名称：注册过的手机号
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:30]-INFO-[日志信息]: 当前测试用例请求参数：{'password': '123456', 'phone': '18801053303', 'v_code': '666666'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:31]-INFO-[日志信息]: 当前用例预期结果：{'code': 'AlreadyExist', 'msg': '手机号已注册'}
+Thu, 31 Mar 2022 16:58:04-run_all_case.py-test_RegisterCase.py-[line:32]-INFO-[日志信息]: 当前用例实际结果：{'code': 'AlreadyExist', 'data': None, 'msg': '手机号已注册', 'debug_error': ''}
+
+Thu, 31 Mar 2022 17:45:05-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2022-03-31 17:45:05===================================
