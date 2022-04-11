@@ -8,7 +8,7 @@ import random
 
 import requests
 
-from Auth.AutoDL_auth import change_ticket
+from Auth.AutoDL_auth import get_token
 from common.Request import RequestsHandler
 from config.adss import server_ip
 
@@ -17,7 +17,7 @@ from config.adss import server_ip
 def get_instance_list():
     base_url = server_ip()
     url = base_url + 'user/machine/list'
-    token = change_ticket()
+    token = get_token()
     header = {
         "Authorization": token
     }

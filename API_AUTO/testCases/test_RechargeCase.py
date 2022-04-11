@@ -20,11 +20,13 @@ log = Log(file)
 logger = log.Logger
 
 
+@allure.epic('AutoDL')
 @allure.feature('充值模块')
 class TestRecharge(BaseAssert):
     # 调用业务代码
-    @allure.story('微信充值接口')  # 接口名称
+
     @pytest.mark.parametrize('title,inBody,expData', get_yamlCase_data(data_path + '\\WxRechargeCase.yaml'))
+    @allure.story('微信充值接口')
     @allure.title("{title}")
     def test_wx_register(self, title, inBody, expData):
         resData = Recharge().wx_recharge(inData=inBody)

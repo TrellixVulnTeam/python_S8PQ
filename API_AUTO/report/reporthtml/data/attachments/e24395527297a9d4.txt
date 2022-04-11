@@ -1,4 +1,0 @@
-INFO     run_all_case.py:test_InstancePowerOnCase.py:31 当前用例名称：实例正常开机
-INFO     run_all_case.py:test_InstancePowerOnCase.py:32 当前测试用例请求参数：{'instance_uuid': 'f94411a60c-1645c329', 'payload': ''}
-INFO     run_all_case.py:test_InstancePowerOnCase.py:33 当前用例预期结果：{'code': 'Success', 'msg': ''}
-INFO     run_all_case.py:test_InstancePowerOnCase.py:34 当前用例实际结果：{'code': 'Success', 'data': None, 'msg': ''}

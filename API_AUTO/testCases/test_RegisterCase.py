@@ -16,12 +16,12 @@ log = Log(file)
 logger = log.Logger
 
 
+@allure.epic('AutoDL')
 @allure.feature('注册模块')
 class TestRegister(BaseAssert):
 
-    @allure.story('注册接口')  # 接口名称
-    # @allure.title('注册用例')  # 用例标题
     @pytest.mark.parametrize('title,inBody,expData', get_register_yaml_data(data_path + 'RegisterCase.yaml'))
+    @allure.story('注册接口')
     @allure.title("{title}")
     def test_register(self, title, inBody, expData):
         resData = Register().register(inData=inBody)

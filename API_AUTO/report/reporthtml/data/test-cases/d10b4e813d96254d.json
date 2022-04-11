@@ -1,0 +1,104 @@
+{
+  "uid" : "d10b4e813d96254d",
+  "name" : "密码只输入数字",
+  "fullName" : "testCases.test_RegisterCase.TestRegister#test_register",
+  "historyId" : "277bee7e7d4bff1d389db9e1ea53ed32",
+  "time" : {
+    "start" : 1649670392476,
+    "stop" : 1649670392640,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1649670368082,
+      "stop" : 1649670368082,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1347c13a966620b9",
+      "name" : "log",
+      "source" : "1347c13a966620b9.txt",
+      "type" : "text/plain",
+      "size" : 567
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "story",
+    "value" : "注册接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RegisterCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "1420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_RegisterCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'password': '12345678', 'phone': '18804320003', 'v_code': '123456'}"
+  }, {
+    "name" : "title",
+    "value" : "'密码只输入数字'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d10b4e813d96254d.json",
+  "parameterValues" : [ "{'code': 'InternalError', 'msg': '验证码无效，请重新获取'}", "{'password': '12345678', 'phone': '18804320003', 'v_code': '123456'}", "'密码只输入数字'" ]
+}

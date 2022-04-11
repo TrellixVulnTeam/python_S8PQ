@@ -33,7 +33,7 @@ def login():
     return ticket
 
 
-def change_ticket():
+def get_token():
     ticket = login()
     base_url = config.adss.server_ip()
     url = base_url + 'passport'

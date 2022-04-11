@@ -1,0 +1,4 @@
+INFO     run_all_case.py:test_InstanceCase.py:41 当前用例名称：正确创建实例
+INFO     run_all_case.py:test_InstanceCase.py:42 当前测试用例请求参数：{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'f94411a60c', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'f94411a60c', 'num': 1}}
+INFO     run_all_case.py:test_InstanceCase.py:43 当前用例预期结果：{'code': 'Success', 'msg': ''}
+INFO     run_all_case.py:test_InstanceCase.py:44 当前用例实际结果：{'code': 'Success', 'data': 'f94411a60c-f47054b7', 'msg': ''}

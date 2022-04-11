@@ -1,7 +1,7 @@
 from pprint import pprint
 
 import config
-from Auth.AutoDL_auth import change_ticket
+from Auth.AutoDL_auth import get_token
 from common.BaseApi import BaseApi
 from common.Request import RequestsHandler
 from config.adss import server_ip
@@ -12,7 +12,7 @@ class Recharge(BaseApi):
     def wx_recharge(self, inData):
         base_url = config.adss.server_ip()
         url = base_url + 'wallet/recharge/wx'
-        token = change_ticket()
+        token = get_token()
         header = {'Authorization': token}
         payload = inData
         res = RequestsHandler().post_Req(url, json=payload, headers=header)
@@ -22,7 +22,7 @@ class Recharge(BaseApi):
     def alipay_recharge(self, inData):
         base_url = config.adss.server_ip()
         url = base_url + 'wallet/recharge/alipay'
-        token = change_ticket()
+        token = get_token()
         header = {'Authorization': token}
         payload = inData
         res = RequestsHandler().post_Req(url, json=payload, headers=header)
@@ -33,7 +33,7 @@ class Recharge(BaseApi):
     def wallt_recharge(self):
         base_url = config.adss.server_ip()
         url = base_url + 'wallet/recharge'
-        token = change_ticket()
+        token = get_token()
         header = {'Authorization': token}
         payload = {
             'recharge_uuid': self.wx_recharge({"asset": 100})

@@ -11,11 +11,11 @@ import allure
 import pytest
 
 import config.adss
-from Auth.AutoDL_auth import change_ticket
+from Auth.AutoDL_auth import get_token
 from common.Assert import BaseAssert
 from common.Logs import Log
 from common.Request import RequestsHandler
-from libs.creat_instance import InstanceCreat
+from libs.create_payg_instance import InstanceCreatePayg
 from libs.instance_list import InstanceList
 from utils.handle_path import data_path
 from utils.handle_yaml import get_CreatInstance_yaml_data
@@ -25,18 +25,34 @@ log = Log(file)
 logger = log.Logger
 
 
+@allure.epic('AutoDL')
 @allure.feature('实例模块')
-class TestCreatInstance(BaseAssert):
+class TestCreateInstance(BaseAssert):
     # 1-创建实例
     """
      每次执行的时候需要把一个机器剩余的卡全部租用完，否则有一条用例会失败
     """
 
-    @allure.story('创建实例接口')  # 接口名称
     @pytest.mark.parametrize('title,inBody,expData', get_CreatInstance_yaml_data(data_path + 'InstanceCreateCase.yaml'))
+    @allure.story('创建按量计费实例接口')
+    @allure.title("{title}")
+    def test_payg_instance(self, title, inBody, expData):
+        resData = InstanceCreatePayg().creat_instance(inData=inBody)
+        logger.info(f'当前用例名称：{title}')
+        logger.info(f'当前测试用例请求参数：{inBody}')
+        logger.info(f'当前用例预期结果：{expData}')
+        logger.info(f'当前用例实际结果：{resData}\n')
+        try:
+            self.define_assert(resData, expData)
+        except AssertionError as e:
+            logger.error(f'用例执行失败{e}')
+            raise e
+
+    @pytest.mark.parametrize('title,inBody,expData', get_CreatInstance_yaml_data(data_path + 'InstanceCreateCase.yaml'))
+    @allure.story('创建按量计费实例接口')
     @allure.title("{title}")
     def test_instance(self, title, inBody, expData):
-        resData = InstanceCreat().creat_instance(inData=inBody)
+        resData = InstanceCreatePayg().creat_instance(inData=inBody)
         logger.info(f'当前用例名称：{title}')
         logger.info(f'当前测试用例请求参数：{inBody}')
         logger.info(f'当前用例预期结果：{expData}')
@@ -54,7 +70,7 @@ class TestCreatInstance(BaseAssert):
     def test_instance_poweroff(self):
         base_url = config.adss.server_ip()
         url = base_url + 'instance/power_off'
-        token = change_ticket()
+        token = get_token()
         header = {'Authorization': token}
         uuid_list = InstanceList().get_running_InstanceList()
         print(uuid_list)
@@ -89,7 +105,7 @@ class TestCreatInstance(BaseAssert):
     # def test_instance_release(self):
     #     base_url = config.adss.server_ip()
     #     url = base_url + 'instance/release'
-    #     token = change_ticket()
+    #     token = get_token()
     #     header = {'Authorization': token}
     #     uuid_list = InstanceList().get_shutdown_InstanceList()
     #     print(uuid_list)

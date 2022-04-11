@@ -18,9 +18,10 @@ logger = log.Logger
 @allure.feature('登录模块')
 class TestLogin(BaseAssert):
     # 调用业务代码
-    @allure.story('登录接口')  # 接口名称
+
     @pytest.mark.parametrize('title,inBody,expData', get_yamlCase_data(data_path + 'LoginCase.yaml'))  # 数据驱动方法
-    @allure.title("{title}")
+    @allure.story('登录接口')
+    @allure.title("{title}")  # 用例标题
     def test_login(self, title, inBody, expData):
         # 1- 调用业务层封装的接口代码
         resData = Login().login(inData=inBody)

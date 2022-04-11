@@ -4,48 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert 'DatabaseError' == 'InternalError'\n  - InternalError\n  + DatabaseError",
-      "children" : [ {
-        "name" : "创建实例时GPU不足",
-        "uid" : "a10895e79186ff4d",
-        "parentUid" : "b5b8f041164cc3a18d1b0e521bfb2bed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648717060816,
-          "stop" : 1648717061334,
-          "duration" : 518
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': 'None', 'num': 1}}", "'创建实例时GPU不足'" ]
-      } ],
-      "uid" : "b5b8f041164cc3a18d1b0e521bfb2bed"
-    }, {
-      "name" : "AssertionError: assert 'RecordNotFoundError' == 'InternalError'\n  - InternalError\n  + RecordNotFoundError",
-      "children" : [ {
-        "name" : "GPU不足，实例开机",
-        "uid" : "71a058a43deba16",
-        "parentUid" : "c7f864f974f3e74c940d71078a006694",
-        "status" : "failed",
-        "time" : {
-          "start" : 1648717062294,
-          "stop" : 1648717062794,
-          "duration" : 500
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_uuid': 'None', 'payload': ''}", "'GPU不足，实例开机'" ]
-      } ],
-      "uid" : "c7f864f974f3e74c940d71078a006694"
-    }, {
       "name" : "AssertionError: assert 'WxClientError' == 'BadRequest'\n  - BadRequest\n  + WxClientError",
       "children" : [ {
         "name" : "输入负数",
-        "uid" : "a3f002d3f9f02353",
+        "uid" : "486d9f619f1bbc26",
         "parentUid" : "f2956ba35999b2665242e6b012c04a1d",
         "status" : "failed",
         "time" : {
-          "start" : 1648717070635,
-          "stop" : 1648717071134,
-          "duration" : 499
+          "start" : 1649670379998,
+          "stop" : 1649670380535,
+          "duration" : 537
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
@@ -55,37 +23,37 @@
       "name" : "AssertionError: assert 'Success' == 'BadRequest'\n  - BadRequest\n  + Success",
       "children" : [ {
         "name" : "充值少于1元",
-        "uid" : "1c6eb106fce51e13",
+        "uid" : "95e84fb15fc362e6",
         "parentUid" : "5b97878cdd34afceb237094a747cc7d0",
         "status" : "failed",
         "time" : {
-          "start" : 1648717072852,
-          "stop" : 1648717073567,
-          "duration" : 715
+          "start" : 1649670382114,
+          "stop" : 1649670382870,
+          "duration" : 756
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]
       }, {
         "name" : "输入负数",
-        "uid" : "8af34cf78189df2b",
+        "uid" : "7fbb02f6c6ca37e6",
         "parentUid" : "5b97878cdd34afceb237094a747cc7d0",
         "status" : "failed",
         "time" : {
-          "start" : 1648717076829,
-          "stop" : 1648717078135,
-          "duration" : 1306
+          "start" : 1649670386398,
+          "stop" : 1649670387237,
+          "duration" : 839
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
       }, {
         "name" : "充值少于1元",
-        "uid" : "f3e9f9c7574c85b4",
+        "uid" : "5c6ec42e80f10164",
         "parentUid" : "5b97878cdd34afceb237094a747cc7d0",
         "status" : "failed",
         "time" : {
-          "start" : 1648717079179,
-          "stop" : 1648717080207,
-          "duration" : 1028
+          "start" : 1649670388280,
+          "stop" : 1649670389376,
+          "duration" : 1096
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]

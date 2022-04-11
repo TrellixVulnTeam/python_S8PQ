@@ -1,0 +1,104 @@
+{
+  "uid" : "1881c896c8381b2b",
+  "name" : "不传instance_uuid",
+  "fullName" : "testCases.test_InstancePowerOnCase.TestInstancePowerOn#test_instance_power_on",
+  "historyId" : "7ee0e358ab9c4943dac2090b7a90a73e",
+  "time" : {
+    "start" : 1649670373386,
+    "stop" : 1649670373901,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1649670368082,
+      "stop" : 1649670368082,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ef6cd0083208294e",
+      "name" : "log",
+      "source" : "ef6cd0083208294e.txt",
+      "type" : "text/plain",
+      "size" : 530
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "实例模块"
+  }, {
+    "name" : "story",
+    "value" : "实例开机接口"
+  }, {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_InstancePowerOnCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInstancePowerOn"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "1420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_InstancePowerOnCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'payload': ''}"
+  }, {
+    "name" : "title",
+    "value" : "'不传instance_uuid'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1881c896c8381b2b.json",
+  "parameterValues" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'payload': ''}", "'不传instance_uuid'" ]
+}

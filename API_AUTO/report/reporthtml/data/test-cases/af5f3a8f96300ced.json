@@ -1,0 +1,104 @@
+{
+  "uid" : "af5f3a8f96300ced",
+  "name" : "密码输入null 手机号不输入",
+  "fullName" : "testCases.test_LoginCase.TestLogin#test_login",
+  "historyId" : "91760166a8386eb3d3d040a2d88f6d85",
+  "time" : {
+    "start" : 1649670377958,
+    "stop" : 1649670378119,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1649670368082,
+      "stop" : 1649670368082,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c861446accd424ec",
+      "name" : "log",
+      "source" : "c861446accd424ec.txt",
+      "type" : "text/plain",
+      "size" : 578
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "1420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_LoginCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'phone': '', 'password': 'Null'}"
+  }, {
+    "name" : "title",
+    "value" : "'密码输入null 手机号不输入'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af5f3a8f96300ced.json",
+  "parameterValues" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '', 'password': 'Null'}", "'密码输入null 手机号不输入'" ]
+}

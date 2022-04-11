@@ -5,7 +5,7 @@
 # @File : instance_power_on.py
 import config
 from config.adss import server_ip
-from Auth.AutoDL_auth import change_ticket
+from Auth.AutoDL_auth import get_token
 import requests
 from common.Request import RequestsHandler
 
@@ -14,7 +14,7 @@ class InstancePowerOn:
     def instance_power_on(self, inData):
         base_url = config.adss.server_ip()
         url = base_url + 'instance/power_on'
-        token = change_ticket()
+        token = get_token()
         header = {"Authorization": token}
         payload = inData
         res = RequestsHandler().post_Req(url, json=payload, headers=header)

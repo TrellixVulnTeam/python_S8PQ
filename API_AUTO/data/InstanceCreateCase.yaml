@@ -1,7 +1,7 @@
 # 创建实例用例
 
 - #用例01
-  detail: 正确创建实例
+  detail: 正确创建按量计费实例
   data:
     {
       "instance_info": {
@@ -23,7 +23,52 @@
     msg: ""
 
 - # 用例02
-  detail: 创建实例时GPU不足
+  detail: 创建按量计费实例时GPU不足
+  data:
+    {
+      "instance_info": {
+        "charge_type": "payg",
+        "image": "hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0",
+        "machine_id": "{{machine_id.1}}",
+        "instance_name": "",
+        "req_gpu_amount": 1,
+      },
+      "price_info": {
+        "charge_type": "payg",
+        "duration": 1,
+        "machine_id": "{{machine_id.1}}",
+        "num": 1,
+      }
+    }
+  resp:
+    code: "InternalError"
+    msg: "机器空闲GPU不足"
+
+
+- #用例01
+  detail: 正确创建包年包月实例
+  data:
+    {
+      "instance_info": {
+        "charge_type": "daily",
+        "image": "hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0",
+        "machine_id": "{{machine_id.0}}",
+        "instance_name": "",
+        "req_gpu_amount": 1,
+      },
+      "price_info": {
+        "charge_type": "payg",
+        "duration": 1,
+        "machine_id": "{{machine_id.0}}",
+        "num": 1
+      }
+    }
+  resp:
+    code: "Success"
+    msg: ""
+
+- # 用例02
+  detail: 创建按量计费实例时GPU不足
   data:
     {
       "instance_info": {

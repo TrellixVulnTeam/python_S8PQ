@@ -1,0 +1,4 @@
+INFO     run_all_case.py:test_LoginCase.py:27 当前用例名称：手机号输入null 密码不输入
+INFO     run_all_case.py:test_LoginCase.py:28 当前测试用例请求参数：{'phone': 'Null', 'password': 'da39a3ee5e6b4b0d3255bfef95601890afd80709'}
+INFO     run_all_case.py:test_LoginCase.py:29 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+INFO     run_all_case.py:test_LoginCase.py:30 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 1, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}

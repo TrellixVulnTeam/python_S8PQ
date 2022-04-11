@@ -1,0 +1,104 @@
+{
+  "uid" : "fa2b05ed983926ad",
+  "name" : "实例正常开机",
+  "fullName" : "testCases.test_InstancePowerOnCase.TestInstancePowerOn#test_instance_power_on",
+  "historyId" : "e53f733f97cf6ddd3af18dfdd88f8a79",
+  "time" : {
+    "start" : 1649670370544,
+    "stop" : 1649670371209,
+    "duration" : 665
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1649670368082,
+      "stop" : 1649670368082,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba6a76810a183830",
+      "name" : "log",
+      "source" : "ba6a76810a183830.txt",
+      "type" : "text/plain",
+      "size" : 482
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "实例模块"
+  }, {
+    "name" : "story",
+    "value" : "实例开机接口"
+  }, {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_InstancePowerOnCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInstancePowerOn"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "1420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_InstancePowerOnCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'Success', 'msg': ''}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'instance_uuid': 'f94411a60c-49c25d38', 'payload': ''}"
+  }, {
+    "name" : "title",
+    "value" : "'实例正常开机'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa2b05ed983926ad.json",
+  "parameterValues" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': 'f94411a60c-49c25d38', 'payload': ''}", "'实例正常开机'" ]
+}

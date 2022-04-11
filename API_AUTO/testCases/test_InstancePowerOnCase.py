@@ -20,11 +20,13 @@ log = Log(file)
 logger = log.Logger
 
 
+@allure.epic('AutoDL')
 @allure.feature('实例模块')
 class TestInstancePowerOn(BaseAssert):
-    @allure.story('实例开机接口')  # 接口名称
+
     @pytest.mark.parametrize('title,inBody,expData',
                              get_InstancePowerOn_yaml_data(data_path + 'InstancePowerOnCase.yaml'))
+    @allure.story('实例开机接口')
     @allure.title("{title}")
     def test_instance_power_on(self, title, inBody, expData):
         resData = InstancePowerOn().instance_power_on(inData=inBody)

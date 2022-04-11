@@ -1,0 +1,4 @@
+INFO     run_all_case.py:test_RechargeCase.py:46 当前用例名称：正常充值
+INFO     run_all_case.py:test_RechargeCase.py:47 当前测试用例请求参数：{'asset': 1000}
+INFO     run_all_case.py:test_RechargeCase.py:48 当前用例预期结果：{'code': 'Success', 'msg': ''}
+INFO     run_all_case.py:test_RechargeCase.py:49 当前用例实际结果：{'code': 'Success', 'data': {'code_url': 'https://qr.alipay.com/upx01878xnrocked33j330b8', 'recharge_uuid': '698525991481494785', 'asset': 1000}, 'msg': ''}

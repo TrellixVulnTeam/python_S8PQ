@@ -1,0 +1,4 @@
+INFO     run_all_case.py:test_LoginCase.py:27 当前用例名称：密码输入17位，手机号输入正确
+INFO     run_all_case.py:test_LoginCase.py:28 当前测试用例请求参数：{'phone': '188010500001', 'password': 'f6cff2998c2f0fd52fb0e9891d10ca3b0cb41fc1'}
+INFO     run_all_case.py:test_LoginCase.py:29 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}
+INFO     run_all_case.py:test_LoginCase.py:30 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': 4, 'msg': '手机号或密码错误，请重试', 'debug_error': ''}

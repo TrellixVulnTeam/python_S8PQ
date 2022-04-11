@@ -4,7 +4,7 @@
 # @Author : ZhangTy
 # @File : create_commonData.py
 import config
-from Auth.AutoDL_auth import change_ticket
+from Auth.AutoDL_auth import get_token
 from common.Request import RequestsHandler
 from config.adss import server_ip
 
@@ -14,7 +14,7 @@ class CommonData:
     def creat_CommonData(self, inData):
         # base_url = config.adss.server_ip()
         url = 'https://test.autodl.com:33443/api/v1/public_data'
-        token = change_ticket()
+        token = get_token()
         header = {'Authorization': token}
         payload = inData
         res = RequestsHandler().post_Req(url, json=payload, headers=header)

@@ -7,7 +7,7 @@ import time
 from pprint import pprint
 
 import config.adss
-from Auth.AutoDL_auth import change_ticket
+from Auth.AutoDL_auth import get_token
 from common.Request import RequestsHandler
 from libs.rental_Instance import get_gpu_not_enough, get_gpu_idle_num
 
@@ -17,7 +17,7 @@ class InstanceList:
     def get_running_InstanceList(self):
         base_url = config.adss.server_ip()
         url = base_url + 'instance'
-        token = change_ticket()
+        token = get_token()
         header = {'Authorization': token}
         payload = {
             "date_from": "",
@@ -39,7 +39,7 @@ class InstanceList:
     def is_all_shutdown_InstanceList(self, uuidList):
         base_url = config.adss.server_ip()
         url = base_url + 'instance'
-        token = change_ticket()
+        token = get_token()
         header = {'Authorization': token}
         payload = {
             "date_from": "",
@@ -62,7 +62,7 @@ class InstanceList:
     def get_shutdown_InstanceList(self):
         base_url = config.adss.server_ip()
         url = base_url + 'instance'
-        token = change_ticket()
+        token = get_token()
         header = {'Authorization': token}
         payload = {
             "date_from": "",
@@ -84,7 +84,7 @@ class InstanceList:
     def get_shutdown_InstanceList2(self):
         base_url = config.adss.server_ip()
         url = base_url + 'instance'
-        token = change_ticket()
+        token = get_token()
         header = {'Authorization': token}
         payload = {
             "date_from": "",

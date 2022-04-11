@@ -21,28 +21,6 @@ def test_admin_recharge():
     r = requests.post(url=url, json=req, headers=token1)
     print(r.json())
 
-#
-# def wx_msg_push():
-#     url = 'https://test.autodl.com:33443/api/v1/wechat/message/push'
-#     # print(token1)
-#     req = {
-#         "token": "62a0040085a2",
-#         "title": "eg. 来自我的程序",
-#         "device": "eg. 我的ImageNet实验",
-#         "content": "eg. Epoch=100. Acc=90.2"
-#     }
-#     r = requests.post(url=url, json=req)
-#     print(r.json())
-
-
-# resp = requests.post("https://www.autodl.com/api/v1/wechat/message/push",
-#                      json={
-#                          "token": "600e7fbd23a4",
-#                          "title": "eg. 来自我的程序",
-#                          "name": "eg. 我的ImageNet实验",
-#                          "content": "eg. Epoch=100. Acc=90.2"
-#                      })
-# print(resp.content.decode())
 
 if __name__ == '__main__':
 #     wx_msg_push()
