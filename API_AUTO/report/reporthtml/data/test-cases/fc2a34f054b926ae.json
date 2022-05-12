@@ -1,0 +1,103 @@
+{
+  "uid" : "fc2a34f054b926ae",
+  "name" : "手机号输入10位",
+  "fullName" : "testCases.test_RegisterCase.TestRegister#test_register",
+  "historyId" : "9d2415eb7d98ae638554ac6521c6cf89",
+  "time" : {
+    "start" : 1652338080024,
+    "stop" : 1652338080180,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1652338054861,
+      "stop" : 1652338054861,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1652338091227,
+      "stop" : 1652338091227,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "注册接口"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RegisterCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "29060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_RegisterCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'InternalError', 'msg': '手机号格式错误'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'password': '123456aa', 'phone': '1880105330', 'v_code': '666666'}"
+  }, {
+    "name" : "title",
+    "value" : "'手机号输入10位'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc2a34f054b926ae.json",
+  "parameterValues" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '1880105330', 'v_code': '666666'}", "'手机号输入10位'" ]
+}

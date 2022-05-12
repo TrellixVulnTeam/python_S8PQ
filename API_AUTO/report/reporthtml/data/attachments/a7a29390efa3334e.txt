@@ -1,0 +1,6 @@
+ERROR    run_all_case.py:Assert.py:110 Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success

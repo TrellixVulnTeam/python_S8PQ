@@ -1,0 +1,107 @@
+Wed, 27 Apr 2022 17:14:57-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2022-04-27 17:14:57===================================
+Wed, 27 Apr 2022 17:15:07-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Wed, 27 Apr 2022 17:15:09-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Wed, 27 Apr 2022 17:15:14-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Wed, 27 Apr 2022 17:15:15-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Wed, 27 Apr 2022 17:15:22-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'WxClientError' == 'BadRequest'
+  - BadRequest
+  + WxClientError
+
+Wed, 27 Apr 2022 17:15:26-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Wed, 27 Apr 2022 17:15:30-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Wed, 27 Apr 2022 17:15:33-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Wed, 27 Apr 2022 17:18:34-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2022-04-27 17:18:34===================================
+Wed, 27 Apr 2022 17:18:46-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Wed, 27 Apr 2022 17:18:50-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Wed, 27 Apr 2022 17:18:51-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Wed, 27 Apr 2022 17:18:58-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'WxClientError' == 'BadRequest'
+  - BadRequest
+  + WxClientError
+
+Wed, 27 Apr 2022 17:19:00-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Wed, 27 Apr 2022 17:19:05-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Wed, 27 Apr 2022 17:19:07-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+

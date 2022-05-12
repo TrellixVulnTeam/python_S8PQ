@@ -1,0 +1,103 @@
+{
+  "uid" : "cf099991d06c9dca",
+  "name" : "正常充值",
+  "fullName" : "testCases.test_RechargeCase.TestRecharge#test_alopay_register",
+  "historyId" : "c16616fb8470fc8d9d0fcec036014e07",
+  "time" : {
+    "start" : 1652338072907,
+    "stop" : 1652338074648,
+    "duration" : 1741
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1652338054861,
+      "stop" : 1652338054861,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1652338091227,
+      "stop" : 1652338091227,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "充值模块"
+  }, {
+    "name" : "story",
+    "value" : "支付宝充值接口"
+  }, {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RechargeCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecharge"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "29060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_RechargeCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'Success', 'msg': ''}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'asset': 1000}"
+  }, {
+    "name" : "title",
+    "value" : "'正常充值'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf099991d06c9dca.json",
+  "parameterValues" : [ "{'code': 'Success', 'msg': ''}", "{'asset': 1000}", "'正常充值'" ]
+}

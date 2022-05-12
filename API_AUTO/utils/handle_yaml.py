@@ -10,7 +10,7 @@ import random
 from libs.instance_list import InstanceList
 import yaml
 from common import Random_number
-from libs.rental_Instance import get_gpu_idle_num, get_gpu_not_enough, get_instance_gpu_num
+from libs.Instance_info import get_gpu_idle_num, get_gpu_not_enough, get_instance_gpu_num, get_unpaid_order
 from jinja2 import Template
 import utils.ReadYamlRender
 from utils.ReadYamlRender import ReadYamlRender
@@ -43,15 +43,55 @@ def get_register_yaml_data(fileDir):
     return res3
 
 
-# 获取创建实例yaml用例
-def get_CreatInstance_yaml_data(fileDir):
+# 获取创建按量计费实例yaml用例
+def get_CreatePaygInstance_yaml_data(fileDir):
     reslist = []  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
     with open(fileDir, encoding='utf-8') as fo:
         res = yaml.safe_load(fo.read())
     mid1 = get_gpu_idle_num()
     mid2 = get_gpu_not_enough()
-    num = get_instance_gpu_num()
+    num1 = get_instance_gpu_num()
+    new_data = {"machine_id": [mid1, mid2], "num": num1}  # 多参数写成字典 字典里可以加列表
+    res1 = Template(str(res)).render(new_data)
+    # print(res1)
+    results = yaml.safe_load(res1)
+    # print(results)
+    mydatas = results[0]
+    # pprint(mydatas)
+    mydatas['data']['instance_info']['req_gpu_amount'] = int(mydatas['data']['instance_info']['req_gpu_amount'])
+    mydatas['data']['price_info']['num'] = int(mydatas['data']['price_info']['num'])
+    # pprint(mydatas)
+    for one in results:
+        reslist.append((one['detail'], one['data'], one['resp']))
+    return reslist
+
+
+
+
+
+# 获取创建包年包月实例yaml用例,创建预付费订单
+def get_CreatePrepayInstance_yaml_data(fileDir):
+    reslist = []  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
+    with open(fileDir, encoding='utf-8') as fo:
+        res = yaml.safe_load(fo.read())
+    mid1 = get_gpu_idle_num()
+    mid2 = get_gpu_not_enough()
     new_data = {"machine_id": [mid1, mid2]}  # 多参数写成字典 字典里可以加列表
+    res1 = Template(str(res)).render(new_data)
+    # print(res1)
+    results = yaml.safe_load(res1)
+    for one in results:
+        reslist.append((one['detail'], one['data'], one['resp']))
+    return reslist
+
+
+# 获取预付费订单付费
+def get_InstancePay_yaml_data(fileDir):
+    reslist = []  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
+    with open(fileDir, encoding='utf-8') as fo:
+        res = yaml.safe_load(fo.read())
+    uuid = get_unpaid_order()
+    new_data = {"order_uuid": uuid}  # 多参数写成字典 字典里可以加列表
     res1 = Template(str(res)).render(new_data)
     # print(res1)
     results = yaml.safe_load(res1)
@@ -78,6 +118,7 @@ def get_InstancePowerOn_yaml_data(fileDir):
 
 
 if __name__ == '__main__':
-    pprint(get_CreatInstance_yaml_data('../data/InstanceCreateCase.yaml'))
+    pprint(get_CreatePaygInstance_yaml_data('../data/InstanceCreatePaygCase.yaml'))
+    # pprint(get_InstancePay_yaml_data('../data/InstancePayCase.yaml'))
     # pprint(get_register_yaml_data('../data/RegisterCase.yaml'))
     # pprint(get_InstancePowerOn_yaml_data('../data/InstancePowerOnCase.yaml'))

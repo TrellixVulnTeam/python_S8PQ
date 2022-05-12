@@ -1,4 +1,0 @@
-INFO     run_all_case.py:test_RegisterCase.py:30 当前用例名称：手机号输入11位数字+字母
-INFO     run_all_case.py:test_RegisterCase.py:31 当前测试用例请求参数：{'password': '123456aa', 'phone': '18801053303asdsadsa', 'v_code': '666666'}
-INFO     run_all_case.py:test_RegisterCase.py:32 当前用例预期结果：{'code': 'InternalError', 'msg': '手机号格式错误'}
-INFO     run_all_case.py:test_RegisterCase.py:33 当前用例实际结果：{'code': 'InternalError', 'data': None, 'msg': '手机号格式错误', 'debug_error': ''}

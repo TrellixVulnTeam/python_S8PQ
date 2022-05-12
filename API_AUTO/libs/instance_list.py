@@ -9,7 +9,7 @@ from pprint import pprint
 import config.adss
 from Auth.AutoDL_auth import get_token
 from common.Request import RequestsHandler
-from libs.rental_Instance import get_gpu_not_enough, get_gpu_idle_num
+from libs.Instance_info import get_gpu_not_enough, get_gpu_idle_num
 
 
 class InstanceList:

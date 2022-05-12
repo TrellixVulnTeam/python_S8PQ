@@ -4,10 +4,10 @@
     "uid" : "1ec85d305619bb014bb9b3571cb637e8",
     "name" : "AutoDL",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 4
     }

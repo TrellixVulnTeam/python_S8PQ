@@ -30,30 +30,14 @@ class TestRecharge(BaseAssert):
     @allure.title("{title}")
     def test_wx_register(self, title, inBody, expData):
         resData = Recharge().wx_recharge(inData=inBody)
-        logger.info(f'当前用例名称：{title}')
-        logger.info(f'当前测试用例请求参数：{inBody}')
-        logger.info(f'当前用例预期结果：{expData}')
-        logger.info(f'当前用例实际结果：{resData}\n')
-        try:
-            self.define_assert(resData, expData)
-        except AssertionError as e:
-            logger.error(f'用例执行失败{e}')
-            raise e
+        self.define_assert(resData, expData)
 
     @allure.story('支付宝充值接口')  # 接口名称
     @pytest.mark.parametrize('title,inBody,expData', get_yamlCase_data(data_path + 'AlipayRechargeCase.yaml'))
     @allure.title("{title}")
     def test_alopay_register(self, title, inBody, expData):
         resData = Recharge().alipay_recharge(inData=inBody)
-        logger.info(f'当前用例名称：{title}')
-        logger.info(f'当前测试用例请求参数：{inBody}')
-        logger.info(f'当前用例预期结果：{expData}')
-        logger.info(f'当前用例实际结果：{resData}\n')
-        try:
-            self.define_assert(resData, expData)
-        except AssertionError as e:
-            logger.error(f'用例执行失败{e}')
-            raise e
+        self.define_assert(resData, expData)
 
 
 if __name__ == '__main__':

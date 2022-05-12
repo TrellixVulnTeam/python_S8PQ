@@ -1,0 +1,103 @@
+{
+  "uid" : "4eb92775c911865c",
+  "name" : "密码为空",
+  "fullName" : "testCases.test_RegisterCase.TestRegister#test_register",
+  "historyId" : "08341a084683c8d36fda59f64bbcece8",
+  "time" : {
+    "start" : 1652338082304,
+    "stop" : 1652338082478,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1652338054861,
+      "stop" : 1652338054861,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1652338091227,
+      "stop" : 1652338091227,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "注册接口"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RegisterCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "29060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_RegisterCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'password': '', 'phone': '18843211234', 'v_code': '666666'}"
+  }, {
+    "name" : "title",
+    "value" : "'密码为空'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4eb92775c911865c.json",
+  "parameterValues" : [ "{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}", "{'password': '', 'phone': '18843211234', 'v_code': '666666'}", "'密码为空'" ]
+}

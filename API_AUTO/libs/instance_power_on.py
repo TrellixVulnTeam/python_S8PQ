@@ -22,4 +22,4 @@ class InstancePowerOn:
 
 
 if __name__ == '__main__':
-    InstancePowerOn().instance_power_on({"instance_uuid": "f94411a60c-df3185ed", "payload": ""})
+    InstancePowerOn().instance_power_on({"instance_uuid": "f94411a60c-3ba6e639", "payload": ""})

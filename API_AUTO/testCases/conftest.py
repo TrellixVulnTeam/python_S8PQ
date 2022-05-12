@@ -5,9 +5,12 @@
 # @File : conftest.py
 import pytest
 
+from libs.create_payg_instance import InstanceCreatePayg
+from libs.create_prepay_instance import InstanceCreatePrepay
+from libs.Instance_info import get_gpu_idle_num, get_instance_gpu_num
 from libs.instance_list import InstanceList
+from libs.instance_release import instance_release
 from libs.login import Login
-from libs.creat_instance import InstanceCreat
 
 """
 autouse = True: 一般是整个项目里需要自检操作
@@ -25,9 +28,13 @@ model和class的区别，model模块级别是一个文件下有多个类，class
 """
 
 
+# 释放实例
 @pytest.fixture(scope='session', autouse=True)
 def start_running():
     print('>>>AutoDL自动化测试开始执行')
+    yield
+    # instance_release()
+    print('>>>AutoDL自动化测试执行结束，清除数据')
 
 
 # 1.登录
@@ -40,11 +47,57 @@ def login_init():
     print('>>>登录初始化操作完成')
 
 
-# 2.创建实例
-@pytest.fixture(scope='session')
-def instance_init(login_init):
-    print('>>>创建实例')
-    instance_obj = InstanceCreat().creat_instance(login_init)
+# 2.创建预付费订单
+@pytest.fixture(scope='function')
+def create_prepay_order():
+    print('>>>正在创建包年包月订单')
+    order = InstanceCreatePrepay().creat_instance_prepay({
+        "instance_info": {
+            "charge_type": "daily",
+            "image": "hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0",
+            "machine_id": get_gpu_idle_num(),
+            "instance_name": "",
+            "req_gpu_amount": 1,
+        },
+        "price_info": {
+            "charge_type": "daily",
+            "duration": 1,
+            "machine_id": get_gpu_idle_num(),
+            "num": 1,
+        }
+    })
+    # print(order['data']['runtime_info']['order_uuid'])
+    yield order['data']['runtime_info']['order_uuid']
+    print('>>>已经创建包年包月订单')
+
+
+# 3.创建按量计费，租用全部剩余GPU，让机器没有剩余GPU，部分用例需要GPU不足的情况
+@pytest.fixture(scope='function')
+def rent_all():
+    InstanceCreatePayg().creat_instance({
+        "instance_info": {
+            "charge_type": "payg",
+            "image": "hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0",
+            "machine_id": get_gpu_idle_num(),
+            "instance_name": "",
+            "req_gpu_amount": get_instance_gpu_num(),
+        },
+        "price_info": {
+            "charge_type": "payg",
+            "duration": 1,
+            "machine_id": get_gpu_idle_num(),
+            "num": get_instance_gpu_num(),
+        }
+    })
+
+
+
+# 4.
+# # 2.创建实例
+# @pytest.fixture(scope='session')
+# def instance_init(login_init):
+#     print('>>>创建实例')
+#     instance_obj = InstanceCreat().creat_instance(login_init)
 
 # @pytest.fixture(scope='session', autouse=True)
 # def start_running():

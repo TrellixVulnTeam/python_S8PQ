@@ -1,0 +1,127 @@
+{
+  "uid" : "74f4eb7586cc1a52",
+  "name" : "创建包年包月实例时GPU不足",
+  "fullName" : "testCases.test_InstancePrepayCase.TestCreatePrepayInstance#test_instance",
+  "historyId" : "31f4bb9b8b15fe7f7b7e731de0cd1778",
+  "time" : {
+    "start" : 1652338062933,
+    "stop" : 1652338063426,
+    "duration" : 493
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'DatabaseError' == 'InternalError'\n  - InternalError\n  + DatabaseError",
+  "statusTrace" : "self = <testCases.test_InstancePrepayCase.TestCreatePrepayInstance object at 0x0000017BB8C08940>\ntitle = '创建包年包月实例时GPU不足'\ninBody = {'instance_info': {'charge_type': 'daily', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu... '', 'machine_id': 'None', ...}, 'price_info': {'charge_type': 'daily', 'duration': 1, 'machine_id': 'None', 'num': 1}}\nexpData = {'code': 'InternalError', 'msg': '机器空闲GPU不足'}\n\n    @pytest.mark.parametrize('title,inBody,expData',\n                             get_CreatePrepayInstance_yaml_data(data_path + 'InstanceCreatePrepayCase.yaml'))\n    @allure.story('创建包年包月实例订单接口')\n    @allure.title(\"{title}\")\n    def test_instance(self, title, inBody, expData):\n        resData = InstanceCreatePrepay().creat_instance_prepay(inData=inBody)\n        print(resData)\n>       self.define_assert(resData, expData)\n\n..\\testCases\\test_InstancePrepayCase.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\common\\Assert.py:111: in define_assert\n    raise error\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'testCases.test_InstancePrepayCase.TestCreatePrepayInstance'>\nres = {'code': 'DatabaseError', 'data': None, 'debug_error': '', 'msg': '服务异常，请稍后重试'}\nrespData = {'code': 'InternalError', 'msg': '机器空闲GPU不足'}\n\n    @classmethod  # 使用类名就可以直接调用类方法\n    def define_assert(cls, res, respData):\n        try:\n            if 'code' in respData:\n>               assert res['code'] == respData['code']\nE               AssertionError: assert 'DatabaseError' == 'InternalError'\nE                 - InternalError\nE                 + DatabaseError\n\n..\\common\\Assert.py:104: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1652338054861,
+      "stop" : 1652338054861,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'DatabaseError' == 'InternalError'\n  - InternalError\n  + DatabaseError",
+    "statusTrace" : "self = <testCases.test_InstancePrepayCase.TestCreatePrepayInstance object at 0x0000017BB8C08940>\ntitle = '创建包年包月实例时GPU不足'\ninBody = {'instance_info': {'charge_type': 'daily', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu... '', 'machine_id': 'None', ...}, 'price_info': {'charge_type': 'daily', 'duration': 1, 'machine_id': 'None', 'num': 1}}\nexpData = {'code': 'InternalError', 'msg': '机器空闲GPU不足'}\n\n    @pytest.mark.parametrize('title,inBody,expData',\n                             get_CreatePrepayInstance_yaml_data(data_path + 'InstanceCreatePrepayCase.yaml'))\n    @allure.story('创建包年包月实例订单接口')\n    @allure.title(\"{title}\")\n    def test_instance(self, title, inBody, expData):\n        resData = InstanceCreatePrepay().creat_instance_prepay(inData=inBody)\n        print(resData)\n>       self.define_assert(resData, expData)\n\n..\\testCases\\test_InstancePrepayCase.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\common\\Assert.py:111: in define_assert\n    raise error\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'testCases.test_InstancePrepayCase.TestCreatePrepayInstance'>\nres = {'code': 'DatabaseError', 'data': None, 'debug_error': '', 'msg': '服务异常，请稍后重试'}\nrespData = {'code': 'InternalError', 'msg': '机器空闲GPU不足'}\n\n    @classmethod  # 使用类名就可以直接调用类方法\n    def define_assert(cls, res, respData):\n        try:\n            if 'code' in respData:\n>               assert res['code'] == respData['code']\nE               AssertionError: assert 'DatabaseError' == 'InternalError'\nE                 - InternalError\nE                 + DatabaseError\n\n..\\common\\Assert.py:104: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5dc8864ece5a6604",
+      "name" : "log",
+      "source" : "5dc8864ece5a6604.txt",
+      "type" : "text/plain",
+      "size" : 308
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1652338091227,
+      "stop" : 1652338091227,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "实例模块"
+  }, {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "story",
+    "value" : "创建包年包月实例订单接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_InstancePrepayCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreatePrepayInstance"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "29060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_InstancePrepayCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'instance_info': {'charge_type': 'daily', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'daily', 'duration': 1, 'machine_id': 'None', 'num': 1}}"
+  }, {
+    "name" : "title",
+    "value" : "'创建包年包月实例时GPU不足'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "74f4eb7586cc1a52.json",
+  "parameterValues" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_info': {'charge_type': 'daily', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'daily', 'duration': 1, 'machine_id': 'None', 'num': 1}}", "'创建包年包月实例时GPU不足'" ]
+}

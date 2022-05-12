@@ -1,0 +1,11 @@
+# 包年包月实例订单付费
+
+- #用例01
+  detail: 包年包月预付费订单-付费
+  data:
+    {
+      "order_uuid":"{{order_uuid}}"
+    }
+  resp:
+    code: "Success"
+    msg: ""

@@ -1,4 +1,0 @@
-INFO     run_all_case.py:test_RechargeCase.py:31 当前用例名称：输入字母
-INFO     run_all_case.py:test_RechargeCase.py:32 当前测试用例请求参数：{'asset': 'adsadsa'}
-INFO     run_all_case.py:test_RechargeCase.py:33 当前用例预期结果：{'code': 'RequestParameterIsWrong', 'msg': '请求参数错误'}
-INFO     run_all_case.py:test_RechargeCase.py:34 当前用例实际结果：{'code': 'RequestParameterIsWrong', 'data': None, 'msg': '请求参数错误', 'debug_error': ''}
