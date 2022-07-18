@@ -1,0 +1,48 @@
+Login: #登录模块
+  login: #登录接口
+    path: new_login
+    method: POST
+  get_token: #使用ticket换token
+    path: passport
+    method: POST
+
+Register: #注册模块
+  register: #注册接口
+    path: register
+    method: POST
+  registerInvited: #邀请注册
+    path: register/invited
+    method: POST
+
+InstanceCreatePayg:
+  creat_instance: #创建实例接口
+    path: order/instance/create/payg
+    method: POST
+
+InstanceCreatePrepay:
+  creat_instance_prepay: #创建预付款订单
+    path: order/instance/create/prepay
+    method: POST
+
+InstancePay:
+  instance_pay: #对预付款订单付款
+    path: sub_user/order/pay
+    method: PUT  #需要处理
+
+InstancePowerOn:
+  instance_power_on: #实例关机接口
+    path: instance/power_off
+    method: POST
+
+InstanceRelease:
+  instance_release: #释放实例接口
+    path: instance/release
+    method: POST
+
+Recharge:
+  wx_recharge: #微信充值
+    path: wallet/recharge/wx
+    method: POST
+  alipay_recharge: #支付宝充值
+    path: wallet/recharge/alipay
+    method: POST

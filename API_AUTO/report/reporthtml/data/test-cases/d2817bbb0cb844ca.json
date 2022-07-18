@@ -1,0 +1,103 @@
+{
+  "uid" : "d2817bbb0cb844ca",
+  "name" : "手机号正确，密码错误",
+  "fullName" : "testCases.test_LoginCase.TestLogin#test_login",
+  "historyId" : "b66975c2ae166864f8a5130764d9ecac",
+  "time" : {
+    "start" : 1657094312485,
+    "stop" : 1657094312715,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1657094299655,
+      "stop" : 1657094299655,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1657094361486,
+      "stop" : 1657094362176,
+      "duration" : 690
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "36848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_LoginCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'phone': '18801053333', 'password': '123'}"
+  }, {
+    "name" : "title",
+    "value" : "'手机号正确，密码错误'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2817bbb0cb844ca.json",
+  "parameterValues" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': '18801053333', 'password': '123'}", "'手机号正确，密码错误'" ]
+}

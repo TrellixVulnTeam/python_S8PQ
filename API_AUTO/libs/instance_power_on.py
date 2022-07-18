@@ -6,20 +6,22 @@
 import config
 from config.adss import server_ip
 from Auth.AutoDL_auth import get_token
+from common.BaseApi import BaseApi
 import requests
 from common.Request import RequestsHandler
+from libs.new_login import Login
 
 
-class InstancePowerOn:
-    def instance_power_on(self, inData):
-        base_url = config.adss.server_ip()
-        url = base_url + 'instance/power_on'
-        token = get_token()
-        header = {"Authorization": token}
-        payload = inData
-        res = RequestsHandler().post_Req(url, json=payload, headers=header)
-        return res.json()
+class InstancePowerOn(BaseApi):
+    def instance_power_on(self, data):
+        resp = self.request_send(data)
+        return resp
 
 
 if __name__ == '__main__':
-    InstancePowerOn().instance_power_on({"instance_uuid": "f94411a60c-3ba6e639", "payload": ""})
+    # 登录
+    ticket = Login().login({"phone": "18801053303", "password": "123456aa", "picture_id": "", "v_code": ""})
+    # 用ticket换token
+    token = Login().get_token({"ticket": ticket}, token=True)
+    res = InstancePowerOn(token).instance_power_on({"instance_uuid": "f94411a60c-ad0d9501", "payload": ""})
+    print(res)

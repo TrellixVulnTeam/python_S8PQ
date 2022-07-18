@@ -5,29 +5,18 @@ from Auth.AutoDL_auth import get_token
 from common.BaseApi import BaseApi
 from common.Request import RequestsHandler
 from config.adss import server_ip
+from libs.new_login import Login
 
 
 class Recharge(BaseApi):
 
-    def wx_recharge(self, inData):
-        base_url = config.adss.server_ip()
-        url = base_url + 'wallet/recharge/wx'
-        token = get_token()
-        header = {'Authorization': token}
-        payload = inData
-        res = RequestsHandler().post_Req(url, json=payload, headers=header)
-        print(res.json())
-        return res.json()
+    def wx_recharge(self, data):
+        resp = self.request_send(data)
+        return resp
 
-    def alipay_recharge(self, inData):
-        base_url = config.adss.server_ip()
-        url = base_url + 'wallet/recharge/alipay'
-        token = get_token()
-        header = {'Authorization': token}
-        payload = inData
-        res = RequestsHandler().post_Req(url, json=payload, headers=header)
-        print(res.json())
-        return res.json()
+    def alipay_recharge(self, data):
+        resp = self.request_send(data)
+        return resp
 
     # 轮循查看是否充值成功
     def wallt_recharge(self):
@@ -44,5 +33,9 @@ class Recharge(BaseApi):
 
 
 if __name__ == '__main__':
-    # Recharge().alipay_recharge({"asset": 1000})
-    Recharge().wallt_recharge()
+    # 登录
+    ticket = Login().login({"phone": "18801053303", "password": "123456aa", "picture_id": "", "v_code": ""})
+    # 用ticket换token
+    token = Login().get_token({"ticket": ticket}, token=True)
+    Recharge(token).wx_recharge({"asset": 100000, "id": "51036"})
+    # Recharge().wallt_recharge()

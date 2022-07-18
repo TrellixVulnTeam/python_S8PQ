@@ -1,0 +1,229 @@
+#邀请注册接口
+
+- #test_01用例
+  detail: 正确注册用户
+  data:
+    password: "123456aa"
+    phone: "{{phone}}"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "Success"
+    msg: ""
+
+- #test_02用例
+  detail: 手机号输入10位
+  data:
+    password: "123456aa"
+    phone: "1880105330"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "手机号格式错误"
+
+- #test_03用例
+  detail: 手机号输入12位
+  data:
+    password: "123456aa"
+    phone: "188010533033"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "手机号格式错误"
+
+- #test_04用例
+  detail: 手机号输入中文
+  data:
+    password: "123456aa"
+    phone: "测试登录"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "手机号格式错误"
+
+- #test_05用例
+  detail: 手机号输入英文
+  data:
+    password: "123456aa"
+    phone: "qwertyuui"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "手机号格式错误"
+
+- #test_06用例
+  detail: 手机号输入特殊符号
+  data:
+    password: "123456aa"
+    phone: "!@#$%^&*()"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "手机号格式错误"
+
+- #test_07用例
+  detail: 手机号输入11位数字+字母
+  data:
+    password: "123456aa"
+    phone: "18801053303asdsadsa"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "手机号格式错误"
+
+- #test_08用例
+  detail: 手机号输入11位数字+汉字
+  data:
+    password: "123456aa"
+    phone: "18801053303测试测试"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "手机号格式错误"
+
+- #test_09用例
+  detail: 手机号输入11位数字+特殊符号
+  data:
+    password: "123456aa"
+    phone: "18801053303!@#$%"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "手机号格式错误"
+
+- #test_10用例
+  detail: 手机号为空
+  data:
+    password: "123456aa"
+    phone: ""
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #test_11用例
+  detail: 密码输入7位
+  data:
+    password: "1234567"
+    phone: "18804320001"
+    v_code: "123456"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "验证码无效，请重新获取"
+
+- #test_12用例
+  detail: 密码输入17位
+  data:
+    password: "12345678901234567"
+    phone: "18804320002"
+    v_code: "123456"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "验证码无效，请重新获取"
+
+- #test_13用例
+  detail: 密码只输入数字
+  data:
+    password: "12345678"
+    phone: "18804320003"
+    v_code: "123456"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "验证码无效，请重新获取"
+
+- #test_14用例
+  detail: 密码只输入字母
+  data:
+    password: "asdfghjkl"
+    phone: "18804320004"
+    v_code: "123456"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "验证码无效，请重新获取"
+
+- #test_15用例
+  detail: 密码输入数字+特殊符号
+  data:
+    password: "asdfghjkl！@#￥%……&"
+    phone: "18804320005"
+    v_code: "123456"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "验证码无效，请重新获取"
+
+- #test_16用例
+  detail: 密码为空
+  data:
+    password: ""
+    phone: "18843211234"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #test_17用例
+  detail: 验证码输入错误，手机号、密码输入正确
+  data:
+    password: "123456aa"
+    phone: "18843211234"
+    v_code: "123456"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "InternalError"
+    msg: "验证码无效，请重新获取"
+
+- #test_18用例
+  detail: 验证码为空
+  data:
+    password: "123456aa"
+    phone: "{{phone}}"
+    v_code: ""
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "RequestParameterIsWrong"
+    msg: "请求参数错误"
+
+- #test_19用例
+  detail: 注册过的手机号
+  data:
+    password: "123456"
+    phone: "18801053303"
+    v_code: "666666"
+    invite_code: "487686b5-637f-4d99-8202-7c0b29fa322d"
+    phone_area: "+86"
+  resp:
+    code: "AlreadyExist"
+    msg: "手机号已注册"

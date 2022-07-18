@@ -29,12 +29,12 @@ class TestCreatePaygInstance(BaseAssert):
      每次执行的时候需要把一个机器剩余的卡全部租用完，否则有一条用例会失败
     """
     # @pytest.mark.skipif(reason='没有空闲GPU，不执行该用例')
-    @pytest.mark.parametrize('title,inBody,expData',
+    @pytest.mark.parametrize('title,data,expData',
                              get_CreatePaygInstance_yaml_data(data_path + 'InstanceCreatePaygCase.yaml'))
     @allure.story('创建按量计费实例接口')
     @allure.title("{title}")
-    def test_payg_instance(self, title, inBody, expData):
-        resData = InstanceCreatePayg().creat_instance(inData=inBody)
+    def test_payg_instance(self, title, data, expData):
+        resData = InstanceCreatePayg().creat_instance(data)
         self.define_assert(resData, expData)
 
     # 2-实例关机

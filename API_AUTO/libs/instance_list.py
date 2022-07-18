@@ -98,8 +98,24 @@ class InstanceList:
         for i in resp['data']["list"]:
             if i["status"] == "shutdown":
                 list1.append(i)
-        # pprint(list1)
+        pprint(list1)
         return list1
+
+    def get_shutdown_InstanceList3(self):
+        base_url = config.adss.server_ip()
+        url = base_url + 'instance'
+        token = get_token()
+        header = {'Authorization': token}
+        payload = {
+            "date_from": "",
+            "date_to": "",
+            "page_index": 1,
+            "page_size": 1000
+        }
+        res = RequestsHandler().get_Req(url, params=payload, headers=header)
+        resp = res.json()
+        pprint(resp['data']['result_total'])
+        return resp['data']['result_total']
 
     def found_gpu_NotEnoughInstance(self):
         machine_list = get_gpu_not_enough()  # 获取没有GPU的机器ID
@@ -121,6 +137,6 @@ class InstanceList:
 
 
 if __name__ == '__main__':
-    InstanceList().found_gpu_EnoughInstance()
+    # InstanceList().is_all_shutdown_InstanceList
     # InstanceList().get_shutdown_InstanceList2()
-    # InstanceList().get_shutdown_InstanceList()
+    InstanceList().get_shutdown_InstanceList3()

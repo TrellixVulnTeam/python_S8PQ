@@ -43,6 +43,22 @@ def get_register_yaml_data(fileDir):
     return res3
 
 
+# 获取邀请注册yaml用例
+def get_registerInvited_yaml_data(fileDir):
+    res3 = []  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
+    with open(fileDir, encoding='utf-8') as fo:
+        res = yaml.safe_load(fo.read())
+    # yml 文件数据，转 python 类型
+    num = Random_number.main()
+    new_data = {"phone": num}
+    res1 = Template(str(res)).render(new_data)
+    results = yaml.safe_load(res1)
+    # a = ReadYamlRender('../data/RegisterCase.yaml', {"phone": num}).render
+    for one1 in results:
+        res3.append((one1['detail'], one1['data'], one1['resp']))
+    return res3
+
+
 # 获取创建按量计费实例yaml用例
 def get_CreatePaygInstance_yaml_data(fileDir):
     reslist = []  # 存放结果[(请求1,响应1),(请求2,期望响应2)]
@@ -64,9 +80,6 @@ def get_CreatePaygInstance_yaml_data(fileDir):
     for one in results:
         reslist.append((one['detail'], one['data'], one['resp']))
     return reslist
-
-
-
 
 
 # 获取创建包年包月实例yaml用例,创建预付费订单
@@ -117,8 +130,15 @@ def get_InstancePowerOn_yaml_data(fileDir):
     return reslist
 
 
+def get_yaml_data(file_path:str):
+    with open(file_path,encoding='utf-8') as fo:
+        return yaml.safe_load(fo.read())
+
+
 if __name__ == '__main__':
-    pprint(get_CreatePaygInstance_yaml_data('../data/InstanceCreatePaygCase.yaml'))
+    # pprint(get_CreatePaygInstance_yaml_data('../data/InstanceCreatePaygCase.yaml'))
     # pprint(get_InstancePay_yaml_data('../data/InstancePayCase.yaml'))
     # pprint(get_register_yaml_data('../data/RegisterCase.yaml'))
     # pprint(get_InstancePowerOn_yaml_data('../data/InstancePowerOnCase.yaml'))
+    # pprint(get_registerInvited_yaml_data('../data/RegisterInvitedCase.yaml'))
+    pprint(get_yaml_data('../data/apiPathConfig.yaml'))

@@ -1,0 +1,103 @@
+{
+  "uid" : "f647bd20ebb6251a",
+  "name" : "输入sql语句",
+  "fullName" : "testCases.test_LoginCase.TestLogin#test_login",
+  "historyId" : "6caa8abb31ef1e97d05c1a1e2d01d1b7",
+  "time" : {
+    "start" : 1657094316881,
+    "stop" : 1657094317187,
+    "duration" : 306
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1657094299655,
+      "stop" : 1657094299655,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1657094361486,
+      "stop" : 1657094362176,
+      "duration" : 690
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "36848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_LoginCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'phone': 'select username，password from user where username=', 'password': 'select username，password from user where username='}"
+  }, {
+    "name" : "title",
+    "value" : "'输入sql语句'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f647bd20ebb6251a.json",
+  "parameterValues" : [ "{'code': 'RequestParameterIsWrong', 'msg': '手机号或密码错误，请重试'}", "{'phone': 'select username，password from user where username=', 'password': 'select username，password from user where username='}", "'输入sql语句'" ]
+}

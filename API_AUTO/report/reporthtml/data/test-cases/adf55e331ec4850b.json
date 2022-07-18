@@ -1,0 +1,103 @@
+{
+  "uid" : "adf55e331ec4850b",
+  "name" : "uuid传入错误",
+  "fullName" : "testCases.test_InstancePowerOnCase.TestInstancePowerOn#test_instance_power_on",
+  "historyId" : "e7f052b5d2ed8ae6cdecb5a34c462fb2",
+  "time" : {
+    "start" : 1657094307877,
+    "stop" : 1657094308771,
+    "duration" : 894
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1657094299655,
+      "stop" : 1657094299655,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1657094361486,
+      "stop" : 1657094362176,
+      "duration" : 690
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "feature",
+    "value" : "实例模块"
+  }, {
+    "name" : "story",
+    "value" : "实例开机接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_InstancePowerOnCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInstancePowerOn"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "36848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_InstancePowerOnCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'RecordNotFoundError', 'msg': '未查询到相关实例'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'instance_uuid': 'dshjakdhsjakdhjk', 'payload': ''}"
+  }, {
+    "name" : "title",
+    "value" : "'uuid传入错误'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adf55e331ec4850b.json",
+  "parameterValues" : [ "{'code': 'RecordNotFoundError', 'msg': '未查询到相关实例'}", "{'instance_uuid': 'dshjakdhsjakdhjk', 'payload': ''}", "'uuid传入错误'" ]
+}

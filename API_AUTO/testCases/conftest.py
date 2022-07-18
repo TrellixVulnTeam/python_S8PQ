@@ -5,6 +5,9 @@
 # @File : conftest.py
 import pytest
 
+import config.adss
+from Auth.AutoDL_auth import get_token
+from common.Request import RequestsHandler
 from libs.create_payg_instance import InstanceCreatePayg
 from libs.create_prepay_instance import InstanceCreatePrepay
 from libs.Instance_info import get_gpu_idle_num, get_instance_gpu_num
@@ -35,6 +38,10 @@ def start_running():
     yield
     # instance_release()
     print('>>>AutoDL自动化测试执行结束，清除数据')
+    if InstanceList().get_shutdown_InstanceList3() == 30:
+        print('>>>>>>实例列表超过30个实例，即将释放全部实例')
+        instance_release()
+        print(">>>>>>实例已经全部释放")
 
 
 # 1.登录
@@ -71,9 +78,10 @@ def create_prepay_order():
     print('>>>已经创建包年包月订单')
 
 
-# 3.创建按量计费，租用全部剩余GPU，让机器没有剩余GPU，部分用例需要GPU不足的情况
+# 3.创建按量计费，租用全部剩余GPU，让机器没有剩余GPU，部分case需要GPU不足的情况
 @pytest.fixture(scope='function')
 def rent_all():
+    print('>>>>>>开始创建实例')
     InstanceCreatePayg().creat_instance({
         "instance_info": {
             "charge_type": "payg",
@@ -89,8 +97,30 @@ def rent_all():
             "num": get_instance_gpu_num(),
         }
     })
+    yield
+    base_url = config.adss.server_ip()
+    url = base_url + 'instance/power_off'
+    token = get_token()
+    header = {'Authorization': token}
+    uuid_list = InstanceList().get_running_InstanceList()
+    print(uuid_list)
+
+    for uid in uuid_list:
+        print(uid)
+        payload = {
+            "instance_uuid": uid
+        }
+        res = RequestsHandler().post_Req(url, json=payload, headers=header)
+        print(res.json())
+    print(">>>>>>实例已经关机")
 
 
+# 4、关机所有实例，目的为了腾出GPU便于其他用例使用，否则会导致GPU不足部分用例执行失败
+@pytest.fixture(scope='function')
+def powerOff_all():
+    print('>>>>>>开始执行')
+    yield
+    print('>>>>>>结束运行')
 
 # 4.
 # # 2.创建实例

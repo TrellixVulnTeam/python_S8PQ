@@ -24,9 +24,11 @@ def login():
         "picture_id": "",
         "v_code": "",
         "phone": "16666666666",
-        "password": "f865b53623b121fd34ee5426c792e5c33af8c227"
+        "password": "7af2d10b73ab7cd8f603937f7697cb5fe432c7ff"
     }, headers=headers)
+    # print(r.json())
     ticket = r.json()["data"]["ticket"]
+    # print(ticket)
     return ticket
 
 
@@ -42,9 +44,9 @@ def change_ticket():
     }
     r = requests.post(url=url, json=json, headers=headers)
     token = r.json()["data"]["token"]
-    print(token)
+    # print(token)
     return token
 
 
 if __name__ == '__main__':
-    login()
+    change_ticket()

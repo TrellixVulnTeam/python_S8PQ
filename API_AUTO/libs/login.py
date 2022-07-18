@@ -22,6 +22,7 @@ class Login:
         pwd = inData["password"]
         inData["password"] = get_sha1(pwd)
         url = base_url + 'new_login'
+        print(url)
         # 参数
         payload = inData
 
@@ -46,4 +47,4 @@ class Login:
 if __name__ == '__main__':
     res = Login().login(
         {"phone": "18801053303", "password": "123456Aa", "picture_id": "", "v_code": ""})
-    pprint.pprint(res)
+    print(res)

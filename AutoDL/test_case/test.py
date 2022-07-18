@@ -17,13 +17,12 @@ def test_admin_recharge():
         "Authorization": token
     }
     # print(token1)
-    req = {"asset": 200000, "id": 3}
+    req = {"asset": 100000000, "id": 51049}
     r = requests.post(url=url, json=req, headers=token1)
     print(r.json())
 
 
 if __name__ == '__main__':
-#     wx_msg_push()
     test_admin_recharge()
 # code1 = r.status_code
 # # 获取接口返回信息

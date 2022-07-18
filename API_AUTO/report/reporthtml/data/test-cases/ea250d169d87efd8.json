@@ -1,0 +1,127 @@
+{
+  "uid" : "ea250d169d87efd8",
+  "name" : "正确创建按量计费实例",
+  "fullName" : "testCases.test_InstancePaygCase.TestCreatePaygInstance#test_payg_instance",
+  "historyId" : "f2ca3bcc36999e08e5295d112a0535d6",
+  "time" : {
+    "start" : 1657094302769,
+    "stop" : 1657094303602,
+    "duration" : 833
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'InternalError' == 'Success'\n  - Success\n  + InternalError",
+  "statusTrace" : "self = <testCases.test_InstancePaygCase.TestCreatePaygInstance object at 0x000001B47CD21220>\ntitle = '正确创建按量计费实例'\ninBody = {'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu1...ne_id': '484411a80c', ...}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 3}}\nexpData = {'code': 'Success', 'msg': ''}\n\n    @pytest.mark.parametrize('title,inBody,expData',\n                             get_CreatePaygInstance_yaml_data(data_path + 'InstanceCreatePaygCase.yaml'))\n    @allure.story('创建按量计费实例接口')\n    @allure.title(\"{title}\")\n    def test_payg_instance(self, title, inBody, expData):\n        resData = InstanceCreatePayg().creat_instance(inData=inBody)\n>       self.define_assert(resData, expData)\n\n..\\testCases\\test_InstancePaygCase.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\common\\Assert.py:111: in define_assert\n    raise error\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'testCases.test_InstancePaygCase.TestCreatePaygInstance'>\nres = {'code': 'InternalError', 'data': None, 'debug_error': '', 'msg': '机器空闲GPU不足'}\nrespData = {'code': 'Success', 'msg': ''}\n\n    @classmethod  # 使用类名就可以直接调用类方法\n    def define_assert(cls, res, respData):\n        try:\n            if 'code' in respData:\n>               assert res['code'] == respData['code']\nE               AssertionError: assert 'InternalError' == 'Success'\nE                 - Success\nE                 + InternalError\n\n..\\common\\Assert.py:104: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1657094299655,
+      "stop" : 1657094299655,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'InternalError' == 'Success'\n  - Success\n  + InternalError",
+    "statusTrace" : "self = <testCases.test_InstancePaygCase.TestCreatePaygInstance object at 0x000001B47CD21220>\ntitle = '正确创建按量计费实例'\ninBody = {'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu1...ne_id': '484411a80c', ...}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 3}}\nexpData = {'code': 'Success', 'msg': ''}\n\n    @pytest.mark.parametrize('title,inBody,expData',\n                             get_CreatePaygInstance_yaml_data(data_path + 'InstanceCreatePaygCase.yaml'))\n    @allure.story('创建按量计费实例接口')\n    @allure.title(\"{title}\")\n    def test_payg_instance(self, title, inBody, expData):\n        resData = InstanceCreatePayg().creat_instance(inData=inBody)\n>       self.define_assert(resData, expData)\n\n..\\testCases\\test_InstancePaygCase.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\common\\Assert.py:111: in define_assert\n    raise error\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'testCases.test_InstancePaygCase.TestCreatePaygInstance'>\nres = {'code': 'InternalError', 'data': None, 'debug_error': '', 'msg': '机器空闲GPU不足'}\nrespData = {'code': 'Success', 'msg': ''}\n\n    @classmethod  # 使用类名就可以直接调用类方法\n    def define_assert(cls, res, respData):\n        try:\n            if 'code' in respData:\n>               assert res['code'] == respData['code']\nE               AssertionError: assert 'InternalError' == 'Success'\nE                 - Success\nE                 + InternalError\n\n..\\common\\Assert.py:104: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8897ba5db3d68d03",
+      "name" : "log",
+      "source" : "8897ba5db3d68d03.txt",
+      "type" : "text/plain",
+      "size" : 296
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1657094361486,
+      "stop" : 1657094362176,
+      "duration" : 690
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "feature",
+    "value" : "实例模块"
+  }, {
+    "name" : "story",
+    "value" : "创建按量计费实例接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_InstancePaygCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreatePaygInstance"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "36848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_InstancePaygCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'Success', 'msg': ''}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': '484411a80c', 'instance_name': '', 'req_gpu_amount': 3}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 3}}"
+  }, {
+    "name" : "title",
+    "value" : "'正确创建按量计费实例'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ea250d169d87efd8.json",
+  "parameterValues" : [ "{'code': 'Success', 'msg': ''}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': '484411a80c', 'instance_name': '', 'req_gpu_amount': 3}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 3}}", "'正确创建按量计费实例'" ]
+}

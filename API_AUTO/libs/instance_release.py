@@ -5,7 +5,7 @@
 # @File : instance_release.py
 # 3-释放实例
 import time
-
+from common.BaseApi import BaseApi
 import config
 from Auth.AutoDL_auth import get_token
 from common.Request import RequestsHandler
@@ -13,19 +13,25 @@ from config.adss import server_ip
 from libs.instance_list import InstanceList
 
 
-def instance_release():
-    base_url = config.adss.server_ip()
-    url = base_url + 'instance/release'
-    token = get_token()
-    header = {'Authorization': token}
-    uuid_list = InstanceList().get_shutdown_InstanceList()
-    print(uuid_list)
+class InstanceRelease(BaseApi):
 
-    for uid in uuid_list:
-        print(uid)
-        payload = {
-            "instance_uuid": uid
-        }
-        res = RequestsHandler().post_Req(url, json=payload, headers=header)
-        time.sleep(1)
-        print(res.json())
+    def instance_release(self):
+        base_url = config.adss.server_ip()
+        url = base_url + 'instance/release'
+        token = get_token()
+        header = {'Authorization': token}
+        uuid_list = InstanceList().get_shutdown_InstanceList()
+        print(uuid_list)
+
+        for uid in uuid_list:
+            print(uid)
+            payload = {
+                "instance_uuid": uid
+            }
+            res = RequestsHandler().post_Req(url, json=payload, headers=header)
+            time.sleep(1)
+            print(res.json())
+
+
+if __name__ == '__main__':
+    InstanceRelease().instance_release()

@@ -9,22 +9,21 @@ import config.adss
 from Auth.AutoDL_auth import get_token
 from common.BaseApi import BaseApi
 from common.Request import RequestsHandler
+from libs.new_login import Login
 
 
-class InstanceCreatePayg:
+class InstanceCreatePayg(BaseApi):
 
-    def creat_instance(self, inData):
-        base_url = config.adss.server_ip()
-        url = base_url + 'order/instance/create/payg'
-        token = get_token()
-        header = {'Authorization': token}
-        payload = inData
-        res = RequestsHandler().post_Req(url, json=payload, headers=header)
-        return res.json()
+    def creat_instance(self, data):
+        resp = self.request_send(data)
+        return resp
 
 
 if __name__ == '__main__':
-    res = InstanceCreatePayg().creat_instance({
+    ticket = Login().login({"phone": "18801053303", "password": "123456aa", "picture_id": "", "v_code": ""})
+    token = Login().get_token({"ticket": ticket}, token=True)
+    print(token)
+    res = InstanceCreatePayg(token).creat_instance({
         "instance_info": {
             "charge_type": "payg",
             "image": "hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0",

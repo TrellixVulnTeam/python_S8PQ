@@ -1,0 +1,103 @@
+{
+  "uid" : "356e4ecd9eb9b8ea",
+  "name" : "手机号输入特殊符号",
+  "fullName" : "testCases.test_RegisterInvitedCase.TestRegister#test_register",
+  "historyId" : "da65ac8287425e86b049b103d5c3d2bb",
+  "time" : {
+    "start" : 1657094348796,
+    "stop" : 1657094349007,
+    "duration" : 211
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1657094299655,
+      "stop" : 1657094299655,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1657094361486,
+      "stop" : 1657094362176,
+      "duration" : 690
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "AutoDL"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "story",
+    "value" : "邀请注册接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_RegisterInvitedCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KSOAST3"
+  }, {
+    "name" : "thread",
+    "value" : "36848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_RegisterInvitedCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': 'InternalError', 'msg': '手机号格式错误'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'password': '123456aa', 'phone': '!@#$%^&*()', 'v_code': '666666', 'invite_code': '487686b5-637f-4d99-8202-7c0b29fa322d', 'phone_area': '+86'}"
+  }, {
+    "name" : "title",
+    "value" : "'手机号输入特殊符号'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "356e4ecd9eb9b8ea.json",
+  "parameterValues" : [ "{'code': 'InternalError', 'msg': '手机号格式错误'}", "{'password': '123456aa', 'phone': '!@#$%^&*()', 'v_code': '666666', 'invite_code': '487686b5-637f-4d99-8202-7c0b29fa322d', 'phone_area': '+86'}", "'手机号输入特殊符号'" ]
+}

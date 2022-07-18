@@ -6,74 +6,54 @@
     "children" : [ {
       "name" : "AssertionError: assert 'InternalError' == 'Success'\n  - Success\n  + InternalError",
       "children" : [ {
-        "name" : "实例正常开机",
-        "uid" : "499a7a13cb4b348e",
+        "name" : "正确创建按量计费实例",
+        "uid" : "ea250d169d87efd8",
         "parentUid" : "09ba52c8e6426ae2a1e3c983306b9b48",
         "status" : "failed",
         "time" : {
-          "start" : 1652338057736,
-          "stop" : 1652338058294,
-          "duration" : 558
+          "start" : 1657094302769,
+          "stop" : 1657094303602,
+          "duration" : 833
         },
         "flaky" : false,
-        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': 'f94411a60c-00cc954d', 'payload': ''}", "'实例正常开机'" ]
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_info': {'charge_type': 'payg', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': '484411a80c', 'instance_name': '', 'req_gpu_amount': 3}, 'price_info': {'charge_type': 'payg', 'duration': 1, 'machine_id': '484411a80c', 'num': 3}}", "'正确创建按量计费实例'" ]
+      }, {
+        "name" : "实例正常开机",
+        "uid" : "fcf3fb695ede1664",
+        "parentUid" : "09ba52c8e6426ae2a1e3c983306b9b48",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657094304600,
+          "stop" : 1657094305397,
+          "duration" : 797
+        },
+        "flaky" : false,
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': '484411a80c-b9425940', 'payload': ''}", "'实例正常开机'" ]
       }, {
         "name" : "不传payload",
-        "uid" : "1f180eaf3aadabe4",
+        "uid" : "1746fd8da71d9ecc",
         "parentUid" : "09ba52c8e6426ae2a1e3c983306b9b48",
         "status" : "failed",
         "time" : {
-          "start" : 1652338061550,
-          "stop" : 1652338062138,
-          "duration" : 588
+          "start" : 1657094309447,
+          "stop" : 1657094310150,
+          "duration" : 703
         },
         "flaky" : false,
-        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': 'f94411a60c-00cc954d'}", "'不传payload'" ]
+        "parameters" : [ "{'code': 'Success', 'msg': ''}", "{'instance_uuid': '484411a80c-b9425940'}", "'不传payload'" ]
       } ],
       "uid" : "09ba52c8e6426ae2a1e3c983306b9b48"
-    }, {
-      "name" : "AssertionError: assert 'RecordNotFoundError' == 'InternalError'\n  - InternalError\n  + RecordNotFoundError",
-      "children" : [ {
-        "name" : "GPU不足，实例开机",
-        "uid" : "23b7c165124d94c7",
-        "parentUid" : "c7f864f974f3e74c940d71078a006694",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652338058305,
-          "stop" : 1652338058804,
-          "duration" : 499
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_uuid': 'None', 'payload': ''}", "'GPU不足，实例开机'" ]
-      } ],
-      "uid" : "c7f864f974f3e74c940d71078a006694"
-    }, {
-      "name" : "AssertionError: assert 'DatabaseError' == 'InternalError'\n  - InternalError\n  + DatabaseError",
-      "children" : [ {
-        "name" : "创建包年包月实例时GPU不足",
-        "uid" : "74f4eb7586cc1a52",
-        "parentUid" : "b5b8f041164cc3a18d1b0e521bfb2bed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652338062933,
-          "stop" : 1652338063426,
-          "duration" : 493
-        },
-        "flaky" : false,
-        "parameters" : [ "{'code': 'InternalError', 'msg': '机器空闲GPU不足'}", "{'instance_info': {'charge_type': 'daily', 'image': 'hub.kce.ksyun.com/autodl-image/torch:cuda11.0-cudnn8-devel-ubuntu18.04-py38-torch1.7.0', 'machine_id': 'None', 'instance_name': '', 'req_gpu_amount': 1}, 'price_info': {'charge_type': 'daily', 'duration': 1, 'machine_id': 'None', 'num': 1}}", "'创建包年包月实例时GPU不足'" ]
-      } ],
-      "uid" : "b5b8f041164cc3a18d1b0e521bfb2bed"
     }, {
       "name" : "AssertionError: assert 'WxClientError' == 'BadRequest'\n  - BadRequest\n  + WxClientError",
       "children" : [ {
         "name" : "输入负数",
-        "uid" : "a1422399b9944206",
+        "uid" : "4aad4ade7f642d1c",
         "parentUid" : "f2956ba35999b2665242e6b012c04a1d",
         "status" : "failed",
         "time" : {
-          "start" : 1652338068891,
-          "stop" : 1652338069395,
-          "duration" : 504
+          "start" : 1657094319489,
+          "stop" : 1657094320095,
+          "duration" : 606
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
@@ -83,37 +63,37 @@
       "name" : "AssertionError: assert 'Success' == 'BadRequest'\n  - BadRequest\n  + Success",
       "children" : [ {
         "name" : "充值少于1元",
-        "uid" : "b044c24620ad57ff",
+        "uid" : "eeb81e01b2d2055",
         "parentUid" : "5b97878cdd34afceb237094a747cc7d0",
         "status" : "failed",
         "time" : {
-          "start" : 1652338070981,
-          "stop" : 1652338071857,
-          "duration" : 876
+          "start" : 1657094323624,
+          "stop" : 1657094327595,
+          "duration" : 3971
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]
       }, {
         "name" : "输入负数",
-        "uid" : "f8515123008363d1",
+        "uid" : "62733e04047cc355",
         "parentUid" : "5b97878cdd34afceb237094a747cc7d0",
         "status" : "failed",
         "time" : {
-          "start" : 1652338075173,
-          "stop" : 1652338076269,
-          "duration" : 1096
+          "start" : 1657094333215,
+          "stop" : 1657094334093,
+          "duration" : 878
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': -1}", "'输入负数'" ]
       }, {
         "name" : "充值少于1元",
-        "uid" : "f60f4a23fbf9c344",
+        "uid" : "aba9c9c2289d5bd8",
         "parentUid" : "5b97878cdd34afceb237094a747cc7d0",
         "status" : "failed",
         "time" : {
-          "start" : 1652338077297,
-          "stop" : 1652338078660,
-          "duration" : 1363
+          "start" : 1657094337711,
+          "stop" : 1657094338944,
+          "duration" : 1233
         },
         "flaky" : false,
         "parameters" : [ "{'code': 'BadRequest', 'msg': '充值金额最低1元'}", "{'asset': 100}", "'充值少于1元'" ]

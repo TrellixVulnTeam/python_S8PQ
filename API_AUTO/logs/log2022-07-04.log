@@ -1,0 +1,242 @@
+Mon, 04 Jul 2022 16:01:52-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2022-07-04 16:01:52===================================
+Mon, 04 Jul 2022 16:02:03-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InsufficientBalance' == 'Success'
+  - Success
+  + InsufficientBalance
+
+Mon, 04 Jul 2022 16:02:03-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Mon, 04 Jul 2022 16:02:05-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'Success'
+  - Success
+  + RecordNotFoundError
+
+Mon, 04 Jul 2022 16:02:05-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'InternalError'
+  - InternalError
+  + RecordNotFoundError
+
+Mon, 04 Jul 2022 16:02:08-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'Success'
+  - Success
+  + RecordNotFoundError
+
+Mon, 04 Jul 2022 16:02:09-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Mon, 04 Jul 2022 16:02:16-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'WxClientError' == 'BadRequest'
+  - BadRequest
+  + WxClientError
+
+Mon, 04 Jul 2022 16:02:18-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 16:02:23-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 16:02:25-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 16:08:22-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2022-07-04 16:08:22===================================
+Mon, 04 Jul 2022 16:08:33-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Mon, 04 Jul 2022 16:08:34-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'Success'
+  - Success
+  + RecordNotFoundError
+
+Mon, 04 Jul 2022 16:08:34-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'InternalError'
+  - InternalError
+  + RecordNotFoundError
+
+Mon, 04 Jul 2022 16:08:37-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'Success'
+  - Success
+  + RecordNotFoundError
+
+Mon, 04 Jul 2022 16:08:38-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Mon, 04 Jul 2022 16:08:45-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'WxClientError' == 'BadRequest'
+  - BadRequest
+  + WxClientError
+
+Mon, 04 Jul 2022 16:08:47-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 16:08:52-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 16:08:54-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 16:42:06-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2022-07-04 16:42:06===================================
+Mon, 04 Jul 2022 16:42:16-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Mon, 04 Jul 2022 16:42:17-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'DatabaseError' == 'InternalError'
+  - InternalError
+  + DatabaseError
+
+Mon, 04 Jul 2022 16:42:18-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'Success'
+  - Success
+  + RecordNotFoundError
+
+Mon, 04 Jul 2022 16:42:18-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'InternalError'
+  - InternalError
+  + RecordNotFoundError
+
+Mon, 04 Jul 2022 16:42:21-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'RecordNotFoundError' == 'Success'
+  - Success
+  + RecordNotFoundError
+
+Mon, 04 Jul 2022 16:42:22-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'DatabaseError' == 'InternalError'
+  - InternalError
+  + DatabaseError
+
+Mon, 04 Jul 2022 16:42:28-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'WxClientError' == 'BadRequest'
+  - BadRequest
+  + WxClientError
+
+Mon, 04 Jul 2022 16:42:31-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 16:42:35-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 16:42:38-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 17:01:10-run_all_case.py-run_all_case.py-[line:19]-INFO-[日志信息]: ==================================2022-07-04 17:01:10===================================
+Mon, 04 Jul 2022 17:01:21-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'InternalError' == 'Success'
+  - Success
+  + InternalError
+
+Mon, 04 Jul 2022 17:01:33-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'WxClientError' == 'BadRequest'
+  - BadRequest
+  + WxClientError
+
+Mon, 04 Jul 2022 17:01:35-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 17:01:40-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+
+Mon, 04 Jul 2022 17:01:43-run_all_case.py-Assert.py-[line:110]-ERROR-[日志信息]: Traceback (most recent call last):
+  File "C:\Users\张铁瀛\PycharmProjects\API_AUTO\common\Assert.py", line 104, in define_assert
+    assert res['code'] == respData['code']
+AssertionError: assert 'Success' == 'BadRequest'
+  - BadRequest
+  + Success
+

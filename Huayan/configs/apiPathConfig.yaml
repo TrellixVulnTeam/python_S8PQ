@@ -1,0 +1,10 @@
+Login: #登录模块
+ login:
+   path: new_login
+   method: POST
+
+
+Register: #注册模块
+ register:
+   path: register
+   method: POST
